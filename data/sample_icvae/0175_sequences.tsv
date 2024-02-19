@@ -1,0 +1,18 @@
+A	B
+[START]	[START]
+ADD THF	ADD LiAlH4
+ADD LiAlH4 at 0°C	ADD THF
+STIR at 25°C for 2 h	ADD HCl
+ADD at 0°C	STIR at 25°C for 2 h
+SET PH with HCl to 7	EVAPORATE
+REMOVE solvent	MAKE SOLUTION
+EXTRACT	REFLUX for 5 h
+WASH extracts with brine	ADD HCl
+DRY SOLUTION with Na2SO4	SET PH [INCREASE]
+FILTER	EXTRACT with ethyl ether
+CONCENTRATE	REPEAT >4 time(s)
+PURIFY by chromatography	DRY SOLUTION extracts with Na2SO4
+YIELD: 1-[2-(4-hydroxymethyl-phenyl)-5-isopropyl-2h-pyrazol-3-yl]-3-naphthalen-1-yl-urea	FILTER
+[END]	CONCENTRATE
+	YIELD: 1-[2-(4-hydroxymethyl-phenyl)-5-isopropyl-2h-pyrazol-3-yl]-3-naphthalen-1-yl-urea
+	[END]

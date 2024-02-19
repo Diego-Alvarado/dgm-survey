@@ -1,0 +1,16 @@
+A	B
+[START]	[START]
+ADD ethyl 2-benzyl-5-fluoro-2,7-diazabicyclo[3.3.0]octane-7-carboxylate	ADD ethyl 2-benzyl-5-fluoro-2,7-diazabicyclo[3.3.0]octane-7-carboxylate
+ADD THF	ADD THF
+REFLUX	STIR for 16 h
+ADD water	ADD water
+FILTER	EVAPORATE
+EXTRACT	PARTITION
+REPEAT 3 time(s)	EXTRACT with ethyl acetate
+ADD THF	DRY SOLUTION organic phase with Na2SO4
+HEAT	FILTER
+CONCENTRATE	EVAPORATE
+DISTIL residue	PURIFY by chromatography
+YIELD: 1-benzyl-3a-fluoro-5-methyloctahydropyrrolo[2,3-c]pyrrole	RECRYSTALLISATION
+[END]	YIELD: 1-benzyl-3a-fluoro-5-methyloctahydropyrrolo[2,3-c]pyrrole
+	[END]

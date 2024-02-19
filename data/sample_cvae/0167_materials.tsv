@@ -1,0 +1,5 @@
+index	role	name	inchi
+1	REACTANT	4-fluoro-1-methoxy-2-(3,3,3-trifluoroprop-1-en-2-yl)benzene	InChI=1S/C10H8F4O/c1-6(10(12,13)14)8-5-7(11)3-4-9(8)15-2/h3-5H,1H2,2H3
+2	REACTANT	Pd / C	InChI=1S/Pd
+0	SOLVENT	methanol	InChI=1S/CH4O/c1-2/h2H,1H3
+3	TARGET	4-fluoro-1-methoxy-2-(1,1,1-trifluoropropan-2-yl)benzene	InChI=1S/C10H10F4O/c1-6(10(12,13)14)8-5-7(11)3-4-9(8)15-2/h3-6H,1-2H3

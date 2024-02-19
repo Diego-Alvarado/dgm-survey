@@ -1,0 +1,6 @@
+index	role	name	inchi
+0	REACTANT	2-chloro-5-(trifluoromethyl)pyridine	InChI=1S/C6H3ClF3N/c7-5-2-1-4(3-11-5)6(8,9)10/h1-3H
+2	REACTANT	sodium tert-butoxide	InChI=1S/C4H9O.Na/c1-4(2,3)5;/h1-3H3;/q-1;+1
+4	REACTANT	Pd(OAc)2	InChI=1S/2C2H4O2.Pd/c2*1-2(3)4;/h2*1H3,(H,3,4);
+1	SOLVENT	toluene	InChI=1S/C7H8/c1-7-5-3-2-4-6-7/h2-6H,1H3
+3	TARGET	(1s,4s,6r)-tert-butyl 6-((5-(trifluoromethyl)pyridin-2-yl)amino)-2-azabicyclo[2.2.1]heptane-2-carboxylate	InChI=1S/C17H22F3N3O2/c1-16(2,3)25-15(24)23-9-10-6-12(13(23)7-10)22-14-5-4-11(8-21-14)17(18,19)20/h4-5,8,10,12-13H,6-7,9H2,1-3H3,(H,21,22)/t10-,12+,13-/m0/s1

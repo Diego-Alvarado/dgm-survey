@@ -1,0 +1,17 @@
+A	B
+[START]	[START]
+ADD nitromethane	ADD nitromethane
+ADD sulfuric acid	ADD nitric acid at 0°C
+ADD nitric acid	STIR
+ADD water	ADD sulfuric acid
+STAND at 0°C	STIR at 0°C for 2 h
+STIR	ADD water
+ADD water	EXTRACT with dichloromethane
+STIR for 2 h	REPEAT 2 time(s)
+FILTER	WASH organic phase with brine
+WASH	DRY SOLUTION with Na2SO4
+DRY	FILTER
+YIELD: n-acetyl-6-nitro-1-aminoindan	CONCENTRATE
+[END]	PURIFY by chromatography
+	YIELD: n-acetyl-6-nitro-1-aminoindan
+	[END]

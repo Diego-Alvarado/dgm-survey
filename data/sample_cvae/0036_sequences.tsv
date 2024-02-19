@@ -1,0 +1,9 @@
+A	B
+[START]	[START]
+ADD TFA	ADD DCM
+ADD DCM at 25°C for 2 h	ADD TFA
+CONCENTRATE	STIR at 25°C for 20 min
+PURIFY by chromatography	CONCENTRATE
+YIELD: (2r,5r)-2,6-diaza-bicyclo[3.2.0]heptane-6-carboxylic acid benzyl ester	PURIFY by chromatography
+[END]	YIELD: (2r,5r)-2,6-diaza-bicyclo[3.2.0]heptane-6-carboxylic acid benzyl ester
+	[END]

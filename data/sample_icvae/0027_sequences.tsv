@@ -1,0 +1,10 @@
+A	B
+[START]	[START]
+ADD 1-tert-butoxycarbonyl-4-allyl-4-[(benzyloxycarbonyl)amino]piperidine	ADD methyl acrylate
+ADD methyl acrylate	ADD DCM
+ADD DCM	ADD 1-tert-butoxycarbonyl-4-allyl-4-[(benzyloxycarbonyl)amino]piperidine
+REFLUX for 2 h	STIR at 25°C for 2 h
+CONCENTRATE	CONCENTRATE
+PURIFY by chromatography	PURIFY by chromatography
+YIELD: tert-butyl 4-(((benzyloxy)carbonyl)amino)-4-(4-methoxy-4-oxobut-2-en-1-yl)piperidine-1-carboxylate	YIELD: tert-butyl 4-(((benzyloxy)carbonyl)amino)-4-(4-methoxy-4-oxobut-2-en-1-yl)piperidine-1-carboxylate
+[END]	[END]

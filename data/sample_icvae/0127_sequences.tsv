@@ -1,0 +1,22 @@
+A	B
+[START]	[START]
+ADD cis-(+)-2-(4-methoxyphenyl)-3-acetoxy-2,3-dihydro-1,5-benzothiazepine-4(5H)-one	ADD anhydrous potassium carbonate
+ADD anhydrous potassium carbonate	ADD acetone
+ADD acetone at 25°C	ADD cis-(+)-2-(4-methoxyphenyl)-3-acetoxy-2,3-dihydro-1,5-benzothiazepine-4(5H)-one
+STIR	STIR at 25°C for 5 h
+REFLUX for 5 h	ADD
+COOL	CONCENTRATE
+FILTER	MAKE SOLUTION with chloroform
+ADD	WASH
+MAKE SOLUTION with chloroform	DRY SOLUTION organic phase with Na2SO4
+COOL	FILTER
+SET PH to 2	CONCENTRATE
+WASH	PURIFY by chromatography
+DRY	YIELD: cis-(+)-2-(4-methoxyphenyl)-3-acetoxy-5-[2-(dimethylamino)ethyl]-2,3-dihydro-1,5-benzothiazepine-4(5h)-one hydrochloride
+STAND	[END]
+MAKE SOLUTION	
+HEAT	
+COOL	
+FILTER	
+YIELD: cis-(+)-2-(4-methoxyphenyl)-3-acetoxy-5-[2-(dimethylamino)ethyl]-2,3-dihydro-1,5-benzothiazepine-4(5h)-one hydrochloride	
+[END]	

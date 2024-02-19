@@ -1,0 +1,20 @@
+A	B
+[START]	[START]
+ADD	ADD 1-cyclohexyl-N-methylmethanamine
+ADD (s)-2-(tert-butoxy)-2-(6-((cyclohexylmethyl)(methyl)carbamoyl)-4-(4,4-dimethylpiperidin-1-yl)-5-(4-(4-fluorophenethoxy)phenyl)-2-methylpyridin-3-yl)acetic acid	ADD (S)-5-(1-(tert-butoxy)-2-isopropoxy-2-oxoethyl)-4-(4,4-dimethylpiperidin-1-yl)-3-(4-(4-fluorophenethoxy)phenyl)-6-methylpicolinic acid
+ADD (S)-5-(1-(tert-butoxy)-2-isopropoxy-2-oxoethyl)-4-(4,4-dimethylpiperidin-1-yl)-3-(4-(4-fluorophenethoxy)phenyl)-6-methylpicolinic acid	ADD (s)-2-(tert-butoxy)-2-(6-((cyclohexylmethyl)(methyl)carbamoyl)-4-(4,4-dimethylpiperidin-1-yl)-5-(4-(4-fluorophenethoxy)phenyl)-2-methylpyridin-3-yl)acetic acid
+ADD 1-cyclohexyl-N-methylmethanamine	ADD DIPEA
+ADD DMF	ADD DMF
+ADD DIPEA	ADD HATU
+ADD HATU	ADD NaOH for 5 h
+STIR at 25°C for 16 h	ADD water
+ADD water	EXTRACT with dichloromethane
+EXTRACT with ethyl acetate	WASH organic phase with brine
+DRY SOLUTION with Na2SO4	DRY SOLUTION
+FILTER	FILTER
+CONCENTRATE	CONCENTRATE
+ADD NaOH at 65°C for 2 h	ADD dichloromethane
+COOL	PURIFY by chromatography
+PURIFY by chromatography	YIELD: (s)-2-(tert-butoxy)-2-(6-((cyclohexylmethyl)(methyl)carbamoyl)-4-(4,4-dimethylpiperidin-1-yl)-5-(4-(4-fluorophenethoxy)phenyl)-2-methylpyridin-3-yl)acetic acid
+YIELD: (s)-2-(tert-butoxy)-2-(6-((cyclohexylmethyl)(methyl)carbamoyl)-4-(4,4-dimethylpiperidin-1-yl)-5-(4-(4-fluorophenethoxy)phenyl)-2-methylpyridin-3-yl)acetic acid	[END]
+[END]	

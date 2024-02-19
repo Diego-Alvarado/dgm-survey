@@ -1,0 +1,18 @@
+A	B
+[START]	[START]
+ADD n-butylisothiocyanate	ADD DCM
+ADD DCM	ADD n-butylisothiocyanate
+ADD	ADD triethylamine
+MAKE SOLUTION	STIR for 5 h
+ADD triethylamine	ADD water
+STIR at 25°C for 2 h	EXTRACT with ethyl acetate
+ADD water	REPEAT 2 time(s)
+ADD	DRY SOLUTION organic phase with Na2SO4
+SEPARATE organic phase	CONCENTRATE
+EXTRACT	PURIFY by chromatography
+DRY SOLUTION organic phase	YIELD: 1-butyl-3-cycloheptylthiourea
+FILTER	[END]
+CONCENTRATE	
+PURIFY by chromatography	
+YIELD: 1-butyl-3-cycloheptylthiourea	
+[END]	

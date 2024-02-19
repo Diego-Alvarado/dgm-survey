@@ -1,0 +1,12 @@
+A	B
+[START]	[START]
+ADD ethyl 2-hydroxy-2-(4-cyclohexylphenyl)acetate	ADD ethyl 2-hydroxy-2-(4-cyclohexylphenyl)acetate
+REFLUX for 2 h	ADD water
+CONCENTRATE	STIR at 25°C for 2 h
+ADD water	CONCENTRATE
+EXTRACT with ethyl ether	PURIFY by chromatography
+WASH with water	YIELD: ethyl 2-chloro-2-(4-cyclohexylphenyl)acetate
+DRY SOLUTION with MgSO4	[END]
+DISTIL	
+YIELD: ethyl 2-chloro-2-(4-cyclohexylphenyl)acetate	
+[END]	

@@ -1,0 +1,15 @@
+A	B
+[START]	[START]
+ADD thionyl chloride	ADD thionyl chloride
+ADD (6-(3,4-dichlorophenylamino)pyrimidin-4-yl)methanol	ADD chloroform
+ADD chloroform at 0°C	ADD (6-(3,4-dichlorophenylamino)pyrimidin-4-yl)methanol at 0°C for 20 min
+HEAT to 25°C	HEAT to 25°C
+STIR for 16 h	STIR for 2 h
+YIELD: 6-(chloromethyl)-n-(3,4-dichlorophenyl)pyrimidin-4-amine	QUENCH with water
+[END]	WASH organic phase with ethyl acetate
+	REPEAT 2 time(s)
+	DRY SOLUTION with Na2SO4
+	CONCENTRATE
+	PURIFY by chromatography
+	YIELD: 6-(chloromethyl)-n-(3,4-dichlorophenyl)pyrimidin-4-amine
+	[END]

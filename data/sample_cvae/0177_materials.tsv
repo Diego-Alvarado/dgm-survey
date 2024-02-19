@@ -1,0 +1,5 @@
+index	role	name	inchi
+1	REACTANT	sodium borohydride	InChI=1S/BH4.Na/h1H4;/q-1;+1
+0	SOLVENT	methanol	InChI=1S/CH4O/c1-2/h2H,1H3
+2	SOLVENT	THF	InChI=1S/C4H8O/c1-2-4-5-3-1/h1-4H2
+3	TARGET	tert-butyl (2-hydroxy-1-(pyrazin-2-yl)ethyl)carbamate	InChI=1S/C11H17N3O3/c1-11(2,3)17-10(16)14-9(7-15)8-6-12-4-5-13-8/h4-6,9,15H,7H2,1-3H3,(H,14,16)

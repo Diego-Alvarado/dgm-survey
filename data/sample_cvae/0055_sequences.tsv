@@ -1,0 +1,14 @@
+A	B
+[START]	[START]
+ADD toluene at 25°C	ADD 2-chloro-5-(trifluoromethyl)pyridine
+BUBBLE Pd(OAc)2	ADD sodium tert-butoxide
+ADD 2-chloro-5-(trifluoromethyl)pyridine	ADD Pd(OAc)2
+ADD sodium tert-butoxide	ADD toluene at > 80°C for 20 min
+HEAT to 65°C for 48 h	PURIFY by chromatography
+COOL to 25°C	YIELD: (1s,4s,6r)-tert-butyl 6-((5-(trifluoromethyl)pyridin-2-yl)amino)-2-azabicyclo[2.2.1]heptane-2-carboxylate
+FILTER	[END]
+WASH with ethyl acetate	
+CONCENTRATE	
+PURIFY by chromatography	
+YIELD: (1s,4s,6r)-tert-butyl 6-((5-(trifluoromethyl)pyridin-2-yl)amino)-2-azabicyclo[2.2.1]heptane-2-carboxylate	
+[END]	

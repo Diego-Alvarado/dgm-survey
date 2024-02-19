@@ -1,0 +1,17 @@
+A	B
+[START]	[START]
+ADD THF	ADD hexane
+ADD n-BuLi	ADD THF
+ADD hexane	ADD n-BuLi
+STIR at 0°C for 20 min	ADD 3-(bromomethyl)benzonitrile at < -10°C
+ADD 3-(bromomethyl)benzonitrile	STIR at < -10°C for 2 h
+ADD THF at < -10°C	HEAT to 25°C
+STIR for 20 min	STIR for 2 h
+QUENCH with water	QUENCH with ammonium chloride
+ADD ethyl acetate	EXTRACT with ethyl acetate
+PARTITION	WASH organic phase with water
+DRY SOLUTION with MgSO4	DRY SOLUTION
+CONCENTRATE	CONCENTRATE
+PURIFY by chromatography	PURIFY by chromatography
+YIELD: 3-(2-(4-methylpyridin-2-yl)ethyl)benzonitrile	YIELD: 3-(2-(4-methylpyridin-2-yl)ethyl)benzonitrile
+[END]	[END]

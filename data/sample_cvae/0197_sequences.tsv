@@ -1,0 +1,20 @@
+A	B
+[START]	[START]
+ADD 2-chloro-6-methylaniline	ADD 2-chloro-6-methylaniline
+ADD pyridine	ADD pyridine
+ADD THF	MAKE SOLUTION with THF
+ADD 3-ethoxyacryloyl chloride	ADD 3-ethoxyacryloyl chloride
+STAND at 0°C	STIR at 25°C for 20 min
+HEAT	ADD water
+STIR at 25°C for 2 h	SET PH with HCl
+ADD HCl at 0°C	EXTRACT with dichloromethane
+ADD water	EVAPORATE
+CONCENTRATE	PURIFY by chromatography
+ADD toluene	YIELD: (e)-n-(2-chloro-6-methylphenyl)-3-ethoxyacrylamide
+STIR at 0°C for 2 h	[END]
+FILTER	
+WASH with water	
+REPEAT 2 time(s)	
+DRY	
+YIELD: (e)-n-(2-chloro-6-methylphenyl)-3-ethoxyacrylamide	
+[END]	

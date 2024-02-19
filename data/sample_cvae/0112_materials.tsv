@@ -1,0 +1,6 @@
+index	role	name	inchi
+4	REACTANT	TBAF	InChI=1S/C16H36N.FH/c1-5-9-13-17(14-10-6-2,15-11-7-3)16-12-8-4;/h5-16H2,1-4H3;1H/q+1;/p-1
+0	SOLVENT	ethyl acetate	InChI=1S/C4H8O2/c1-3-6-4(2)5/h3H2,1-2H3
+1	SOLVENT	THF	InChI=1S/C4H8O/c1-2-4-5-3-1/h1-4H2
+2	SOLVENT	water	InChI=1S/H2O/h1H2
+3	TARGET	(rs)-6-[5-(2-hydroxy-ethyl)-2-oxa-oxazolidin-3-yl]-4h-benzo[1,4]thiazin-3-one	InChI=1S/C12H14N2O4S/c15-4-3-9-6-14(18-17-9)8-1-2-11-10(5-8)13-12(16)7-19-11/h1-2,5,9,15H,3-4,6-7H2,(H,13,16)

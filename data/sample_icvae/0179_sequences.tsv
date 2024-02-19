@@ -1,0 +1,18 @@
+A	B
+[START]	[START]
+ADD (2S,4R)-4-Tritylsulfanyl-pyrrolidine-1,2-dicarboxylic acid 1-tert-butyl ester 2-methyl ester	ADD (2S,4R)-4-Tritylsulfanyl-pyrrolidine-1,2-dicarboxylic acid 1-tert-butyl ester 2-methyl ester
+ADD toluene	ADD Red-Al
+ADD THF	ADD toluene
+ADD Red-Al	ADD THF
+ADD toluene	STIR at 25°C for 48 h
+ADD at < -10°C	COOL to 0°C
+ADD water	ADD citric acid
+ADD citric acid at < -10°C for 2 h	ADD water
+EXTRACT with ethyl acetate	STIR at 25°C for 2 h
+DRY SOLUTION organic phase with Na2SO4	WASH
+EVAPORATE	DRY SOLUTION organic phase with Na2SO4
+PURIFY by chromatography	FILTER
+YIELD: (2s,4r)-2-hydroxymethyl-4-tritylsulfanyl-pyrrolidine-1-carboxylic acid tert-butyl ester	CONCENTRATE
+[END]	PURIFY by chromatography
+	YIELD: (2s,4r)-2-hydroxymethyl-4-tritylsulfanyl-pyrrolidine-1-carboxylic acid tert-butyl ester
+	[END]

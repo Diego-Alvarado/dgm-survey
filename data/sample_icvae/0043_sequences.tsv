@@ -1,0 +1,15 @@
+A	B
+[START]	[START]
+ADD 3-[1-(ethylsulfonyl)-4-piperidinyl]-5-(5-formyl-3-thienyl)-1H-indole-7-carboxamide	ADD sodium borohydride
+ADD methanol	ADD DCM
+ADD DCM	ADD methanol
+STIR at 25°C for 2 h	ADD 3-[1-(ethylsulfonyl)-4-piperidinyl]-5-(5-formyl-3-thienyl)-1H-indole-7-carboxamide
+ADD sodium borohydride	ADD at 25°C
+STIR at 25°C for 2 h	STIR for 2 h
+EVAPORATE solvent	ADD
+PURIFY by chromatography	EXTRACT with ethyl acetate
+YIELD: 3-[1-(ethylsulfonyl)-4-piperidinyl]-5-{5-[(methylamino)methyl]-3-thienyl}-1h-indole-7-carboxamide	DRY SOLUTION
+[END]	FILTER
+	CONCENTRATE
+	YIELD: 3-[1-(ethylsulfonyl)-4-piperidinyl]-5-{5-[(methylamino)methyl]-3-thienyl}-1h-indole-7-carboxamide
+	[END]

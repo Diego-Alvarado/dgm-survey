@@ -1,0 +1,6 @@
+index	role	name	inchi
+3	REACTANT	NaOH	InChI=1S/Na.H2O/h;1H2/q+1;/p-1
+4	REACTANT	HCl	InChI=1S/ClH/h1H
+0	SOLVENT	ethanol	InChI=1S/C2H6O/c1-2-3/h3H,2H2,1H3
+2	SOLVENT	water	InChI=1S/H2O/h1H2
+1	TARGET	2-amino-7-cyclobutyl-5-oxo-5h-chromeno[2,3-b]pyridine-3-carboxylic acid	InChI=1S/C17H14N2O4/c18-15-12(17(21)22)7-11-14(20)10-6-9(8-2-1-3-8)4-5-13(10)23-16(11)19-15/h4-8H,1-3H2,(H2,18,19)(H,21,22)

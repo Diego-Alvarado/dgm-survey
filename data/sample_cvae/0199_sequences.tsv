@@ -1,0 +1,19 @@
+A	B
+[START]	[START]
+ADD (R)-tert-butyl 3-(4-bromo-N-(3-chloropyridin-2-yl)benzamido)piperidine-1-carboxylate	ADD (R)-tert-butyl 3-(4-bromo-N-(3-chloropyridin-2-yl)benzamido)piperidine-1-carboxylate
+ADD 1,4-dioxane	ADD bis(pinacolato)diboron
+ADD bis(pinacolato)diboron	ADD potassium acetate
+ADD potassium acetate	ADD 1,4-dioxane
+ADD PdCl2(dppf)	DEGAS
+BUBBLE N2	ADD PdCl2(dppf)
+STIR at > 80°C for 16 h	DEGAS
+COOL	STIR at 65°C for 5 h
+FILTER	QUENCH with water
+CONCENTRATE	EXTRACT with ethyl acetate
+PURIFY by chromatography	REPEAT 3 time(s)
+TRITURATE with heptane	DRY SOLUTION organic phase with Na2SO4
+YIELD: tert-butyl (3r)-3-{(3-chloropyridin-2-yl)[4-(4,4,5,5-tetramethyl-1,3,2-dioxaborolan-2-yl)benzoyl]amino}piperidine-1-carboxylate	FILTER
+[END]	CONCENTRATE
+	PURIFY by chromatography
+	YIELD: tert-butyl (3r)-3-{(3-chloropyridin-2-yl)[4-(4,4,5,5-tetramethyl-1,3,2-dioxaborolan-2-yl)benzoyl]amino}piperidine-1-carboxylate
+	[END]

@@ -1,0 +1,22 @@
+A	B
+[START]	[START]
+ADD methyl 5-chloro-2-ethylbenzoate	ADD methyl 5-chloro-2-ethylbenzoate
+ADD sulfuric acid	ADD sulfuric acid
+COOL to 0°C	ADD nitric acid
+ADD nitric acid	ADD
+ADD sulfuric acid at 0°C for 20 min	STIR at > 80°C
+STIR at 0°C for 2 h	ADD water
+ADD at 0°C	COOL to 25°C
+EXTRACT with ethyl acetate	FILTER
+REPEAT 3 time(s)	WASH with water
+WASH organic phase	DRY
+DRY SOLUTION organic phase with MgSO4	ADD thionyl chloride
+FILTER	STIR at > 80°C for 2 h
+CONCENTRATE	COOL to 25°C
+MAKE SOLUTION	ADD
+COOL to 0°C	FILTER
+ADD thionyl chloride	YIELD: methyl 5-chloro-2-ethyl-3-nitrobenzoate
+REFLUX for 5 h	[END]
+CONCENTRATE	
+YIELD: methyl 5-chloro-2-ethyl-3-nitrobenzoate	
+[END]	

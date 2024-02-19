@@ -1,0 +1,15 @@
+A	B
+[START]	[START]
+ADD Pd(PPh3)4	ADD pyrimidin-5-ylboronic acid
+ADD cesium fluoride	ADD Pd(PPh3)4
+ADD pyrimidin-5-ylboronic acid	ADD cesium fluoride
+DEGAS	STIR at 65°C for 5 h
+HEAT to > 80°C for 2 h	ADD water
+ADD water	EXTRACT with ethyl acetate
+EXTRACT with dichloromethane	WASH organic phase
+DRY SOLUTION organic phase with MgSO4	DRY SOLUTION with MgSO4
+FILTER	FILTER
+CONCENTRATE	EVAPORATE
+PURIFY by chromatography	PURIFY by chromatography
+YIELD: (1r*,2r*,3r*)-methyl-2-phenyl-3-(4-(pyrimidin-5-yl)phenyl)cyclopropanecarboxylate	YIELD: (1r*,2r*,3r*)-methyl-2-phenyl-3-(4-(pyrimidin-5-yl)phenyl)cyclopropanecarboxylate
+[END]	[END]

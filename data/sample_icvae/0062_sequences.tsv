@@ -1,0 +1,12 @@
+A	B
+[START]	[START]
+ADD ethanol	ADD ethanol
+REFLUX for 2 h	STIR at > 80°C for 48 h
+CONCENTRATE	COOL to 0°C
+MAKE SOLUTION with ethyl acetate	ADD ethyl acetate
+ADSORB	FILTER
+PURIFY by chromatography	WASH
+ELUTE	EVAPORATE solvent
+YIELD: 1-(3-fluoro-3-{4-[5-(3,4,5-trichloro-phenyl)-5-trifluoromethyl-4,5-dihydro-1h-pyrazol-3-yl]-phenyl}-azetidin-1-yl)-2-methanesulfonyl-ethanone	PURIFY by chromatography
+[END]	YIELD: 1-(3-fluoro-3-{4-[5-(3,4,5-trichloro-phenyl)-5-trifluoromethyl-4,5-dihydro-1h-pyrazol-3-yl]-phenyl}-azetidin-1-yl)-2-methanesulfonyl-ethanone
+	[END]

@@ -1,0 +1,16 @@
+A	B
+[START]	[START]
+ADD	ADD DMA
+STIR at 25°C for 20 min	HEAT to 65°C for 48 h
+ADD DMA	ADD DIPEA
+ADD DIPEA	ADD NaHCO3 for 16 h
+STIR at 25°C for 2 h	CONCENTRATE
+REMOVE	EXTRACT with ethyl acetate
+PARTITION with NaHCO3	WASH extracts with brine
+WASH organic phase with NaHCO3	DRY SOLUTION with Na2SO4
+REPEAT 2 time(s)	FILTER
+DRY SOLUTION with Na2SO4	CONCENTRATE
+FILTER	RECRYSTALLISATION with methanol
+CONCENTRATE	YIELD: (s)-tert-butyl 4-((r)-3-amino-3-(4-chlorobenzyl)piperidin-1-yl)-3-((s)-2,3-dihydro-1h-inden-1-yl)-4-oxobutanoate
+YIELD: (s)-tert-butyl 4-((r)-3-amino-3-(4-chlorobenzyl)piperidin-1-yl)-3-((s)-2,3-dihydro-1h-inden-1-yl)-4-oxobutanoate	[END]
+[END]	

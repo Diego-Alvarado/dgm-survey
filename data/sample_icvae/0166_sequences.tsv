@@ -1,0 +1,20 @@
+A	B
+[START]	[START]
+ADD 3-ethoxy-2-((4-methoxybenzyl)oxy)-5-(4,4,5,5-tetramethyl-1,3,2-dioxaborolan-2-yl)pyridine	ADD 2-(4-bromo-2-fluorophenyl)acetamide
+ADD 2-(4-bromo-2-fluorophenyl)acetamide	ADD PdCl2(dppf)
+ADD Cs2CO3	ADD 1,4-dioxane
+ADD PdCl2(dppf)	ADD water
+ADD 1,4-dioxane	ADD 3-ethoxy-2-((4-methoxybenzyl)oxy)-5-(4,4,5,5-tetramethyl-1,3,2-dioxaborolan-2-yl)pyridine
+ADD water	ADD Cs2CO3
+STIR at > 80°C for 20 min	STIR for 20 min
+MAKE SOLUTION with water	ADD PdCl2(dppf)
+EXTRACT with ethyl acetate	HEAT to 65°C for 16 h
+DRY SOLUTION organic phase with Na2SO4	COOL to 25°C
+FILTER	PARTITION
+CONCENTRATE	WASH organic phase with brine
+PURIFY by chromatography	DRY SOLUTION with MgSO4
+YIELD: 2-(4-(5-ethoxy-6-((4-methoxybenzyl)oxy)pyridin-3-yl)-2-fluorophenyl)acetamide	FILTER
+[END]	CONCENTRATE
+	PURIFY by chromatography
+	YIELD: 2-(4-(5-ethoxy-6-((4-methoxybenzyl)oxy)pyridin-3-yl)-2-fluorophenyl)acetamide
+	[END]

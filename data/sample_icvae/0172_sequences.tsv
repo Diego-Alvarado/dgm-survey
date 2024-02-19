@@ -1,0 +1,16 @@
+A	B
+[START]	[START]
+ADD N-(5,6,7,8-tetrahydro-quinolin-8-yl)-butane-1,4-diamine	ADD THF
+ADD THF	ADD N-(5,6,7,8-tetrahydro-quinolin-8-yl)-butane-1,4-diamine
+ADD triethylamine	ADD triethylamine
+ADD Boc-ON	ADD Boc-ON
+STIR at 25°C for 48 h	ADD at 0°C for 20 min
+CONCENTRATE	ADD
+PURIFY by chromatography	EXTRACT with ethyl acetate
+PURIFY by chromatography	REPEAT 3 time(s)
+YIELD: [4-(5,6,7,8-tetrahydro-quinolin-8-ylamino)-butyl]-carbamic acid tert-butyl ester	WASH organic phase with brine
+[END]	DRY SOLUTION with Na2SO4
+	FILTER
+	EVAPORATE filtrate
+	YIELD: [4-(5,6,7,8-tetrahydro-quinolin-8-ylamino)-butyl]-carbamic acid tert-butyl ester
+	[END]

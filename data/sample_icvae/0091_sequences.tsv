@@ -1,0 +1,19 @@
+A	B
+[START]	[START]
+ADD 2-bromo-4-methylthiazole-5-carboxylic acid	ADD EDCI
+ADD THF	ADD THF
+ADD DIPEA	ADD HOBt
+ADD EDCI	ADD DIPEA
+ADD HOBt	ADD 2-bromo-4-methylthiazole-5-carboxylic acid
+STIR at 25°C for 20 min	ADD benzylamine
+ADD benzylamine	STIR for 16 h
+STIR at 25°C for 16 h	CONCENTRATE
+CONCENTRATE	MAKE SOLUTION with DCM
+ADD DCM	ADD
+WASH	STIR for 2 h
+DRY SOLUTION organic phase with Na2SO4	YIELD: n-benzyl-2-bromo-4-methylthiazole-5-carboxamide
+FILTER	[END]
+CONCENTRATE	
+PURIFY by chromatography	
+YIELD: n-benzyl-2-bromo-4-methylthiazole-5-carboxamide	
+[END]	

@@ -1,0 +1,6 @@
+index	role	name	inchi
+1	REACTANT	tert-butyl 3-(1,1-dimethylethylsulfinamido)-3-methylcyclobutylcarbamate	InChI=1S/C14H28N2O3S/c1-12(2,3)19-11(17)15-10-8-14(7,9-10)16-20(18)13(4,5)6/h10,16H,8-9H2,1-7H3,(H,15,17)
+4	REACTANT	HCl	InChI=1S/ClH/h1H
+0	SOLVENT	dioxane	InChI=1S/C4H8O2/c1-2-4-6-5-3-1/h1-4H2
+3	SOLVENT	methanol	InChI=1S/CH4O/c1-2/h2H,1H3
+2	TARGET	tert-butyl 3-amino-3-methylcyclobutylcarbamate hydrochloride	InChI=1S/C10H20N2O2/c1-9(2,3)14-8(13)12-7-5-10(4,11)6-7/h7H,5-6,11H2,1-4H3,(H,12,13)

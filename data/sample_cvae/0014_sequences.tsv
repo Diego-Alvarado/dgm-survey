@@ -1,0 +1,16 @@
+A	B
+[START]	[START]
+ADD sulfuric acid	ADD sulfuric acid
+ADD 2-{2-[3-(5-fluoro-pyridin-2-yl)-5-methyl-isoxazol-4-yl]-2-hydroxy-ethyl}-thiazole-5-carboxylic acid	ADD 2-{2-[3-(5-fluoro-pyridin-2-yl)-5-methyl-isoxazol-4-yl]-2-hydroxy-ethyl}-thiazole-5-carboxylic acid
+HEAT to > 80°C for 20 min	STIR at 25°C for 2 h
+COOL to 25°C	ADD
+ADD	STIR at 25°C for 16 h
+FILTER	SET PH [NEUTRALISE]
+DRY	EXTRACT with ethyl acetate
+YIELD: 2-{(e)-2-[3-(5-fluoro-pyridin-2-yl)-5-methyl-isoxazol-4-yl]-vinyl}-thiazole-5-carboxylic acid	WASH organic phase with brine
+[END]	DRY SOLUTION with Na2SO4
+	FILTER
+	CONCENTRATE
+	PURIFY by chromatography
+	YIELD: 2-{(e)-2-[3-(5-fluoro-pyridin-2-yl)-5-methyl-isoxazol-4-yl]-vinyl}-thiazole-5-carboxylic acid
+	[END]

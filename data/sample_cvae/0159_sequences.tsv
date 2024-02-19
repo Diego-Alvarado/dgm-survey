@@ -1,0 +1,12 @@
+A	B
+[START]	[START]
+ADD CuCN	ADD CuCN
+ADD 3-bromo-4-(((2S,4R)-2-phenyl-4-(trifluoromethyl)-1-piperidyl)methyl)-N-(1,2,4-thiadiazol-5-yl)benzenesulfonamide	ADD NMP
+ADD NMP	ADD 3-bromo-4-(((2S,4R)-2-phenyl-4-(trifluoromethyl)-1-piperidyl)methyl)-N-(1,2,4-thiadiazol-5-yl)benzenesulfonamide
+MICROWAVE at > 80°C for 2 h	BUBBLE Ar
+PURIFY by chromatography	HEAT to > 80°C for 16 h
+YIELD: 3-cyano-4-(((2s,4r)-2-phenyl-4-(trifluoromethyl)piperidin-1-yl)methyl)-n-(1,2,4-thiadiazol-5-yl)benzenesulfonamide	STIR at 25°C for 16 h
+[END]	FILTER
+	PURIFY by chromatography
+	YIELD: 3-cyano-4-(((2s,4r)-2-phenyl-4-(trifluoromethyl)piperidin-1-yl)methyl)-n-(1,2,4-thiadiazol-5-yl)benzenesulfonamide
+	[END]

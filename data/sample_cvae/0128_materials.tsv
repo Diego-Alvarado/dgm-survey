@@ -1,0 +1,5 @@
+index	role	name	inchi
+1	REACTANT	[(1S,2S,4R)-2-hydroxy-4-({8-[(3-methylphenyl)sulfanyl]-9H-purin-6-yl}oxy)cyclopentyl]methyl sulfamate	InChI=1S/C18H21N5O5S2/c1-10-3-2-4-13(5-10)29-18-22-15-16(23-18)20-9-21-17(15)28-12-6-11(14(24)7-12)8-27-30(19,25)26/h2-5,9,11-12,14,24H,6-8H2,1H3,(H2,19,25,26)(H,20,21,22,23)/t11-,12+,14-/m0/s1
+0	SOLVENT	methanol	InChI=1S/CH4O/c1-2/h2H,1H3
+2	SOLVENT	water	InChI=1S/H2O/h1H2
+3	TARGET	[(1s,2s,4r)-2-hydroxy-4-({8-[(3-methylphenyl)sulfonyl]-9h-purin-6-yl}-oxy)cyclopentyl]methyl sulfamate	InChI=1S/C18H21N5O7S2/c1-10-3-2-4-13(5-10)31(25,26)18-22-15-16(23-18)20-9-21-17(15)30-12-6-11(14(24)7-12)8-29-32(19,27)28/h2-5,9,11-12,14,24H,6-8H2,1H3,(H2,19,27,28)(H,20,21,22,23)/t11-,12+,14-/m0/s1

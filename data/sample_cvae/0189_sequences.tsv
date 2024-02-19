@@ -1,0 +1,12 @@
+A	B
+[START]	[START]
+ADD at 25°C	STIR at 25°C for 20 min
+HEAT to > 80°C for 2 h	MAKE SOLUTION
+COOL to 25°C	ADD
+CONCENTRATE	STIR at 65°C for 2 h
+REMOVE solvent	ADD water
+PURIFY by chromatography	EXTRACT with dichloromethane
+PURIFY by chromatography	CONCENTRATE organic phase
+YIELD: n-(4-(2-hydrazinyl-2-oxoethyl)benzyl)-n-phenylmorpholine-4-carboxamide	PURIFY by chromatography
+[END]	YIELD: n-(4-(2-hydrazinyl-2-oxoethyl)benzyl)-n-phenylmorpholine-4-carboxamide
+	[END]

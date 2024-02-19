@@ -1,0 +1,19 @@
+A	B
+[START]	[START]
+ADD 2-chloro-n-cyclopropyl-6-nitrobenzamide	ADD Boc-L-2-aminobutyric acid
+ADD toluene	ADD DIPEA
+ADD	ADD toluene
+STIR at > 80°C for 48 h	ADD 2-chloro-n-cyclopropyl-6-nitrobenzamide
+CONCENTRATE	STIR
+ADD Boc-L-2-aminobutyric acid	ADD DCM
+ADD DIPEA	ADD
+ADD DCM	STIR for 2 h
+ADD at 0°C	ADD citric acid
+ADD	EXTRACT
+STIR at 25°C for 16 h	DRY SOLUTION organic phase with MgSO4
+WASH	DISTIL
+DRY SOLUTION organic phase with Na2SO4	PURIFY by chromatography
+CONCENTRATE	YIELD: (r)-tert-butyl (1-(2-chloro-n-cyclopropyl-6-nitrobenzamido)-1-oxobutan-2-yl)carbamate
+PURIFY by chromatography	[END]
+YIELD: (r)-tert-butyl (1-(2-chloro-n-cyclopropyl-6-nitrobenzamido)-1-oxobutan-2-yl)carbamate	
+[END]	

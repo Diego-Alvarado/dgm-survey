@@ -1,0 +1,23 @@
+A	B
+[START]	[START]
+ADD 4-bromophenol	ADD N-methylphenethylamine
+ADD N-methylphenethylamine	ADD toluene
+ADD toluene	ADD LiHMDS
+ADD Pd2(dba)3	ADD 2-(dicyclohexylphosphino)biphenyl
+ADD 2-(dicyclohexylphosphino)biphenyl	ADD Pd2(dba)3
+ADD LiHMDS	ADD
+STIR at 65°C for 48 h	STIR at 25°C for 20 min
+FILTER	ADD 4-bromophenol
+CONCENTRATE	ADD toluene
+PURIFY by chromatography	STIR at > 80°C for 5 h
+YIELD: 4-[methyl(2-phenylethyl)amino]phenol	PARTITION
+[END]	SEPARATE organic phase
+	WASH with brine
+	REPEAT 2 time(s)
+	DRY SOLUTION with MgSO4
+	FILTER
+	ADD
+	EVAPORATE solvent
+	PURIFY by chromatography
+	YIELD: 4-[methyl(2-phenylethyl)amino]phenol
+	[END]

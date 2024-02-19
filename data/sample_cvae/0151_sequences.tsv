@@ -1,0 +1,19 @@
+A	B
+[START]	[START]
+ADD morpholine	ADD morpholine
+ADD DMF at 25°C	ADD DIPEA
+ADD HATU	ADD DMF
+ADD DIPEA	ADD HATU at 25°C for 20 min
+STIR for 2 h	STIR
+ADD water	ADD at 0°C
+FILTER	ADD water
+DRY	CONCENTRATE
+YIELD: 2,2,2-trifluoro-n-(2-methoxy-4-(morpholine-4-carbonyl)-5-nitrophenyl)acetamide	ADD water
+[END]	COOL to 0°C for 2 h
+	ADD
+	SEPARATE organic phase
+	DRY SOLUTION with Na2SO4
+	EVAPORATE solvent
+	PURIFY by chromatography
+	YIELD: 2,2,2-trifluoro-n-(2-methoxy-4-(morpholine-4-carbonyl)-5-nitrophenyl)acetamide
+	[END]

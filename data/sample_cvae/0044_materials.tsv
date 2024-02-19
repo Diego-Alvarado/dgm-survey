@@ -1,0 +1,5 @@
+index	role	name	inchi
+3	REACTANT	borane-tetrahydrofuran complex	InChI=1S/C4H8O.B/c1-2-4-5-3-1;/h1-4H2;
+1	SOLVENT	water	InChI=1S/H2O/h1H2
+2	SOLVENT	THF	InChI=1S/C4H8O/c1-2-4-5-3-1/h1-4H2
+0	TARGET	methyl 3-(hydroxymethyl)benzoate	InChI=1S/C9H10O3/c1-12-9(11)8-4-2-3-7(5-8)6-10/h2-5,10H,6H2,1H3

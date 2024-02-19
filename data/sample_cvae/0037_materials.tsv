@@ -1,0 +1,6 @@
+index	role	name	inchi
+0	REACTANT	2,4,5-trichloropyrimidine	InChI=1S/C4HCl3N2/c5-2-1-8-4(7)9-3(2)6/h1H
+2	REACTANT	1-methyl-4-amino-1H-pyrazole-3-carbonitrile	InChI=1S/C5H6N4/c1-9-3-4(7)5(2-6)8-9/h3H,7H2,1H3
+3	REACTANT	triethylamine	InChI=1S/C6H15N/c1-4-7(5-2)6-3/h4-6H2,1-3H3
+1	SOLVENT	ethanol	InChI=1S/C2H6O/c1-2-3/h3H,2H2,1H3
+4	TARGET	2,5-dichloro-n-(3-cyano-1-methyl-1h-pyrazol-4-yl)-pyrimidin-4-amine	InChI=1S/C9H6Cl2N6/c1-17-4-7(6(2-12)16-17)14-8-5(10)3-13-9(11)15-8/h3-4H,1H3,(H,13,14,15)

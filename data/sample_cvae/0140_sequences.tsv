@@ -1,0 +1,15 @@
+A	B
+[START]	[START]
+ADD 6-(6-methylpyrazin-2-yl)-1h-pyrazolo[4,3-c]pyridine	COMBINE
+ADD tert-butyl N-[(3S)-1-(6-bromo-3-methoxy-2-pyridyl)-3-piperidyl]carbamate	STIR
+ADD N,N′-dimethylethylenediamine	ADD N,N′-dimethylethylenediamine
+ADD copper iodide	STIR at 65°C for 2 h
+ADD potassium carbonate	COOL to 25°C
+ADD 1,4-dioxane	ADD water
+STIR at > 80°C for 48 h	STIR for 20 min
+COOL to 25°C	FILTER
+FILTER	EVAPORATE filtrate
+CONCENTRATE filtrate	PURIFY by chromatography
+PURIFY by chromatography	YIELD: tert-butyl n-[(3s)-1-[3-methoxy-6-[6-(6-methylpyrazin-2-yl)pyrazolo[4,3-c]pyridin-1-yl]-2-pyridyl]-3-piperidyl]carbamate
+YIELD: tert-butyl n-[(3s)-1-[3-methoxy-6-[6-(6-methylpyrazin-2-yl)pyrazolo[4,3-c]pyridin-1-yl]-2-pyridyl]-3-piperidyl]carbamate	[END]
+[END]	

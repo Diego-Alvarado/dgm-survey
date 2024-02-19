@@ -1,0 +1,20 @@
+A	B
+[START]	[START]
+ADD ethyl 1-(1-methylethyl)-6-[4-(methylthio)phenyl]-1H-pyrazolo[3,4-b]pyridine-4-carboxylate	ADD ethyl 1-(1-methylethyl)-6-[4-(methylthio)phenyl]-1H-pyrazolo[3,4-b]pyridine-4-carboxylate
+ADD acetone	ADD acetone
+ADD water	ADD
+STIR for 5 h	STIR at 25°C for 16 h
+QUENCH with water	CONCENTRATE
+SET PH with NaHCO3	ADD water
+EXTRACT with ethyl acetate	STIR at 25°C for 20 min
+REPEAT 3 time(s)	EXTRACT with dichloromethane
+DRY SOLUTION with Na2SO4	REPEAT 3 time(s)
+FILTER	WASH organic phase with NaHCO3
+CONCENTRATE	DRY SOLUTION with MgSO4
+PURIFY by chromatography	FILTER
+YIELD: ethyl 1-(1-methylethyl)-6-[4-(methylsulfonyl)phenyl]-1h-pyrazolo[3,4-b]pyridine-4-carboxylate	CONCENTRATE
+[END]	ADD
+	EVAPORATE solvent
+	PURIFY by chromatography
+	YIELD: ethyl 1-(1-methylethyl)-6-[4-(methylsulfonyl)phenyl]-1h-pyrazolo[3,4-b]pyridine-4-carboxylate
+	[END]

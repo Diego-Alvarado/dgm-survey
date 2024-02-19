@@ -1,0 +1,17 @@
+A	B
+[START]	[START]
+ADD 2-(3-chloropyrazin-2-yl)-2-methylpropanoic acid	ADD cis-n1-(5-methylpyridin-2-yl)cyclohexane-1,4-diamine
+ADD N,N,N′,N′-tetramethyl-O-(7-azabenzotriazol-1-yl)uronium hexafluorophosphate	ADD DCM
+ADD triethylamine	ADD triethylamine
+ADD DCM	ADD N,N,N′,N′-tetramethyl-O-(7-azabenzotriazol-1-yl)uronium hexafluorophosphate
+ADD cis-n1-(5-methylpyridin-2-yl)cyclohexane-1,4-diamine	ADD 2-(3-chloropyrazin-2-yl)-2-methylpropanoic acid
+ADD	HEAT to 65°C for 16 h
+STIR at 25°C for 5 h	ADD DCM
+EVAPORATE solvent	QUENCH with water
+ADSORB	EXTRACT with dichloromethane
+PURIFY by chromatography	DRY SOLUTION organic phase with Na2SO4
+YIELD: 2-(3-chloropyrazin-2-yl)-2-methyl-n-(cis-4-((5-methylpyridin-2-yl)amino)cyclohexyl)propanamide	FILTER
+[END]	CONCENTRATE
+	PURIFY by chromatography
+	YIELD: 2-(3-chloropyrazin-2-yl)-2-methyl-n-(cis-4-((5-methylpyridin-2-yl)amino)cyclohexyl)propanamide
+	[END]

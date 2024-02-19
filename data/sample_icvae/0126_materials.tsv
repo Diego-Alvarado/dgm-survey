@@ -1,0 +1,4 @@
+index	role	name	inchi
+1	SOLVENT	methanol	InChI=1S/CH4O/c1-2/h2H,1H3
+2	SOLVENT	water	InChI=1S/H2O/h1H2
+0	TARGET	ethyl 3-{[(4-{[(4-hydroxycyclohexyl)(2-methyl-5-phenylfuran-3-yl)methyl]amino}phenyl)carbonyl](methyl)amino}propanoate	InChI=1S/C31H38N2O5/c1-4-37-29(35)18-19-33(3)31(36)24-10-14-25(15-11-24)32-30(23-12-16-26(34)17-13-23)27-20-28(38-21(27)2)22-8-6-5-7-9-22/h5-11,14-15,20,23,26,30,32,34H,4,12-13,16-19H2,1-3H3

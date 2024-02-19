@@ -1,0 +1,15 @@
+A	B
+[START]	[START]
+ADD 6-chloro-1,7-naphthyridin-4-yl trifluoromethanesulfonate	ADD DCM
+ADD piperidin-3-yl-carbamic acid tert-butyl ester	ADD 6-chloro-1,7-naphthyridin-4-yl trifluoromethanesulfonate
+ADD DIPEA	ADD DIPEA
+ADD DCM	ADD piperidin-3-yl-carbamic acid tert-butyl ester at 25°C
+STIR at 25°C for 6 days	STIR for 5 h
+PARTITION with ethyl acetate	COOL to 25°C
+SEPARATE	ADD
+WASH organic phase	EXTRACT with ethyl acetate
+DRY SOLUTION with MgSO4	WASH extracts
+CONCENTRATE	DRY SOLUTION with MgSO4
+PURIFY by chromatography	REMOVE solvent
+YIELD: (s)-tert-butyl 1-(6-chloro-1,7-naphthyridin-4-yl)piperidin-3-ylcarbamate	YIELD: (s)-tert-butyl 1-(6-chloro-1,7-naphthyridin-4-yl)piperidin-3-ylcarbamate
+[END]	[END]

@@ -1,0 +1,17 @@
+A	B
+[START]	[START]
+ADD cesium carbonate	ADD cesium carbonate
+ADD 5-(chloromethyl)-2-(2-fluorophenyl)-1h-imidazole	ADD 5-(chloromethyl)-2-(2-fluorophenyl)-1h-imidazole
+ADD DMF	ADD 4-chloro-5-iodo-7h-pyrrolo[2,3-d]pyrimidine
+ADD 4-chloro-5-iodo-7h-pyrrolo[2,3-d]pyrimidine	ADD DMF
+ADD at 0°C	STIR
+STIR at 25°C for 16 h	ADD ethyl acetate
+ADD ethyl acetate	WASH organic phase with water
+WASH organic phase	REPEAT 1 time(s)
+DRY SOLUTION	DRY SOLUTION with Na2SO4
+EVAPORATE	CONCENTRATE
+PURIFY by chromatography	PURIFY by chromatography
+YIELD: 4-chloro-7-((2-(2-fluorophenyl)-1h-imidazol-5-yl)methyl)-5-iodo-7h-pyrrolo[2,3-d]pyrimidine	MAKE SOLUTION
+[END]	FILTER
+	YIELD: 4-chloro-7-((2-(2-fluorophenyl)-1h-imidazol-5-yl)methyl)-5-iodo-7h-pyrrolo[2,3-d]pyrimidine
+	[END]

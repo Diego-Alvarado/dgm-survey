@@ -1,0 +1,21 @@
+A	B
+[START]	[START]
+ADD 4-amino-5-isopropyl-4H-1,2,4-triazole-3-thiol	ADD 6-(2,4-difluorophenyl)imidazo[2,1-b]oxazole-5-carboxylic acid
+ADD Enamine	ADD Enamine
+ADD 6-(2,4-difluorophenyl)imidazo[2,1-b]oxazole-5-carboxylic acid	ADD 4-amino-5-isopropyl-4H-1,2,4-triazole-3-thiol
+ADD POCl3	ADD POCl3
+REFLUX for 16 h	STIR at 65°C for 48 h
+COOL	COOL to 25°C
+ADD water at 0°C	ADD DCM
+STIR	WASH with water
+ADD DCM	DRY SOLUTION organic phase with MgSO4
+SEPARATE	FILTER
+CONCENTRATE organic phase	CONCENTRATE
+PURIFY by chromatography	PURIFY by chromatography
+MAKE SOLUTION	YIELD: 6-(2,4-difluorophenyl)-5-(3-isopropyl-[1,2,4]triazolo[3,4-b][1,3,4]thiadiazol-6-yl)imidazo[2,1-b]oxazole
+COOL to 25°C for 2 h	[END]
+FILTER	
+WASH with acetonitrile	
+DRY [VACUUM]	
+YIELD: 6-(2,4-difluorophenyl)-5-(3-isopropyl-[1,2,4]triazolo[3,4-b][1,3,4]thiadiazol-6-yl)imidazo[2,1-b]oxazole	
+[END]	

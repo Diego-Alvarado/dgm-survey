@@ -1,0 +1,12 @@
+A	B
+[START]	[START]
+ADD 2,6-dichloro-9H-purine	ADD 3-oxa-8-azabicyclo[3.2.1]octane hydrochloride
+ADD 3-oxa-8-azabicyclo[3.2.1]octane hydrochloride	ADD 2,6-dichloro-9H-purine
+ADD DIPEA	ADD DIPEA
+HEAT to 65°C for 2 h	STIR at > 80°C for 48 h
+STIR at 25°C for 16 h	COOL to 25°C
+FILTER	LOAD
+WASH	WASH
+DRY [VACUUM] solid	ELUTE
+YIELD: 2-chloro-6-(3-oxa-8-azabicyclo[3.2.1]oct-8-yl)-9h-purine	YIELD: 2-chloro-6-(3-oxa-8-azabicyclo[3.2.1]oct-8-yl)-9h-purine
+[END]	[END]

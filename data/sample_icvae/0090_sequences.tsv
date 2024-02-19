@@ -1,0 +1,10 @@
+A	B
+[START]	[START]
+ADD THF	ADD methanol
+ADD methanol	ADD THF at 25°C
+STIR at 25°C for 2 h	ADD
+CONCENTRATE	STIR at 65°C for 16 h
+PURIFY by chromatography	CONCENTRATE residue
+YIELD: methyl [4-(benzyloxy)-3-(6-methyl-7-oxo-6,7-dihydro-1h-pyrrolo[2,3-c]pyridin-4-yl)phenyl]acetate	PURIFY by chromatography
+[END]	YIELD: methyl [4-(benzyloxy)-3-(6-methyl-7-oxo-6,7-dihydro-1h-pyrrolo[2,3-c]pyridin-4-yl)phenyl]acetate
+	[END]

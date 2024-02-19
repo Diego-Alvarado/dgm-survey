@@ -1,0 +1,11 @@
+A	B
+[START]	[START]
+ADD	REFLUX for 16 h
+HEAT to 65°C for 20 min	REMOVE
+STIR for 2 h	PURIFY by chromatography
+COOL	YIELD: 2-(3-(4-oxopiperidin-1-yl)azetidin-3-yl)acetonitrile dihydrochloride
+FILTER	[END]
+WASH	
+DRY solid	
+YIELD: 2-(3-(4-oxopiperidin-1-yl)azetidin-3-yl)acetonitrile dihydrochloride	
+[END]	

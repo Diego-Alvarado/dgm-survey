@@ -1,0 +1,15 @@
+A	B
+[START]	[START]
+ADD 3-tert-butoxypyrazine-2-carboxaldehyde	ADD 3-tert-butoxypyrazine-2-carboxaldehyde
+ADD 3-[2-(2-fluorophenyl)ethyl]morpholine	ADD THF
+ADD THF	ADD 3-[2-(2-fluorophenyl)ethyl]morpholine
+ADD	MICROWAVE at > 80°C for 2 h
+STIR at 25°C for 48 h	ADD ethyl acetate
+ADD ethyl acetate	EXTRACT with ethyl acetate
+EXTRACT	WASH organic phase
+WASH organic phase with brine	DRY SOLUTION with MgSO4
+DRY SOLUTION with MgSO4	CONCENTRATE
+DISTIL	PURIFY by chromatography
+PURIFY by chromatography	YIELD: 2-tert-butoxy-3-[3-[2-(2-fluorophenyl)ethyl]morpholin-1-yl]methyl-pyrazine
+YIELD: 2-tert-butoxy-3-[3-[2-(2-fluorophenyl)ethyl]morpholin-1-yl]methyl-pyrazine	[END]
+[END]	

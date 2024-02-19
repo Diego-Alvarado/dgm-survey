@@ -1,0 +1,13 @@
+A	B
+[START]	[START]
+ADD 2-benzyl-1h,2h,3h,3ah,6h,6ah-cyclopenta[c]pyrrol-4-yl trifluoromethanesulfonate	ADD 2-benzyl-1h,2h,3h,3ah,6h,6ah-cyclopenta[c]pyrrol-4-yl trifluoromethanesulfonate
+ADD 4-(trifluoromethyl)phenylboronic acid	ADD 4-(trifluoromethyl)phenylboronic acid
+ADD	HEAT to > 80°C for 16 h
+ADD	COOL
+HEAT to > 80°C for 2 h	FILTER
+PARTITION	PURIFY by chromatography
+SEPARATE organic phase	ADD water
+CONCENTRATE	FILTER
+PURIFY by chromatography	DRY [VACUUM]
+YIELD: 2-benzyl-6-[4-(trifluoromethyl)phenyl]-1h,2h,3h,3ah,4h,6ah-cyclopenta[c]pyrrole	YIELD: 2-benzyl-6-[4-(trifluoromethyl)phenyl]-1h,2h,3h,3ah,4h,6ah-cyclopenta[c]pyrrole
+[END]	[END]

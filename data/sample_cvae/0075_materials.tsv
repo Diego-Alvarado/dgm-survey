@@ -1,0 +1,8 @@
+index	role	name	inchi
+0	REACTANT	4,4-dimethyl-3-oxopentanenitrile	InChI=1S/C7H11NO/c1-7(2,3)6(9)4-5-8/h4H2,1-3H3
+1	REACTANT	ammonia	InChI=1S/H3N/h1H3
+4	REACTANT	4-methoxyphenylhydrazine	InChI=1S/C7H10N2O/c1-10-7-4-2-6(9-8)3-5-7/h2-5,9H,8H2,1H3
+6	REACTANT	acetic acid	InChI=1S/C2H4O2/c1-2(3)4/h1H3,(H,3,4)
+2	SOLVENT	ethanol	InChI=1S/C2H6O/c1-2-3/h3H,2H2,1H3
+3	SOLVENT	water	InChI=1S/H2O/h1H2
+5	TARGET	5-tert-butyl-2-(4-methoxy-phenyl)-2h-pyrazol-3-ylamine	InChI=1S/C14H19N3O/c1-14(2,3)12-9-13(15)17(16-12)10-5-7-11(18-4)8-6-10/h5-9H,15H2,1-4H3

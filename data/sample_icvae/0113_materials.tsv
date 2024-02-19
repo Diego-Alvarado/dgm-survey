@@ -1,0 +1,5 @@
+index	role	name	inchi
+0	REACTANT	2-(N-(4-hydroxybenzoyl)amino)ethyl 3-aminocrotonate	InChI=1S/C13H16N2O4/c1-9(14)8-12(17)19-7-6-15-13(18)10-2-4-11(16)5-3-10/h2-5,8,16H,6-7,14H2,1H3,(H,15,18)/b9-8-
+2	REACTANT	methyl 2-(3-nitrobenzylidene)acetylacetate	InChI=1S/C12H11NO5/c1-18-12(15)8-11(14)6-5-9-3-2-4-10(7-9)13(16)17/h2-7H,8H2,1H3
+3	SOLVENT	ethanol	InChI=1S/C2H6O/c1-2-3/h3H,2H2,1H3
+1	TARGET	2-(n-(4-hydroxybenzoyl)amino)ethyl 2,6-dimethyl-5-methoxycarbonyl-4-(3-nitrophenyl)-1,4-dihydropyridine-3-carboxylate	InChI=1S/C25H25N3O8/c1-14-20(24(31)35-3)22(17-5-4-6-18(13-17)28(33)34)21(15(2)27-14)25(32)36-12-11-26-23(30)16-7-9-19(29)10-8-16/h4-10,13,22,27,29H,11-12H2,1-3H3,(H,26,30)

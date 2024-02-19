@@ -1,0 +1,13 @@
+A	B
+[START]	[START]
+ADD methanol	ADD potassium carbonate
+ADD potassium carbonate	STIR at 25°C for 20 min
+STIR at 25°C for 16 h	ADD methanol
+EVAPORATE solvent	FILTER
+MAKE SOLUTION	DRY
+EXTRACT with ethyl ether	YIELD: n-(2,3,4,5-tetrahydro-1h-3-benzazepin-7-yl)-4-(trifluoromethyl)benzene-sulfonamide
+DRY SOLUTION organic phase with MgSO4	[END]
+FILTER	
+EVAPORATE	
+YIELD: n-(2,3,4,5-tetrahydro-1h-3-benzazepin-7-yl)-4-(trifluoromethyl)benzene-sulfonamide	
+[END]	

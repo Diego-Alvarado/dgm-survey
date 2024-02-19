@@ -1,0 +1,14 @@
+A	B
+[START]	[START]
+ADD DCM	ADD TFAA
+ADD TFAA	ADD DCM
+STIR at 25°C for 5 h	PURIFY by chromatography
+ADD	YIELD: (r)-3-(sec-butyl(methyl)amino)-2-(4-fluorophenyl)quinoxaline-6-carbonitrile
+EXTRACT with ethyl acetate	[END]
+REPEAT 3 time(s)	
+COMBINE	
+DRY SOLUTION	
+CONCENTRATE residue	
+PURIFY by chromatography	
+YIELD: (r)-3-(sec-butyl(methyl)amino)-2-(4-fluorophenyl)quinoxaline-6-carbonitrile	
+[END]	

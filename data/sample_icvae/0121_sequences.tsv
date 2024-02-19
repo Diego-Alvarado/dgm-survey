@@ -1,0 +1,29 @@
+A	B
+[START]	[START]
+ADD 2-pentanone	ADD 4-amino-1,1,1-trifluoro-3-butene-2-one
+ADD toluene	ADD toluene
+COOL to 0°C	ADD 2-pentanone
+ADD LiHMDS	ADD THF
+ADD THF	ADD LiHMDS
+STIR	ADD THF
+STAND for 20 min	STIR at 25°C for 20 min
+ADD butyryl chloride	ADD butyryl chloride
+STIR	ADD THF
+REMOVE	STIR at 25°C for 48 h
+STAND for 20 min	ADD HCl
+ADD HCl	EXTRACT with ethyl acetate
+STIR	WASH organic phase with HCl and Na2CO3
+EXTRACT with ethyl acetate	DRY SOLUTION with MgSO4
+WASH with brine	CONCENTRATE
+DRY SOLUTION with Na2SO4	PURIFY by chromatography
+EVAPORATE	YIELD: 3-propionyl-2-propyl-6-trifluoromethyl-pyridine
+ADD toluene	[END]
+ADD 4-amino-1,1,1-trifluoro-3-butene-2-one	
+ADD TFA	
+STIR under reflux for 16 h	
+WASH with Na2CO3	
+DRY SOLUTION with Na2SO4	
+REMOVE solvent	
+PURIFY by chromatography	
+YIELD: 3-propionyl-2-propyl-6-trifluoromethyl-pyridine	
+[END]	

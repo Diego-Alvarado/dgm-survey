@@ -1,0 +1,10 @@
+A	B
+[START]	[START]
+ADD 5-bromo-1h-pyrrolo[2,3-b]pyridine	ADD 5-bromo-1h-pyrrolo[2,3-b]pyridine
+STIR at 25°C for 20 min	HEAT for 16 h
+COOL	PURIFY by chromatography
+FILTER	YIELD: 5-bromo-3-iodo-1h-pyrrolo[2,3-b]pyridine
+WASH	[END]
+DRY [VACUUM] solid	
+YIELD: 5-bromo-3-iodo-1h-pyrrolo[2,3-b]pyridine	
+[END]	

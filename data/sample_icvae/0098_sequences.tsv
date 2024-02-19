@@ -1,0 +1,13 @@
+A	B
+[START]	[START]
+ADD methanol	ADD methanol
+ADD sulfuric acid	ADD water
+REFLUX	ADD sulfuric acid
+STAND at 25°C	MICROWAVE at > 80°C for 20 min
+ADD water	CONCENTRATE
+EXTRACT with ethyl acetate	PURIFY by chromatography
+REPEAT 3 time(s)	YIELD: methyl 3-bromopyridine-2-carboxylate
+DRY SOLUTION organic phase with Na2SO4	[END]
+EVAPORATE	
+YIELD: methyl 3-bromopyridine-2-carboxylate	
+[END]	

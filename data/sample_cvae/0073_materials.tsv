@@ -1,0 +1,6 @@
+index	role	name	inchi
+0	REACTANT	6-fluoro-5-methoxy-2-methyl-3-(phenylthio)-1h-indole	InChI=1S/C16H14FNOS/c1-10-16(20-11-6-4-3-5-7-11)12-8-15(19-2)13(17)9-14(12)18-10/h3-9,18H,1-2H3
+3	REACTANT	Raney nickel	InChI=1S/Ni
+1	SOLVENT	ethanol	InChI=1S/C2H6O/c1-2-3/h3H,2H2,1H3
+2	SOLVENT	water	InChI=1S/H2O/h1H2
+4	TARGET	6-fluoro-5-methoxy-2-methyl-1h-indole	InChI=1S/C10H10FNO/c1-6-3-7-4-10(13-2)8(11)5-9(7)12-6/h3-5,12H,1-2H3

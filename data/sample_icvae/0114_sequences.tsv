@@ -1,0 +1,19 @@
+A	B
+[START]	[START]
+ADD 3-Methoxy-1,2,4-thiadiazol-5-amine	ADD 3-Methoxy-1,2,4-thiadiazol-5-amine
+ADD phenyl chloroformate	ADD phenyl chloroformate
+ADD DCM	ADD DCM
+ADD	STIR at 25°C for 48 h
+STIR for 16 h	QUENCH with water
+ADD water	FILTER
+ADD	EXTRACT with ethyl acetate
+SEPARATE	WASH organic phase
+EXTRACT with dichloromethane	DRY SOLUTION with Na2SO4
+REPEAT 2 time(s)	FILTER
+COMBINE organic phase	CONCENTRATE
+DRY SOLUTION with Na2SO4	PURIFY by chromatography
+FILTER	YIELD: phenyl (3-methoxy-1,2,4-thiadiazol-5-yl)carbamate
+CONCENTRATE	[END]
+PURIFY by chromatography	
+YIELD: phenyl (3-methoxy-1,2,4-thiadiazol-5-yl)carbamate	
+[END]	

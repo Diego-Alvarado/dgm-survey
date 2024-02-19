@@ -1,0 +1,4 @@
+index	role	name	inchi
+1	REACTANT	ethyl 2-hydroxy-2-(4-cyclohexylphenyl)acetate	InChI=1S/C16H22O3/c1-2-19-16(18)15(17)14-10-8-13(9-11-14)12-6-4-3-5-7-12/h8-12,15,17H,2-7H2,1H3
+2	SOLVENT	water	InChI=1S/H2O/h1H2
+0	TARGET	ethyl 2-chloro-2-(4-cyclohexylphenyl)acetate	InChI=1S/C16H21ClO2/c1-2-19-16(18)15(17)14-10-8-13(9-11-14)12-6-4-3-5-7-12/h8-12,15H,2-7H2,1H3

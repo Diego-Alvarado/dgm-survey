@@ -1,0 +1,19 @@
+A	B
+[START]	[START]
+ADD tert-butyl 4-(2-(hydrazinecarbonyl)-4-(trifluoromethyl)benzyl)piperazine-1-carboxylate	ADD Boron fluoride ethyl ether
+ADD DMSO	ADD triethyl orthoformate
+ADD triethyl orthoformate	ADD DMSO
+ADD Boron fluoride ethyl ether	ADD tert-butyl 4-(2-(hydrazinecarbonyl)-4-(trifluoromethyl)benzyl)piperazine-1-carboxylate
+STIR at 65°C for 2 h	STIR at 25°C for 48 h
+QUENCH with water	QUENCH with water
+EXTRACT with ethyl acetate	EXTRACT with ethyl acetate
+REPEAT 3 time(s)	REPEAT 3 time(s)
+COMBINE organic phase	WASH organic phase with brine
+WASH with brine	DRY SOLUTION with Na2SO4
+REPEAT 2 time(s)	CONCENTRATE
+DRY SOLUTION with Na2SO4	PURIFY by chromatography
+FILTER	YIELD: tert-butyl 4-(2-(1,3,4-oxadiazol-2-yl)-4-(trifluoromethyl)benzyl)piperazine-1-carboxylate
+CONCENTRATE	[END]
+PURIFY by chromatography	
+YIELD: tert-butyl 4-(2-(1,3,4-oxadiazol-2-yl)-4-(trifluoromethyl)benzyl)piperazine-1-carboxylate	
+[END]	

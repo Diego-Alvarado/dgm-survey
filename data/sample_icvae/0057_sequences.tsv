@@ -1,0 +1,21 @@
+A	B
+[START]	[START]
+ADD (2S,5R)-6-(benzyloxy)-7-oxo-N-(2-azaspiro[3.3]heptan-6-yl)-1,6-diazabicyclo[3.2.1]octane-2-carboxamide	ADD (2S,5R)-6-(benzyloxy)-7-oxo-N-(2-azaspiro[3.3]heptan-6-yl)-1,6-diazabicyclo[3.2.1]octane-2-carboxamide
+ADD (1-ethoxycyclopropoxy)trimethylsilane	ADD acetic acid
+ADD THF	ADD (1-ethoxycyclopropoxy)trimethylsilane
+ADD acetic acid	ADD THF
+STIR at 25°C for 20 min	STIR at 25°C for 16 h
+ADD	ADD brine
+HEAT to 65°C	QUENCH with water
+STIR	EXTRACT with dichloromethane
+STAND for 16 h	WASH organic phase
+QUENCH with water	EVAPORATE
+EXTRACT	YIELD: (2s,5r)-6-(phenyl methoxy)-n-(2-cyclopropyl-2-azaspiro[3.3]heptan-6-yl)-7-oxo-1,6-diazabicyclo[3.2.1]octane-2-carboxamide
+ADD ethyl acetate	[END]
+COMBINE	
+DRY SOLUTION with Na2SO4	
+FILTER	
+CONCENTRATE	
+PURIFY by chromatography	
+YIELD: (2s,5r)-6-(phenyl methoxy)-n-(2-cyclopropyl-2-azaspiro[3.3]heptan-6-yl)-7-oxo-1,6-diazabicyclo[3.2.1]octane-2-carboxamide	
+[END]	

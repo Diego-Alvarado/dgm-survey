@@ -1,0 +1,4 @@
+index	role	name	inchi
+1	SOLVENT	water	InChI=1S/H2O/h1H2
+2	SOLVENT	ethanol	InChI=1S/C2H6O/c1-2-3/h3H,2H2,1H3
+0	TARGET	5-(3-oxo-2-pyridin-2-yl-2,3-dihydro-1h-pyrazol-4-yl)-nicotinic acid	InChI=1S/C14H10N4O3/c19-13-11(9-5-10(14(20)21)7-15-6-9)8-17-18(13)12-3-1-2-4-16-12/h1-8,17H,(H,20,21)

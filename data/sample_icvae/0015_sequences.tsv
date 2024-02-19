@@ -1,0 +1,11 @@
+A	B
+[START]	[START]
+ADD [5-(1-[3-[(tert-butyldiphenylsilyl)oxy]propyl]cyclopropyl)-2-chlorophenyl]methanol	ADD [5-(1-[3-[(tert-butyldiphenylsilyl)oxy]propyl]cyclopropyl)-2-chlorophenyl]methanol
+ADD chloroform	ADD MnO2
+ADD MnO2	ADD chloroform
+STIR at 65°C for 16 h	STIR at 25°C for 16 h
+FILTER	REMOVE
+CONCENTRATE	WASH with dichloromethane
+PURIFY by chromatography	CONCENTRATE filtrate
+YIELD: 5-(1-[3-[(tert-butyldiphenylsilyl)oxy]propyl]cyclopropyl)-2-chlorobenzaldehyde	YIELD: 5-(1-[3-[(tert-butyldiphenylsilyl)oxy]propyl]cyclopropyl)-2-chlorobenzaldehyde
+[END]	[END]

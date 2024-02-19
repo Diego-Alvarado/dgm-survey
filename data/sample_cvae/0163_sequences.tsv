@@ -1,0 +1,18 @@
+A	B
+[START]	[START]
+ADD 2-chloro-6-morpholino-4-phenyl-3-cyano-pyridine	ADD methylhydrazine
+ADD methylhydrazine	ADD 2-chloro-6-morpholino-4-phenyl-3-cyano-pyridine
+ADD ethylene glycol	ADD ethylene glycol
+REFLUX for 2 h	REFLUX for 16 h
+ADD water	ADD water
+SEPARATE	EXTRACT with ethyl acetate
+COLLECT	REPEAT 2 time(s)
+ADD water	WASH organic phase with brine
+DIGEST	REPEAT 2 time(s)
+CRYSTALLISE	DRY SOLUTION with Na2SO4
+FILTER	CONCENTRATE residue
+WASH	PURIFY by chromatography
+DRY	YIELD: 3-amino-1-methyl-6-morpholino-4-phenyl-1h-pyrazolo[3,4-b]pyridine
+RECRYSTALLISATION with methanol	[END]
+YIELD: 3-amino-1-methyl-6-morpholino-4-phenyl-1h-pyrazolo[3,4-b]pyridine	
+[END]	

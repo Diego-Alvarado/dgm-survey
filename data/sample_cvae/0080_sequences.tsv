@@ -1,0 +1,12 @@
+A	B
+[START]	[START]
+ADD ethyl 3,4-diethoxybenzoate	ADD ethyl 3,4-diethoxybenzoate
+ADD acetic acid	ADD nitric acid
+ADD nitric acid	ADD acetic acid for 2 h
+HEAT to 65°C for 48 h	CONCENTRATE
+YIELD: ethyl 4,5-diethoxy-2-nitrobenzoate	MAKE SOLUTION
+[END]	FILTER
+	WASH with water
+	DRY
+	YIELD: ethyl 4,5-diethoxy-2-nitrobenzoate
+	[END]

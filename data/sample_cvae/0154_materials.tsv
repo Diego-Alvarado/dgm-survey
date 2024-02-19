@@ -1,0 +1,10 @@
+index	role	name	inchi
+1	REACTANT	(S)-5-(1-(tert-butoxy)-2-isopropoxy-2-oxoethyl)-4-(4,4-dimethylpiperidin-1-yl)-3-(4-(4-fluorophenethoxy)phenyl)-6-methylpicolinic acid	InChI=1S/C37H47FN2O6/c1-23(2)45-35(43)33(46-36(4,5)6)29-24(3)39-31(34(41)42)30(32(29)40-20-18-37(7,8)19-21-40)26-11-15-28(16-12-26)44-22-17-25-9-13-27(38)14-10-25/h9-16,23,33H,17-22H2,1-8H3,(H,41,42)
+2	REACTANT	(s)-2-(tert-butoxy)-2-(6-((cyclohexylmethyl)(methyl)carbamoyl)-4-(4,4-dimethylpiperidin-1-yl)-5-(4-(4-fluorophenethoxy)phenyl)-2-methylpyridin-3-yl)acetic acid	InChI=1S/C42H56FN3O5/c1-28-34(38(40(48)49)51-41(2,3)4)37(46-24-22-42(5,6)23-25-46)35(36(44-28)39(47)45(7)27-30-11-9-8-10-12-30)31-15-19-33(20-16-31)50-26-21-29-13-17-32(43)18-14-29/h13-20,30,38H,8-12,21-27H2,1-7H3,(H,48,49)/t38-/m0/s1
+5	REACTANT	HATU	InChI=1S/C10H15N6O.F6P/c1-14(2)10(15(3)4)17-16-9-8(12-13-16)6-5-7-11-9;1-7(2,3,4,5)6/h5-7H,1-4H3;/q+1;-1
+6	REACTANT	DIPEA	InChI=1S/C8H19N/c1-6-9(7(2)3)8(4)5/h7-8H,6H2,1-5H3
+7	REACTANT	NaOH	InChI=1S/Na.H2O/h;1H2/q+1;/p-1
+8	REACTANT	1-cyclohexyl-N-methylmethanamine	InChI=1S/C8H17N/c1-9-7-8-5-3-2-4-6-8/h8-9H,2-7H2,1H3
+0	SOLVENT	DMF	InChI=1S/C3H7NO/c1-4(2)3-5/h3H,1-2H3
+4	SOLVENT	water	InChI=1S/H2O/h1H2
+3	TARGET	(s)-2-(tert-butoxy)-2-(6-((cyclohexylmethyl)(methyl)carbamoyl)-4-(4,4-dimethylpiperidin-1-yl)-5-(4-(4-fluorophenethoxy)phenyl)-2-methylpyridin-3-yl)acetic acid	InChI=1S/C42H56FN3O5/c1-28-34(38(40(48)49)51-41(2,3)4)37(46-24-22-42(5,6)23-25-46)35(36(44-28)39(47)45(7)27-30-11-9-8-10-12-30)31-15-19-33(20-16-31)50-26-21-29-13-17-32(43)18-14-29/h13-20,30,38H,8-12,21-27H2,1-7H3,(H,48,49)/t38-/m0/s1

@@ -1,0 +1,3 @@
+index	role	name	inchi
+1	SOLVENT	THF	InChI=1S/C4H8O/c1-2-4-5-3-1/h1-4H2
+0	TARGET	n-[(3e)-2-butyl-5-tert-butyl-1-methyl-1,2-dihydro-3h-pyrazol-3-ylidene]-2-(2-hydroxy-2-methylpropoxy)-5-(trifluoromethyl)benzamide	InChI=1S/C24H34F3N3O3/c1-8-9-12-30-20(14-19(29(30)7)22(2,3)4)28-21(31)17-13-16(24(25,26)27)10-11-18(17)33-15-23(5,6)32/h10-11,13-14,32H,8-9,12,15H2,1-7H3

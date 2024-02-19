@@ -1,0 +1,10 @@
+A	B
+[START]	[START]
+ADD ethanol	ADD hydrazine hydrate
+ADD hydrazine hydrate	ADD ethanol
+REFLUX for 16 h	STIR at 25°C for 2 h
+FILTER	FILTER
+CONCENTRATE	CONCENTRATE filtrate
+PURIFY by chromatography	PURIFY by chromatography
+YIELD: 3-(aminomethyl)-8-methyl-2-phenylquinoline formate	YIELD: 3-(aminomethyl)-8-methyl-2-phenylquinoline formate
+[END]	[END]

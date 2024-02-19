@@ -1,0 +1,21 @@
+A	B
+[START]	[START]
+ADD tert-butyl 2-(3-(2-formylphenyl)-1h-pyrazol-1-yl)acetate	ADD tert-butyl 2-(3-(2-formylphenyl)-1h-pyrazol-1-yl)acetate
+ADD 1-t-butyl 4-(1,1,1,3,3,3-hexafluoropropan-2-yl) piperazine-1,4-dicarboxylate	ADD triethylamine
+ADD triethylamine	ADD EDC
+ADD EDC	ADD 1-t-butyl 4-(1,1,1,3,3,3-hexafluoropropan-2-yl) piperazine-1,4-dicarboxylate
+ADD sodium triacetoxyborohydride	ADD sodium triacetoxyborohydride
+STIR at 25°C for 2 h	STIR at 25°C for 16 h
+ADD	FILTER
+STIR at 25°C for 48 h	CONCENTRATE
+QUENCH with water	PURIFY by chromatography
+EXTRACT with dichloromethane	YIELD: 1,1,1,3,3,3-hexafluoropropan-2-yl 4-(2-(1-(2-(tert-butoxy)-2-oxoethyl)-1h-pyrazol-3-yl)benzyl)piperazine-1-carboxylate
+REPEAT 3 time(s)	[END]
+WASH organic phase with brine	
+REPEAT 2 time(s)	
+DRY SOLUTION with Na2SO4	
+FILTER	
+CONCENTRATE	
+PURIFY by chromatography	
+YIELD: 1,1,1,3,3,3-hexafluoropropan-2-yl 4-(2-(1-(2-(tert-butoxy)-2-oxoethyl)-1h-pyrazol-3-yl)benzyl)piperazine-1-carboxylate	
+[END]	

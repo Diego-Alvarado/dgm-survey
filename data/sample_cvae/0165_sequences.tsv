@@ -1,0 +1,15 @@
+A	B
+[START]	[START]
+ADD methyl 6-amino-5-nitronicotinate	ADD methanol
+ADD methanol	ADD methyl 6-amino-5-nitronicotinate
+ADD hydrogen at 25°C	BUBBLE
+FILTER	ADD
+EVAPORATE	ADD hydrogen
+YIELD: methyl 5,6-diaminonicotinate	REFLUX for 16 h
+[END]	COOL to 25°C
+	FILTER
+	WASH with ethyl acetate
+	CONCENTRATE organic phase
+	PURIFY by chromatography
+	YIELD: methyl 5,6-diaminonicotinate
+	[END]

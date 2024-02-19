@@ -1,0 +1,14 @@
+A	B
+[START]	[START]
+ADD methyl iodide	ADD methyl iodide
+ADD DMF	ADD DMF
+STIR for 2 h	ADD
+CONCENTRATE	STIR at 25°C for 48 h
+ADD DCM	ADD DCM
+WASH	SET PH to 5
+DRY SOLUTION organic phase with MgSO4	STIR at 25°C for 48 h
+FILTER	DISTIL
+EVAPORATE	ADD
+PURIFY by chromatography	FILTER
+YIELD: 4-(4-fluoro-3-(3-(methyl(pyridin-4-ylmethyl)amino)azetidine-1-carbonyl)benzyl)phthalazin-1(2h)-one	YIELD: 4-(4-fluoro-3-(3-(methyl(pyridin-4-ylmethyl)amino)azetidine-1-carbonyl)benzyl)phthalazin-1(2h)-one
+[END]	[END]

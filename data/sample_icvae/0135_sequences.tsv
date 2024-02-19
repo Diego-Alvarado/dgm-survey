@@ -1,0 +1,19 @@
+A	B
+[START]	[START]
+STAND	ADD 1-bromo-2-propylbenzene
+ADD magnesium	ADD THF
+MAKE SOLUTION with 1-bromo-2-propylbenzene and THF	ADD magnesium
+ADD	ADD ethylene oxide
+REFLUX	ADD
+COOL to 0°C	HEAT to 65°C for 48 h
+ADD ethylene oxide at 0°C	COOL
+STIR at 25°C for 48 h	QUENCH with ammonium chloride
+QUENCH	EXTRACT with ethyl acetate
+ADD	REPEAT 2 time(s)
+FILTER	WASH organic phase with brine
+CONCENTRATE filtrate	DRY SOLUTION with Na2SO4
+LOAD	FILTER
+YIELD: 2-(2-propylphenyl)ethan-1-ol	CONCENTRATE
+[END]	PURIFY by chromatography
+	YIELD: 2-(2-propylphenyl)ethan-1-ol
+	[END]

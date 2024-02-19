@@ -1,0 +1,26 @@
+A	B
+[START]	[START]
+ADD (R)-methyl5-((1R,3aS,7aR,E)-4-((Z)-2-((S)-5-((tert-butyldimethylsilyl)oxy)-2-methylenecyclohexylidene)ethylidene)-7a-methyloctahydro-1H-inden-1-yl)hexanoate	ADD (R)-methyl5-((1R,3aS,7aR,E)-4-((Z)-2-((S)-5-((tert-butyldimethylsilyl)oxy)-2-methylenecyclohexylidene)ethylidene)-7a-methyloctahydro-1H-inden-1-yl)hexanoate
+ADD THF	ADD 2-chloro-1-methylpyridinium iodide
+BUBBLE N2	ADD THF
+ADD TBAF	STIR at < -10°C for 20 min
+STIR at 25°C for 2 h	ADD TBAF
+ADD	ADD diethyl ether at 0°C
+BUBBLE N2	STIR at 0°C for 20 min
+STIR at 25°C for 16 h	HEAT to 25°C for 2 h
+ADD diethyl ether	ADD ethyl acetate
+WASH	ADD hexane
+DRY SOLUTION organic phase with Na2SO4	WASH with Na2CO3
+CONCENTRATE	DRY SOLUTION with Na2SO4
+DRY	CONCENTRATE
+MAKE SOLUTION with 2-chloro-1-methylpyridinium iodide	YIELD: (r)-5-((1r,3as,7ar,e)-4-((z)-2-((s)-5-hydroxy-2-methylenecyclohexylidene)ethylidene)-7a-methyloctahydro-1h-inden-1-yl)hexanoic acid
+ADD triethylamine	[END]
+STIR at 25°C for 2 h	
+ADD dichloromethane	
+WASH	
+DRY SOLUTION organic phase with Na2SO4	
+FILTER	
+CONCENTRATE	
+DRY	
+YIELD: (r)-5-((1r,3as,7ar,e)-4-((z)-2-((s)-5-hydroxy-2-methylenecyclohexylidene)ethylidene)-7a-methyloctahydro-1h-inden-1-yl)hexanoic acid	
+[END]	

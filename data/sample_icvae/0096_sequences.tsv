@@ -1,0 +1,18 @@
+A	B
+[START]	[START]
+ADD n-(1-ethoxy-ethylidene)-benzamide	ADD n-(1-ethoxy-ethylidene)-benzamide
+ADD DCM	ADD 6-hydrazinopyridine-3-sulfonic acid amide
+ADD methanol	ADD DCM
+ADD 6-hydrazinopyridine-3-sulfonic acid amide	ADD methanol
+ADD	STIR at 25°C for 2 h
+STIR for 5 h	WASH with water
+ADD water	DRY SOLUTION with Na2SO4
+EXTRACT with dichloromethane	FILTER
+REPEAT 2 time(s)	EVAPORATE solvent
+WASH organic phase with brine	PURIFY by chromatography
+DRY SOLUTION organic phase with MgSO4	YIELD: 6-(3-methyl-5-phenyl-[1,2,4]triazole-1-yl)-pyridine-3-sulfonic acid amide
+FILTER	[END]
+CONCENTRATE	
+RECRYSTALLISATION	
+YIELD: 6-(3-methyl-5-phenyl-[1,2,4]triazole-1-yl)-pyridine-3-sulfonic acid amide	
+[END]	

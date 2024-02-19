@@ -1,0 +1,18 @@
+A	B
+[START]	[START]
+ADD 2,3-dichlorobenzenesulfonyl chloride	ADD 4-(4,4,5,5-tetramethyl-1,3,2-dioxaborolan-2-yl)aniline
+ADD 4-(4,4,5,5-tetramethyl-1,3,2-dioxaborolan-2-yl)aniline	ADD 2,3-dichlorobenzenesulfonyl chloride
+STIR at 25°C for 16 h	ADD HCl
+COOL	STIR at 65°C
+QUENCH with NaOH	COOL to 25°C
+SEPARATE organic phase	ADD HCl
+SET PH with HCl	FILTER
+EXTRACT with ethyl acetate	EXTRACT with ethyl acetate
+REPEAT 3 time(s)	DRY SOLUTION organic phase with MgSO4
+WASH organic phase with brine	FILTER
+DRY SOLUTION with Na2SO4	CONCENTRATE
+EVAPORATE	PURIFY by chromatography
+PURIFY by chromatography	ELUTE
+EVAPORATE	YIELD: 2,3-dichloro-n-[4-(4,4,5,5-tetramethyl-[1,3,2]dioxaborolan-2-yl)-phenyl]-benzenesulfonamide
+YIELD: 2,3-dichloro-n-[4-(4,4,5,5-tetramethyl-[1,3,2]dioxaborolan-2-yl)-phenyl]-benzenesulfonamide	[END]
+[END]	

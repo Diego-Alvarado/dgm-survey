@@ -1,0 +1,22 @@
+A	B
+[START]	[START]
+ADD 7-(trifluoromethyl)quinoline-4-thiol	ADD 7-(trifluoromethyl)quinoline-4-thiol
+COOL to 0°C	ADD ethyl acetate
+ADD	ADD water
+STIR for 20 min	STIR
+ADD	REFLUX for 2 h
+ADD	COOL
+STIR at 25°C for 16 h	CONCENTRATE
+REMOVE solvent	ADD
+ADD water	WASH
+ADD ethyl acetate	SEPARATE organic phase
+SEPARATE	DRY SOLUTION with MgSO4
+EXTRACT with ethyl acetate	CONCENTRATE
+REPEAT 2 time(s)	PURIFY by chromatography
+WASH extracts with brine	YIELD: 4-[[1-[4-[[7-(trifluoromethyl)-4-quinolyl]sulfanylmethyl]phenyl]imidazol-4-yl]methyl]morpholine
+DRY SOLUTION with Na2SO4	[END]
+FILTER	
+CONCENTRATE	
+PURIFY by chromatography	
+YIELD: 4-[[1-[4-[[7-(trifluoromethyl)-4-quinolyl]sulfanylmethyl]phenyl]imidazol-4-yl]methyl]morpholine	
+[END]	

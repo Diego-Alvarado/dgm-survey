@@ -1,0 +1,24 @@
+A	B
+[START]	[START]
+ADD 3-bromofuro[3,2-c]pyridin-4(5h)-one	ADD 3-bromofuro[3,2-c]pyridin-4(5h)-one
+ADD ethanol	ADD pyridin-4-ylboronic acid
+ADD toluene	ADD Na2CO3
+ADD pyridin-4-ylboronic acid	ADD ethanol
+ADD Na2CO3	ADD toluene
+ADD Pd(PPh3)4	DEGAS
+HEAT to > 80°C for 20 min	ADD Pd(PPh3)4
+ADD ethyl acetate	HEAT to > 80°C for 5 h
+ADD HCl	ADD ethyl acetate
+EXTRACT with ethyl acetate	ADD HCl
+REPEAT 2 time(s)	SEPARATE
+EXTRACT with ethyl acetate	EXTRACT with ethyl acetate
+REPEAT 3 time(s)	REPEAT 2 time(s)
+WASH organic phase with brine	DRY SOLUTION organic phase with Na2SO4
+DRY SOLUTION with MgSO4	FILTER
+FILTER	CONCENTRATE
+CONCENTRATE	PURIFY by chromatography
+PURIFY by chromatography	STAND
+YIELD: 3-(pyridin-4-yl)furo[3,2-c]pyridin-4(5h)-one	ADD dichloromethane
+[END]	FILTER
+	YIELD: 3-(pyridin-4-yl)furo[3,2-c]pyridin-4(5h)-one
+	[END]

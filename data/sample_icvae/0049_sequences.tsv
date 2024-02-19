@@ -1,0 +1,15 @@
+A	B
+[START]	[START]
+ADD HBr	ADD cyano-(5-oxo-5,6,7,8-tetrahydro-isoquinolin-6-yl)-acetic acid ethyl ester
+ADD acetic acid	ADD HBr
+ADD cyano-(5-oxo-5,6,7,8-tetrahydro-isoquinolin-6-yl)-acetic acid ethyl ester	ADD acetic acid
+STIR at 0°C	STIR at 25°C for 48 h
+MAKE SOLUTION	CONCENTRATE
+ADD	PARTITION
+STIR at 25°C for 16 h	SEPARATE organic phase
+FILTER	WASH with water
+WASH with ethyl ether	DRY SOLUTION with MgSO4
+YIELD: 2-bromo-4,5-dihydro-1h-pyrrolo[2,3-f]isoquinoline-3-carboxylic acid ethyl ester hydrobromide	EVAPORATE solvent
+[END]	RECRYSTALLISATION with methanol
+	YIELD: 2-bromo-4,5-dihydro-1h-pyrrolo[2,3-f]isoquinoline-3-carboxylic acid ethyl ester hydrobromide
+	[END]

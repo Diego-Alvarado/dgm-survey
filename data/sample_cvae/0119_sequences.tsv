@@ -1,0 +1,17 @@
+A	B
+[START]	[START]
+ADD 1-Dibenzylamino-3,3-dimethyl-butan-2-one	ADD 1-Dibenzylamino-3,3-dimethyl-butan-2-one
+ADD diethyl ether	ADD methylmagnesium bromide
+COOL to 0°C	ADD diethyl ether
+ADD methylmagnesium bromide	COOL to 0°C
+ADD diethyl ether at 0°C	ADD
+STIR at 25°C for 48 h	HEAT to 25°C
+EXTRACT with ethyl acetate	STIR for 48 h
+REPEAT 2 time(s)	QUENCH
+EXTRACT with water	SEPARATE
+DRY SOLUTION with Na2SO4	WASH organic phase
+FILTER	DRY SOLUTION with Na2SO4
+EVAPORATE	CONCENTRATE
+PURIFY by chromatography	PURIFY by chromatography
+YIELD: (rs)-1-dibenzylamino-2,3,3-trimethyl-butan-2-ol	YIELD: (rs)-1-dibenzylamino-2,3,3-trimethyl-butan-2-ol
+[END]	[END]

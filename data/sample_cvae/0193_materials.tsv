@@ -1,0 +1,5 @@
+index	role	name	inchi
+2	REACTANT	6-(1h-imidazol-1-yl)-2-phenylquinazoline phosphate	InChI=1S/C17H12N4/c1-2-4-13(5-3-1)17-19-11-14-10-15(6-7-16(14)20-17)21-9-8-18-12-21/h1-12H
+0	SOLVENT	methanol	InChI=1S/CH4O/c1-2/h2H,1H3
+3	SOLVENT	acetone	InChI=1S/C3H6O/c1-3(2)4/h1-2H3
+1	TARGET	6-(1h-imidazol-1-yl)-2-phenylquinazoline phosphate	InChI=1S/C17H12N4/c1-2-4-13(5-3-1)17-19-11-14-10-15(6-7-16(14)20-17)21-9-8-18-12-21/h1-12H

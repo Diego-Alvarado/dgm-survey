@@ -1,0 +1,13 @@
+A	B
+[START]	[START]
+ADD tert-butyl 3-(1,1-dimethylethylsulfinamido)-3-methylcyclobutylcarbamate	ADD HCl
+ADD methanol	ADD dioxane
+ADD HCl	ADD tert-butyl 3-(1,1-dimethylethylsulfinamido)-3-methylcyclobutylcarbamate
+ADD dioxane	ADD methanol
+STIR at 25°C for 48 h	ADD HCl
+REMOVE solvent	STIR at 25°C for 2 h
+TRITURATE with ethyl acetate	CONCENTRATE
+PHASE SEPARATION	PURIFY by chromatography
+DRY	YIELD: tert-butyl 3-amino-3-methylcyclobutylcarbamate hydrochloride
+YIELD: tert-butyl 3-amino-3-methylcyclobutylcarbamate hydrochloride	[END]
+[END]	

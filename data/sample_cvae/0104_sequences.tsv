@@ -1,0 +1,13 @@
+A	B
+[START]	[START]
+ADD 2-[(6-methoxy-pyridin-3-ylamino)-methylene]-malonic acid	ADD 2-[(6-methoxy-pyridin-3-ylamino)-methylene]-malonic acid
+ADD diphenyl ether	ADD diphenyl ether
+REFLUX	HEAT
+DISTIL	COOL to 25°C
+STAND at > 80°C for 2 h	CONCENTRATE
+COOL	FILTER
+FILTER	YIELD: ethyl 6-methoxy-4-oxo-1,4-dihydro-1,5-naphthyridine-3-carboxylate
+WASH with hexane	[END]
+DRY [VACUUM] solid	
+YIELD: ethyl 6-methoxy-4-oxo-1,4-dihydro-1,5-naphthyridine-3-carboxylate	
+[END]	

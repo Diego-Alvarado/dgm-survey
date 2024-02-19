@@ -1,0 +1,17 @@
+A	B
+[START]	[START]
+ADD methanol	ADD methanol
+ADD triethylamine	STIR
+ADD methyl bromoacetate	SET PH with TEA to 5
+STIR at 65°C for 2 h	ADD methyl bromoacetate
+PURIFY by chromatography	STIR
+YIELD: (2s,4r)-tert-butyl 4-(5-cyclopropylpyrazin-2-yloxy)-2-((2-methoxy-2-oxoethylamino)methyl)pyrrolidine-1-carboxylate	QUENCH with water
+[END]	EXTRACT with ethyl acetate
+	REPEAT 2 time(s)
+	WASH organic phase with brine
+	REPEAT 2 time(s)
+	DRY SOLUTION with Na2SO4
+	CONCENTRATE
+	PURIFY by chromatography
+	YIELD: (2s,4r)-tert-butyl 4-(5-cyclopropylpyrazin-2-yloxy)-2-((2-methoxy-2-oxoethylamino)methyl)pyrrolidine-1-carboxylate
+	[END]

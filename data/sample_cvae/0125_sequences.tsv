@@ -1,0 +1,16 @@
+A	B
+[START]	[START]
+ADD NaH	ADD 3,3-difluoropiperidine hydrochloride
+ADD 3,3-difluoropiperidine hydrochloride	ADD NaH
+ADD sodium iodide	ADD DMF
+ADD DMF	STIR at 65°C
+HEAT to 65°C for 48 h	ADD sodium iodide
+COOL to 25°C	HEAT to > 80°C for 20 min
+ADD ethyl acetate	ADD ethyl acetate
+WASH	WASH
+REPEAT 2 time(s)	DRY SOLUTION organic phase with Na2SO4
+DRY SOLUTION with MgSO4	FILTER
+CONCENTRATE	CONCENTRATE
+PURIFY by chromatography	PURIFY by chromatography
+YIELD: 5-acetyl-7-[3-(4-fluorophenyl)butoxy]-6-(2-(3,3-difluoropiperidin-1-yl)-ethoxy)-4-methyl-2-difluoromethyl-benzo[d]oxazole	YIELD: 5-acetyl-7-[3-(4-fluorophenyl)butoxy]-6-(2-(3,3-difluoropiperidin-1-yl)-ethoxy)-4-methyl-2-difluoromethyl-benzo[d]oxazole
+[END]	[END]

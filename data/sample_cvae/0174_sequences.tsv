@@ -1,0 +1,16 @@
+A	B
+[START]	[START]
+ADD DCM	ADD (2r)-1-{[(1,1-dimethylethyl)(dimethyl)silyl]oxy}propan-2-ol
+ADD triethylamine	ADD DMAP
+ADD 2,4,6-trichlorobenzoyl chloride	ADD DCM
+STIR for 20 min	ADD 2,4,6-trichlorobenzoyl chloride
+ADD (2r)-1-{[(1,1-dimethylethyl)(dimethyl)silyl]oxy}propan-2-ol	ADD triethylamine at 25°C
+ADD DCM	QUENCH with ammonium chloride
+ADD DMAP	EXTRACT with dichloromethane
+STIR at 25°C for 16 h	YIELD: (1r)-1-methyl-2-(tert-butyldimethylsilyloxy)ethyl(2s)-2-[(tert-butoxy)carbonylamino]-3-[3,4-bis(phenylmethoxy)phenyl]propanoate
+WASH	[END]
+DRY SOLUTION with Na2SO4	
+CONCENTRATE	
+PURIFY by chromatography	
+YIELD: (1r)-1-methyl-2-(tert-butyldimethylsilyloxy)ethyl(2s)-2-[(tert-butoxy)carbonylamino]-3-[3,4-bis(phenylmethoxy)phenyl]propanoate	
+[END]	

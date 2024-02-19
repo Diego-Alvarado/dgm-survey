@@ -1,0 +1,19 @@
+A	B
+[START]	[START]
+ADD formaldehyde	ADD sodium cyanoborohydride
+ADD sodium cyanoborohydride	ADD formaldehyde
+ADD THF	ADD methanol
+ADD methanol	ADD THF for 20 min
+REFLUX for 2 h	STIR at 25°C for 2 h
+COOL	ADD NaHCO3
+REMOVE solvent	COOL
+ADD NaHCO3	STIR for 48 h
+EXTRACT with ethyl acetate	PHASE SEPARATION
+REPEAT 3 time(s)	EXTRACT with ethyl acetate
+DRY SOLUTION extracts with MgSO4	COMBINE organic phase
+FILTER	DRY SOLUTION
+EVAPORATE filtrate	FILTER
+TRITURATE with ethyl ether	CONCENTRATE residue
+YIELD: [2-(3-dimethylaminomethyl-6-methoxy-1-oxo-4-phenyl-1h-isoquinolin-2-yl)-ethyl]-carbamic acid tert-butyl ester	PURIFY by chromatography
+[END]	YIELD: [2-(3-dimethylaminomethyl-6-methoxy-1-oxo-4-phenyl-1h-isoquinolin-2-yl)-ethyl]-carbamic acid tert-butyl ester
+	[END]

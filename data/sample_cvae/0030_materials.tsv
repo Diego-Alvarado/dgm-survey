@@ -1,0 +1,7 @@
+index	role	name	inchi
+3	REACTANT	3-methoxyaniline	InChI=1S/C7H9NO/c1-9-7-4-2-3-6(8)5-7/h2-5H,8H2,1H3
+4	REACTANT	1-(4-bromophenyl)-2-oxopyrrolidin-3-yl methanesulfonate	InChI=1S/C11H12BrNO4S/c1-18(15,16)17-10-6-7-13(11(10)14)9-4-2-8(12)3-5-9/h2-5,10H,6-7H2,1H3
+0	SOLVENT	ethyl acetate	InChI=1S/C4H8O2/c1-3-6-4(2)5/h3H2,1-2H3
+1	SOLVENT	THF	InChI=1S/C4H8O/c1-2-4-5-3-1/h1-4H2
+5	SOLVENT	water	InChI=1S/H2O/h1H2
+2	TARGET	(r)-1-(4-bromophenyl)-3-((3-methoxyphenyl)amino)pyrrolidin-2-one	InChI=1S/C17H17BrN2O2/c1-22-15-4-2-3-13(11-15)19-16-9-10-20(17(16)21)14-7-5-12(18)6-8-14/h2-8,11,16,19H,9-10H2,1H3

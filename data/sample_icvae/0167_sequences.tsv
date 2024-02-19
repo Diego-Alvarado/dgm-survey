@@ -1,0 +1,15 @@
+A	B
+[START]	[START]
+ADD 4-fluoro-1-methoxy-2-(3,3,3-trifluoroprop-1-en-2-yl)benzene	ADD 4-fluoro-1-methoxy-2-(3,3,3-trifluoroprop-1-en-2-yl)benzene
+MAKE SOLUTION	ADD Pd / C
+ADD Pd / C	ADD methanol
+STAND for 20 min	HEAT to 65°C for 48 h
+FILTER	FILTER
+WASH with methanol	CONCENTRATE filtrate
+COMBINE	PURIFY by chromatography
+CONCENTRATE	YIELD: 4-fluoro-1-methoxy-2-(1,1,1-trifluoropropan-2-yl)benzene
+MAKE SOLUTION	[END]
+FILTER	
+CONCENTRATE	
+YIELD: 4-fluoro-1-methoxy-2-(1,1,1-trifluoropropan-2-yl)benzene	
+[END]	

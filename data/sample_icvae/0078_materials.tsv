@@ -1,0 +1,7 @@
+index	role	name	inchi
+0	REACTANT	zinc cyanide	InChI=1S/CN.Zn/c1-2;/q-1;+2
+3	REACTANT	Pd(PPh3)4	InChI=1S/4C18H15P.Pd/c4*1-4-10-16(11-5-1)19(17-12-6-2-7-13-17)18-14-8-3-9-15-18;/h4*1-15H;
+4	REACTANT	hydrogen chloride-ethyl acetate	InChI=1S/C4H8O2.ClH/c1-3-6-4(2)5;/h3H2,1-2H3;1H
+5	REACTANT	mixture of tert-butyl({1-[(5-bromopyridin-3-yl)sulfonyl]-5-phenyl-1H-pyrrol-3-yl}methyl)methylcarbamate	InChI=1S/C22H24BrN3O4S/c1-22(2,3)30-21(27)25(4)14-16-10-20(17-8-6-5-7-9-17)26(15-16)31(28,29)19-11-18(23)12-24-13-19/h5-13,15H,14H2,1-4H3
+1	SOLVENT	DMF	InChI=1S/C3H7NO/c1-4(2)3-5/h3H,1-2H3
+2	TARGET	5-({4-[(methylamino)methyl]-2-phenyl-1h-pyrrol-1-yl}sulfonyl)nicotinonitrile hydrochloride	InChI=1S/C18H16N4O2S/c1-20-10-15-8-18(16-5-3-2-4-6-16)22(13-15)25(23,24)17-7-14(9-19)11-21-12-17/h2-8,11-13,20H,10H2,1H3

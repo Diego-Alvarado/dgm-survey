@@ -1,0 +1,16 @@
+A	B
+[START]	[START]
+ADD THF	ADD water
+ADD LiBH4	ADD LiBH4
+ADD	ADD THF at 25°C
+STIR at 25°C for 5 h	STIR at 25°C for 2 h
+QUENCH with ammonium chloride	ADD
+EVAPORATE solvent	EXTRACT with ethyl acetate
+ADD water	DRY SOLUTION with Na2SO4
+EXTRACT with ethyl acetate	FILTER
+SEPARATE organic phase	CONCENTRATE
+DRY SOLUTION with MgSO4	YIELD: ethyl 1-(4-chlorophenyl)-3-(hydroxymethyl)-1h-pyrazole-4-carboxylate
+CONCENTRATE	[END]
+PURIFY by chromatography	
+YIELD: ethyl 1-(4-chlorophenyl)-3-(hydroxymethyl)-1h-pyrazole-4-carboxylate	
+[END]	

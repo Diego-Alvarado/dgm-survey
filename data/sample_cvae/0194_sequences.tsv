@@ -1,0 +1,19 @@
+A	B
+[START]	[START]
+ADD diethyl malonate for 20 min	ADD diethyl malonate
+ADD	STIR at 25°C
+ADD for 20 min	CONCENTRATE
+REFLUX for 16 h	YIELD: diethyl 3-(benzyloxy)cyclobutane-1,1-dicarboxylate
+COOL to 25°C	[END]
+ADD	
+REFLUX for 48 h	
+REMOVE solvent	
+ADD	
+EXTRACT with ethyl ether	
+REPEAT 3 time(s)	
+WASH organic phase with brine	
+DRY SOLUTION with Na2SO4	
+CONCENTRATE	
+PURIFY by chromatography	
+YIELD: diethyl 3-(benzyloxy)cyclobutane-1,1-dicarboxylate	
+[END]	

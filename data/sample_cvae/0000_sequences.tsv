@@ -1,0 +1,18 @@
+A	B
+[START]	[START]
+ADD trifluoromethanesulfonic anhydride	ADD trifluoromethanesulfonic anhydride
+ADD 1-benzyl-7-hydroxy-6-methyl-8-nitro-2,3-dihydro-1h-imidazo[1,2-a]pyridin-5-one	ADD 1-benzyl-7-hydroxy-6-methyl-8-nitro-2,3-dihydro-1h-imidazo[1,2-a]pyridin-5-one
+ADD triethylamine	ADD triethylamine
+ADD DCM at < -10°C	ADD DCM
+STIR at 25°C for 5 h	STIR at 25°C for 2 h
+PARTITION	CONCENTRATE
+WASH organic phase with NaHCO3	ADD ethyl acetate
+DRY SOLUTION with Na2SO4	ADD NaHCO3
+CONCENTRATE	STIR at 25°C for 2 h
+PURIFY by chromatography	ADD
+YIELD: trifluoro-methanesulfonic acid 1-benzyl-6-methyl-8-nitro-5-oxo-1,2,3,5-tetrahydro-imidazo[1,2-a]pyridin-7-yl ester	DRY SOLUTION with Na2SO4
+[END]	FILTER
+	CONCENTRATE
+	PURIFY by chromatography
+	YIELD: trifluoro-methanesulfonic acid 1-benzyl-6-methyl-8-nitro-5-oxo-1,2,3,5-tetrahydro-imidazo[1,2-a]pyridin-7-yl ester
+	[END]

@@ -1,0 +1,28 @@
+A	B
+[START]	[START]
+ADD 2-(4-nitro-1H-pyrazol-3-yl)pyrazine	ADD 4-ethoxycyclohexyl 4-nitrobenzenesulfonate
+ADD 1,4-dioxane	ADD 1,4-dioxane
+ADD NaH at 0°C	ADD NaH at 0°C
+REMOVE	ADD 2-(4-nitro-1H-pyrazol-3-yl)pyrazine
+STIR at 25°C for 2 h	STIR at 25°C for 20 min
+ADD	ADD
+ADD 4-ethoxycyclohexyl 4-nitrobenzenesulfonate	STIR
+STIR under reflux	ADD water
+ADD for 16 h	ADD ethyl acetate for 2 h
+QUENCH with NaHCO3	ADD NaHCO3
+EVAPORATE	SEPARATE
+ADD ethyl acetate	EXTRACT with ethyl acetate
+ADD NaHCO3	WASH
+ADD water	DRY SOLUTION with Na2SO4
+MAKE SOLUTION	EVAPORATE solvent
+SEPARATE	PURIFY by chromatography
+EXTRACT with ethyl acetate	YIELD: 2-(1-(trans-4-ethoxycyclohexyl)-4-nitro-1h-pyrazol-3-yl)pyrazine
+REPEAT 2 time(s)	[END]
+COMBINE organic phase	
+DRY SOLUTION with Na2SO4	
+FILTER	
+EVAPORATE solvent	
+PURIFY by chromatography	
+TRITURATE	
+YIELD: 2-(1-(trans-4-ethoxycyclohexyl)-4-nitro-1h-pyrazol-3-yl)pyrazine	
+[END]	

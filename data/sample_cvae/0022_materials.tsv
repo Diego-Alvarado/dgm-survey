@@ -1,0 +1,6 @@
+index	role	name	inchi
+1	REACTANT	sodium hydride	InChI=1S/H/q-1
+4	REACTANT	1,2,4-triazole	InChI=1S/C2H3N3/c1-3-2-5-4-1/h1-2H,(H,3,4,5)
+0	SOLVENT	DMF	InChI=1S/C3H7NO/c1-4(2)3-5/h3H,1-2H3
+2	SOLVENT	water	InChI=1S/H2O/h1H2
+3	TARGET	ethyl 6,7-dimethoxy-4-(3,4-dimethoxyphenyl)-2-(1,2,4-triazol-1-ylmethyl)quinoline-3-carboxylate	InChI=1S/C25H26N4O6/c1-6-35-25(30)24-18(12-29-14-26-13-27-29)28-17-11-22(34-5)21(33-4)10-16(17)23(24)15-7-8-19(31-2)20(9-15)32-3/h7-11,13-14H,6,12H2,1-5H3

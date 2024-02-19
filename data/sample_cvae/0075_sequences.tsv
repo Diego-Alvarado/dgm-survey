@@ -1,0 +1,18 @@
+A	B
+[START]	[START]
+ADD 4,4-dimethyl-3-oxopentanenitrile	ADD 4-methoxyphenylhydrazine
+ADD 4-methoxyphenylhydrazine	ADD ethanol
+ADD ethanol	ADD acetic acid
+ADD acetic acid	ADD 4,4-dimethyl-3-oxopentanenitrile
+REFLUX for 2 h	REFLUX for 2 h
+STAND at 25°C	COOL
+FILTER	ADD water
+ADD water	ADD ammonia
+SET PH with NH3	STIR at 25°C for 20 min
+EXTRACT with ethyl ether	SEPARATE aqueous phase
+REPEAT 3 time(s)	EXTRACT with ethyl acetate
+DRY SOLUTION organic phase with MgSO4	COMBINE organic phase
+EVAPORATE	PURIFY by chromatography
+TRITURATE	YIELD: 5-tert-butyl-2-(4-methoxy-phenyl)-2h-pyrazol-3-ylamine
+YIELD: 5-tert-butyl-2-(4-methoxy-phenyl)-2h-pyrazol-3-ylamine	[END]
+[END]	

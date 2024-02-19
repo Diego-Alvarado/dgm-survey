@@ -1,0 +1,5 @@
+index	role	name	inchi
+0	REACTANT	methylmagnesium bromide	InChI=1S/CH3.BrH.Mg/h1H3;1H;/p-1
+2	REACTANT	1-Dibenzylamino-3,3-dimethyl-butan-2-one	InChI=1S/C20H25NO/c1-20(2,3)19(22)16-21(14-17-10-6-4-7-11-17)15-18-12-8-5-9-13-18/h4-13H,14-16H2,1-3H3
+1	SOLVENT	diethyl ether	InChI=1S/C4H10O/c1-3-5-4-2/h3-4H2,1-2H3
+3	TARGET	(rs)-1-dibenzylamino-2,3,3-trimethyl-butan-2-ol	InChI=1S/C21H29NO/c1-20(2,3)21(4,23)17-22(15-18-11-7-5-8-12-18)16-19-13-9-6-10-14-19/h5-14,23H,15-17H2,1-4H3

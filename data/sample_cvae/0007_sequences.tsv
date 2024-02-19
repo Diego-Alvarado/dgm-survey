@@ -1,0 +1,15 @@
+A	B
+[START]	[START]
+ADD n-butanol	ADD 9-benzyl-2-chloro-9h-purin-6-ylamine
+ADD 9-benzyl-2-chloro-9h-purin-6-ylamine	ADD n-butanol
+ADD isobutylamine	ADD isobutylamine
+HEAT	STIR at 25°C for 16 h
+ADD	PURIFY by chromatography
+ADD	YIELD: 6-amino-9-benzyl-2-(isobutylamino)purine
+EXTRACT	[END]
+DRY SOLUTION organic phase with Na2SO4	
+FILTER	
+EVAPORATE	
+PURIFY by chromatography	
+YIELD: 6-amino-9-benzyl-2-(isobutylamino)purine	
+[END]	

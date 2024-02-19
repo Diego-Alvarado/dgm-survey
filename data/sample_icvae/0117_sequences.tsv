@@ -1,0 +1,16 @@
+A	B
+[START]	[START]
+ADD 1-(4-hydroxy-benzyl)-4-(4-isopropyl-phenyl)-6-prop-2-ynyloxy-1H-quinazolin-2-one	ADD 1-(4-hydroxy-benzyl)-4-(4-isopropyl-phenyl)-6-prop-2-ynyloxy-1H-quinazolin-2-one
+ADD acetone	ADD acetone
+REFLUX for 48 h	STIR
+COOL to 25°C	REFLUX
+QUENCH	COOL to 25°C
+EXTRACT with ethyl acetate	FILTER
+REPEAT 2 time(s)	WASH with water
+WASH organic phase with brine	DRY
+DRY SOLUTION with Na2SO4	YIELD: 4-(4-isopropyl-phenyl)-1-[4-(2-{2-[2-(2-methoxy-ethoxy)-ethoxy]-ethoxy}-ethoxy)-benzyl]-6-prop-2-ynyloxy-1h-quinazolin-2-one
+FILTER	[END]
+EVAPORATE	
+PURIFY by chromatography	
+YIELD: 4-(4-isopropyl-phenyl)-1-[4-(2-{2-[2-(2-methoxy-ethoxy)-ethoxy]-ethoxy}-ethoxy)-benzyl]-6-prop-2-ynyloxy-1h-quinazolin-2-one	
+[END]	

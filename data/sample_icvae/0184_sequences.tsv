@@ -1,0 +1,19 @@
+A	B
+[START]	[START]
+ADD methyl 4-bromo-1h-indazole-6-carboxylate	ADD methyl 4-bromo-1h-indazole-6-carboxylate
+ADD cesium carbonate	ADD DMF
+ADD DMF	ADD methyl iodide
+ADD methyl iodide	ADD cesium carbonate
+ADD	STIR at > 80°C for 2 h
+STIR at 25°C for 16 h	COOL
+FILTER	REMOVE solvent
+ADD	PURIFY by chromatography
+EXTRACT with ethyl acetate	YIELD: methyl 4-bromo-1-methyl-1h-indazole-6-carboxylate
+REPEAT 2 time(s)	[END]
+WASH organic phase with brine	
+DRY SOLUTION with Na2SO4	
+FILTER	
+CONCENTRATE	
+PURIFY by chromatography	
+YIELD: methyl 4-bromo-1-methyl-1h-indazole-6-carboxylate	
+[END]	

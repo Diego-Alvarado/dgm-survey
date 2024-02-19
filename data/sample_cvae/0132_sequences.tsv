@@ -1,0 +1,11 @@
+A	B
+[START]	[START]
+ADD DCM at 0°C	ADD DCM
+ADD	STIR at 25°C for 16 h
+STIR for 20 min	EVAPORATE
+ADD	YIELD: 6-oxo-6-((2r,3r,4r)-2,3,4-tris(benzyloxy)-4-(2-phenyl-1,3-dioxolan-4-yl)butoxy)hexanoic acid
+STIR at 25°C for 5 h	[END]
+EVAPORATE	
+PURIFY by chromatography	
+YIELD: 6-oxo-6-((2r,3r,4r)-2,3,4-tris(benzyloxy)-4-(2-phenyl-1,3-dioxolan-4-yl)butoxy)hexanoic acid	
+[END]	

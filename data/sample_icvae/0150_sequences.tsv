@@ -1,0 +1,23 @@
+A	B
+[START]	[START]
+ADD (r)-5-(2-chloro-6a,7,9,10-tetrahydro-[1,4]oxazino[3,4-h]pteridin-5(6h)-yl)-2-methylpentan-2-yl acetate	ADD (r)-5-(2-chloro-6a,7,9,10-tetrahydro-[1,4]oxazino[3,4-h]pteridin-5(6h)-yl)-2-methylpentan-2-yl acetate
+ADD indole-4-boronic acid	ADD indole-4-boronic acid
+ADD [1,1′-bis(diphenylphosphino)ferrocene]dichloropalladium(II)	ADD dioxane
+BUBBLE	ADD NaHCO3
+ADD	ADD [1,1′-bis(diphenylphosphino)ferrocene]dichloropalladium(II)
+ADD dioxane	HEAT to > 80°C for 48 h
+ADD NaHCO3	COOL
+HEAT to > 80°C for 20 min	ADD
+COOL to 25°C	WASH with water
+ADD	DRY SOLUTION with MgSO4
+FILTER	FILTER
+PURIFY by chromatography	CONCENTRATE
+COMBINE fractions	PURIFY by chromatography
+SET PH with NaHCO3	YIELD: (r)-5-(2-(1h-indol-4-yl)-6a,7,9,10-tetrahydro-[1,4]oxazino[3,4-h]pteridin-5(6h)-yl)-2-methylpentan-2-yl acetate
+CONCENTRATE	[END]
+EXTRACT with ethyl acetate	
+DRY SOLUTION organic phase with MgSO4	
+FILTER	
+CONCENTRATE	
+YIELD: (r)-5-(2-(1h-indol-4-yl)-6a,7,9,10-tetrahydro-[1,4]oxazino[3,4-h]pteridin-5(6h)-yl)-2-methylpentan-2-yl acetate	
+[END]	

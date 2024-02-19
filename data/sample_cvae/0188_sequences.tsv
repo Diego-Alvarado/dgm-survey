@@ -1,0 +1,19 @@
+A	B
+[START]	[START]
+ADD dioxane	ADD sulfuric acid
+ADD sulfuric acid	ADD dioxane
+ADD water	ADD water at 0°C
+REFLUX for 16 h	COOL to < -10°C
+COOL	STIR
+SET PH [INCREASE] to 10	ADD
+ADD water	STIR for 2 h
+EXTRACT with dichloromethane	ADD HCl
+SET PH with HCl to 2	EXTRACT with dichloromethane
+EXTRACT with dichloromethane	DRY SOLUTION organic phase with Na2SO4
+DRY SOLUTION organic phase	CONCENTRATE
+EVAPORATE	MAKE SOLUTION
+YIELD: 3-trifluoromethyl-pentanoic acid	REFLUX for 20 min
+[END]	CONCENTRATE
+	PURIFY by chromatography
+	YIELD: 3-trifluoromethyl-pentanoic acid
+	[END]

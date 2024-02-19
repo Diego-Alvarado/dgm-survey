@@ -1,0 +1,14 @@
+A	B
+[START]	[START]
+ADD DCM	ADD DCM
+ADD 1,1-diethyl-3-methylurea	ADD phenyl isocyanate
+ADD phenyl isocyanate	ADD 1,1-diethyl-3-methylurea
+COOL	ADD SnCl4
+ADD SnCl4	STIR at 25°C for 16 h
+STIR	ADD DCM
+ADD	HEAT to 5
+ADD	COOL
+RECRYSTALLISATION	FILTER
+YIELD: 1,1-diethyl-3-methyl-5-phenylbiuret	PURIFY by chromatography
+[END]	YIELD: 1,1-diethyl-3-methyl-5-phenylbiuret
+	[END]

@@ -1,0 +1,8 @@
+index	role	name	inchi
+4	REACTANT	citric acid	InChI=1S/C6H8O7/c7-3(8)1-6(13,5(11)12)2-4(9)10/h13H,1-2H2,(H,7,8)(H,9,10)(H,11,12)
+5	REACTANT	(2S,4R)-4-Tritylsulfanyl-pyrrolidine-1,2-dicarboxylic acid 1-tert-butyl ester 2-methyl ester	InChI=1S/C30H33NO4S/c1-29(2,3)35-28(33)31-21-25(20-26(31)27(32)34-4)36-30(22-14-8-5-9-15-22,23-16-10-6-11-17-23)24-18-12-7-13-19-24/h5-19,25-26H,20-21H2,1-4H3/t25-,26+/m1/s1
+6	REACTANT	Red-Al	InChI=1S/2C3H7O2.Al.Na.2H/c2*1-5-3-2-4;;;;/h2*2-3H2,1H3;;;;/q2*-1;2*+1;;
+0	SOLVENT	toluene	InChI=1S/C7H8/c1-7-5-3-2-4-6-7/h2-6H,1H3
+1	SOLVENT	THF	InChI=1S/C4H8O/c1-2-4-5-3-1/h1-4H2
+3	SOLVENT	water	InChI=1S/H2O/h1H2
+2	TARGET	(2s,4r)-2-hydroxymethyl-4-tritylsulfanyl-pyrrolidine-1-carboxylic acid tert-butyl ester	InChI=1S/C29H33NO3S/c1-28(2,3)33-27(32)30-20-26(19-25(30)21-31)34-29(22-13-7-4-8-14-22,23-15-9-5-10-16-23)24-17-11-6-12-18-24/h4-18,25-26,31H,19-21H2,1-3H3/t25-,26+/m0/s1

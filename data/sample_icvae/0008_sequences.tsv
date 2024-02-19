@@ -1,0 +1,17 @@
+A	B
+[START]	[START]
+ADD malononitrile	ADD 4-chloro-N-(2-methylbut-3-yn-2-yl)benzamide
+ADD 4-chloro-N-(2-methylbut-3-yn-2-yl)benzamide	ADD potassium hydroxide
+ADD methanol	ADD methanol
+DEGAS	ADD malononitrile
+COOL	STIR at 25°C for 2 h
+ADD potassium hydroxide	ADD water
+ADD water	EXTRACT with ethyl acetate
+STIR at 65°C for 2 h	REPEAT 2 time(s)
+ADD water	WASH organic phase with water
+EXTRACT with ethyl acetate	DRY SOLUTION with Na2SO4
+FILTER	FILTER
+CONCENTRATE	CONCENTRATE
+PURIFY by chromatography	PURIFY by chromatography
+YIELD: 2-amino-4-(4-chlorophenyl)-1-[2-methylbut-3-yn-2-yl]-1h-pyrrole-3-carbonitrile	YIELD: 2-amino-4-(4-chlorophenyl)-1-[2-methylbut-3-yn-2-yl]-1h-pyrrole-3-carbonitrile
+[END]	[END]

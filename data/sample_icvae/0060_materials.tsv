@@ -1,0 +1,4 @@
+index	role	name	inchi
+1	REACTANT	hydrazine hydrate	InChI=1S/H4N2.H2O/c1-2;/h1-2H2;1H2
+2	SOLVENT	ethanol	InChI=1S/C2H6O/c1-2-3/h3H,2H2,1H3
+0	TARGET	3-(aminomethyl)-8-methyl-2-phenylquinoline formate	InChI=1S/C17H16N2/c1-12-6-5-9-14-10-15(11-18)17(19-16(12)14)13-7-3-2-4-8-13/h2-10H,11,18H2,1H3

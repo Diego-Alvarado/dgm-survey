@@ -1,0 +1,19 @@
+A	B
+[START]	[START]
+ADD DMF	ADD 2-(pyridin-4-yl)ethanamine
+ADD 2-(pyridin-4-yl)ethanamine	ADD DMF
+ADD potassium carbonate	ADD potassium iodide
+ADD potassium iodide for 5 h	ADD potassium carbonate
+STIR at 25°C	STIR at 25°C for 2 h
+ADD ethyl acetate	CONCENTRATE
+ADD water	ADD ethyl acetate
+SEPARATE	WASH
+WASH organic phase	DRY SOLUTION
+DRY SOLUTION with Na2SO4	EVAPORATE
+EVAPORATE	ADD HCl
+PURIFY by chromatography	STIR
+MAKE SOLUTION with ethyl acetate	FILTER
+ADD HCl	DRY [VACUUM]
+FILTER	YIELD: 2-(1,3-dihydro-2h-benzimidazol-2-ylidene)-1-phenyl-3-(3-{[(2-pyridin-4-ylethyl)amino]methyl}phenyl)propane-1,3-dione hydrochloride
+YIELD: 2-(1,3-dihydro-2h-benzimidazol-2-ylidene)-1-phenyl-3-(3-{[(2-pyridin-4-ylethyl)amino]methyl}phenyl)propane-1,3-dione hydrochloride	[END]
+[END]	

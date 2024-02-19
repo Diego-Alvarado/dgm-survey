@@ -1,0 +1,13 @@
+A	B
+[START]	[START]
+ADD spiro[5.5]undecan-3-ol	ADD 6-hydroxy-naphthalene-2-carboxylic acid methyl ester
+ADD 6-hydroxy-naphthalene-2-carboxylic acid methyl ester	ADD DIAD
+ADD triphenylphosphine	ADD toluene
+ADD toluene	ADD spiro[5.5]undecan-3-ol
+REFLUX	ADD triphenylphosphine at 0°C
+ADD DIAD	STIR at 25°C for 48 h
+REFLUX	CONCENTRATE
+ADD dichloromethane	PURIFY by chromatography
+PURIFY by chromatography	YIELD: methyl 6-(spiro[5.5]undecan-3-yloxy)-2-naphthoate
+YIELD: methyl 6-(spiro[5.5]undecan-3-yloxy)-2-naphthoate	[END]
+[END]	

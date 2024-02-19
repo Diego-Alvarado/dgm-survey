@@ -1,0 +1,22 @@
+A	B
+[START]	[START]
+ADD 8-bromo-3,3-dimethyl-2,3-dihydropyrido[3,2-b][1,4]oxazepin-4(5h)-one	ADD 8-bromo-3,3-dimethyl-2,3-dihydropyrido[3,2-b][1,4]oxazepin-4(5h)-one
+ADD propionitrile	ADD Pd(OAc)2
+ADD DMF	ADD trio-tolylphosphine
+ADD n-(3-methoxy-2-propoxybenzyl)-n-methylacrylamide	ADD DMF
+ADD DIPEA	ADD DIPEA
+ADD Pd(OAc)2	ADD propionitrile
+ADD trio-tolylphosphine	ADD n-(3-methoxy-2-propoxybenzyl)-n-methylacrylamide
+BUBBLE Ar	HEAT to > 80°C for 48 h
+REFLUX for 48 h	COOL
+COOL	ADD water
+ADD water	EXTRACT with ethyl acetate
+EXTRACT with dichloromethane	REPEAT 2 time(s)
+REPEAT 3 time(s)	WASH organic phase with brine
+WASH extracts	DRY SOLUTION with Na2SO4
+DRY SOLUTION with Na2SO4	EVAPORATE solvent
+REMOVE solvent	PURIFY by chromatography
+PURIFY by chromatography	YIELD: (e)-3-(7,7-dimethyl-8-oxo-6,7,8,9-tetrahydro-5-oxa-1,9-diaza-benzocyclohepten-3-yl)-n-(3-methoxy-2-propoxy-benzyl)-n-methylacrylamide
+CRYSTALLISE	[END]
+YIELD: (e)-3-(7,7-dimethyl-8-oxo-6,7,8,9-tetrahydro-5-oxa-1,9-diaza-benzocyclohepten-3-yl)-n-(3-methoxy-2-propoxy-benzyl)-n-methylacrylamide	
+[END]	

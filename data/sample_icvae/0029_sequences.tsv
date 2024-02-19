@@ -1,0 +1,14 @@
+A	B
+[START]	[START]
+ADD 4-trifluoromethylpropiophenone	ADD bromine
+ADD acetic acid at 25°C	ADD 4-trifluoromethylpropiophenone
+ADD bromine	ADD acetic acid at 0°C for 20 min
+ADD acetic acid for 2 h	STIR for 2 h
+STIR for 2 h	COOL
+QUENCH with water	QUENCH with water
+STIR for 2 h	CONCENTRATE
+FILTER	WASH with hexane
+WASH with water	FILTER
+DRY [VACUUM] solid	YIELD: 2-bromo-1-[4-(trifluoromethyl)phenyl]propan-1-one
+YIELD: 2-bromo-1-[4-(trifluoromethyl)phenyl]propan-1-one	[END]
+[END]	
