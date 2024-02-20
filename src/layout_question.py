@@ -50,7 +50,7 @@ def render(app: Dash,
                      Consider the following list of reactants and two sequences, "A" and "B," to manufacture a product ('TARGET'). Choose the appropriate sequence of operations that can be executed between "A" and "B" based on the given materials. If it's unclear, you can also choose "Both" or "None".
                      """) ,
             html.Br(),
-            html.H6('1. List of materials:'),
+            html.H6('1. Materials:'),
             html.Div(
                 children=[
                     # ''
@@ -71,12 +71,13 @@ def render(app: Dash,
             html.Div(radio_items.render(app, current_question)),
             html.Br(),
             html.Div([
+                html.Div(id='my-test' + str(current_question)),
                 dbc.Button('Save', className='me-1', disabled=True, id=ids.SAVE_BUTTON + str(current_question)),
                 dcc.Link([
                     dbc.Button('Next', className='me-1', id=ids.NEXT_PAGE + str(current_question)),
                     ], href=f'/question-{current_question + 1}' if current_question < 50 else f'/question-{current_question}',
                          refresh=True),
-                html.Div(id='my-test' + str(current_question))
+                
                 ])
             
         ],

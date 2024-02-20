@@ -1,21 +1,17 @@
+import base64
 import pandas as pd
-from dash import Dash, html, dash_table, dcc
+from dash import Dash, html, dash_table
 from rdkit.Chem import MolFromInchi, Draw 
-
-def get_image_file_url(inchi: str, id: str):
-    mol = MolFromInchi(inchi)
-    if mol:
-        filename = f"assets/images/{id}.png"
-        Draw.MolToFile(mol, filename, size=(150, 150))
-        return f"![{id}]({filename})"
+from io import BytesIO
 
 def render(app: Dash, df_materials: pd.DataFrame) -> html.Div:
-    # structure = []
-    # for inchi, id, name in df_materials[['inchi', 'index', 'name']].itertuples(False):
-    #     structure.append(get_image_file_url(inchi, str(id).zfill(5)))
-
-    # df_materials['structure'] = structure
+    
     df_materials['index'] = range(df_materials.shape[0])
+    img = Draw.MolsToGridImage([MolFromInchi(inchi) for inchi in df_materials['inchi']], 
+                     legends=[f"{role} ({i})" for i, role in enumerate(df_materials['role'])],
+                     molsPerRow=4, subImgSize=(200, 200))
+    df_materials = df_materials.drop(columns=['inchi'])
+    
     return html.Div(
         children=[
             dash_table.DataTable(
@@ -24,36 +20,29 @@ def render(app: Dash, df_materials: pd.DataFrame) -> html.Div:
                     {'id': 'index', 'name': ''},
                     {'id': 'role', 'name': 'Role'},
                     {'id': 'name', 'name': 'Name'},
-                    {'id': 'inchi', 'name': 'InChi'},
-                    # {'id': 'structure', 'name': 'Structure', 'presentation': 'markdown'},
                     ],
                 editable=False,
                 markdown_options={'html': True},
                 # row_selectable='multi',
-                page_size=10,
+                # page_size=10,
                 style_cell={
                     'whiteSpace': 'normal', 'height': 'auto'
                 },
                 style_cell_conditional=[
                     {'if': {'column_id': 'index'},
-                     'width': '10%', 'textAlign': 'center'},
+                     'width': '5%', 'textAlign': 'center'},
                     {'if': {'column_id': 'role'},
-                     'width': '10%', 'textAlign': 'left'},
+                     'width': '5%', 'textAlign': 'left'},
                     {'if': {'column_id': 'name'},
-                     'width': '35%', 'textAlign': 'left'},
-                    {'if': {'column_id': 'inchi'},
-                     'width': '35%', 'textAlign': 'left'},
-                    # {'if': {'column_id': 'structure'},
-                    #  'textAlign': 'center', 'width': '10%'},
+                      'textAlign': 'left'},
                 ],
                 style_header={
                     'textAlign': 'center',
                     'fontWeight': 'bold'
                     } ,
                 virtualization=False,
-                page_action='none',
-                
-                
-            )
+                # page_action='none',
+            ),
+            html.Img(src=img)
         ]
     )

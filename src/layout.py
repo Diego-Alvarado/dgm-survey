@@ -2,9 +2,9 @@ import re
 import dash_bootstrap_components as dbc
 from data_processing import load_df
 from dash import Dash, html, dcc
-from dash.dependencies import Input, Output, State
+from dash.dependencies import Input, Output
 from dash.exceptions import PreventUpdate
-import sidebar, layout_question, ids, materials_table, sequence_table
+import sidebar, layout_question, ids, main_page
 
 file_names = {i+1: {'materials': str(i).zfill(4) + '_materials.tsv', 'sequences': str(i).zfill(4) + '_sequences.tsv'} for i in range(50)}
 
@@ -26,6 +26,7 @@ def create_layout(app: Dash, database) -> dbc.Container:
     # Load layouts
     number_suvery = len(list(database.list_collections()))
     cll = database[f'survey_{number_suvery}']
+    home = main_page.layout_home(app)
     layout_tables = []
     for key in range(1, 51):
         df_materials, df_sequences = load_df(file_names, key)
@@ -40,7 +41,7 @@ def create_layout(app: Dash, database) -> dbc.Container:
                   )
     def render_page_content(pathname: str) -> html.Div:
         if pathname == '/':
-            return html.Div('Welcome!'), True, ''
+            return home, True, ''
         elif key := re.search(r'\d+', pathname):
             idx = int(key.group()) - 1
             return layout_tables[idx]
@@ -66,21 +67,11 @@ def create_layout(app: Dash, database) -> dbc.Container:
                     style=SIDEBAR_STYLE,
                     ),
             dbc.Col([
-                
-                # html.Div('Welcome!')
             ], xs=8, sm=8, md=10, lg=10, xl=10, xxl=10, style=MAINBODY_STYLE,
                     id=ids.PAGE_CONTENT
                     )
             
         ]),
         
-        # dbc.Row([
-        #     dbc.Col([html.Div([
-        #         dbc.Button('Save', className='me-1', disabled=True, id=ids.SAVE_BUTTON),
-        #         dbc.Button('Next', className='me-1', id=ids.NEXT_PAGE),
-        #         html.Div(id='my-test')
-        #         ])
-        #     ], width={'offset': 3})
-        # ])
         
     ], fluid=True)

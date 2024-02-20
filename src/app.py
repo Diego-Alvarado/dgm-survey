@@ -5,7 +5,8 @@ from layout import create_layout
 import database_access
 
 app = Dash(__name__, external_stylesheets=[BOOTSTRAP],
-               suppress_callback_exceptions=True)
+               suppress_callback_exceptions=True,
+               assets_folder='./src/assets')
 server = app.server
 
 client = pymongo.MongoClient(database_access.LINK)
