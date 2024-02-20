@@ -3,7 +3,7 @@ import dash_bootstrap_components as dbc
 from PIL import Image
 
 def layout_home(app: Dash) -> html.Div:
-    img = Image.open('./src/assets/Picture1.png')
+    img = Image.open('assets/Picture1.png')
     return html.Div([
         # html.H4('Background'),
         html.P("""
