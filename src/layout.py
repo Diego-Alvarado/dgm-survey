@@ -29,9 +29,11 @@ def create_layout(app: Dash) -> dbc.Container:
     home = main_page.layout_home(app)
     end = close_page.layout_final_page(app)
     layout_tables = []
+    actual_values = {}
     for key in range(1, 51):
-        df_materials, df_sequences = load_df(file_names, key)
+        df_materials, df_sequences, actual = load_df(file_names, key)
         ly = layout_question.render(app, df_materials, df_sequences, key)
+        actual_values[key] = actual
         layout_tables.append(ly)
     
     # Set callbacks
@@ -54,6 +56,7 @@ def create_layout(app: Dash) -> dbc.Container:
     return dbc.Container([
         dcc.Location(id=ids.LOCATION, refresh=False),
         dcc.Store(id=ids.INPUT_STORE, storage_type='local', data={}),
+        dcc.Store(id=ids.GROUND_TRUTH, storage_type='local', data=actual_values),
         dbc.Row([
             dbc.Col(
                 html.H1(

@@ -9,9 +9,10 @@ from dash import Dash, dcc, html, dash_table
 from dash.exceptions import PreventUpdate
 from dash.dependencies import Output, Input, State
 import datetime as dt
+from uuid import uuid4
 
 client = pymongo.MongoClient(database_access.LINK)
-
+session_id = str(uuid4())
 def layout_final_page(app: Dash) -> html.Div:
     
     @app.callback(Output(ids.SUMMARY, 'children'),
@@ -65,16 +66,30 @@ def layout_final_page(app: Dash) -> html.Div:
     
     @app.callback(Output(ids.SUBMIT_OK, 'children'), 
                   Input(ids.SUBMIT_RESULTS, 'n_clicks'),
-                  State(ids.INPUT_STORE, 'data'),
+                  [State(ids.INPUT_STORE, 'data'),
+                   State(ids.GROUND_TRUTH, 'data'),],
                   prevent_initial_call=True, 
                   allow_duplicate=True)
-    def save_results(n_clicks: int, data: dict) -> str:
+    def save_results(n_clicks: int, data: dict, actual: dict) -> str:
         if not data and not n_clicks:
             raise PreventUpdate
         db = client.get_database('dgm_validation')
         now = dt.datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
-        cll = db[now]
-        cll.insert_one(data)
+        print(actual)
+        new_data = []
+        for k, v in data.items():
+            q = re.search(r'\d+', k).group()
+            new_record = {
+                'datetime': now,
+                'question': q,
+                'answer': v,
+                'model': 'cvae',
+                'ground_truth': actual[q].get('actual')
+            }
+            new_data.append(new_record)
+            print(new_record)
+        cll = db[session_id]
+        cll.insert_many(new_data)
         print(data)
         return f'Your answers have been saved ({now}).'
     
