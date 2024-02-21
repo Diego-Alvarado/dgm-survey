@@ -2,6 +2,7 @@ import pandas as pd
 from dash import Dash, html, dcc
 from dash.dependencies import Output, Input, State
 from dash.exceptions import PreventUpdate
+from PIL import Image
 import dash_bootstrap_components as dbc
 import ids, materials_table, sequence_table, radio_items
 
@@ -10,37 +11,41 @@ def render(app: Dash,
            materials: pd.DataFrame, 
            sequences: pd.DataFrame, 
            current_question: int,
-           collection
            ) -> html.Div:
     
-    @app.callback(Output(ids.SAVE_BUTTON + str(current_question), 'disabled'), 
-                  Input(ids.RESPONSE_RADIO + str(current_question), 'value'),
-                  prevent_initial_call=True,
-                  allow_duplicate=True
-                  )
-    def activate_save_button(value: str) -> bool:
-        if value != '':
-            return False
-        else:
+    material = materials_table.render(app, materials)
+    sequence = sequence_table.render(app, sequences)
+    radio = radio_items.render(app, current_question)
+    img_check = Image.open('assets/check.png')
+    
+    @app.callback(Output(ids.QUESTION_STATUS + str(current_question), 'children'),
+                  Input(ids.RESPONSE_RADIO + str(current_question), 'value'))
+    def check_questions(value: str) -> html.Div:
+        if value == '':
             raise PreventUpdate
-
-    @app.callback([Output('my-test' + str(current_question), 'children'), 
-                   Output(ids.SAVE_BUTTON + str(current_question), 'n_clicks')], 
-                  [Input(ids.SAVE_BUTTON + str(current_question), 'n_clicks'), 
-                   Input(ids.RESPONSE_RADIO + str(current_question), 'value')],
-                  State(ids.SAVE_BUTTON + str(current_question), 'disabled'),
-                  prevent_initial_call=True,
-                  allow_duplicate=True)
-    def save_result(n_clicks: int, value: 'str', disabled: bool) -> str:
-        if not disabled and value != '' and n_clicks != None:
-            collection.insert_one({
-                'question': current_question,
-                'reponse': value,
-            })
-            return f"Your response has been saved. ({value})", None
-        else:
-            raise PreventUpdate
+        return html.Div([
+                html.P(f'Procedure No. {current_question}', style= {'float': 'right'}),
+                html.I(html.Img(src=img_check, style={'height':'10%', 'width':'10%', 'display': 'inline'})),
+            ],)
         
+    @app.callback([Output(ids.INPUT_STORE, 'data', allow_duplicate=True),
+                   Output(ids.NEXT_PAGE + str(current_question), 'disabled')],
+                  [Input(ids.RESPONSE_RADIO + str(current_question), 'value')],
+                  [State(ids.INPUT_STORE, 'data'),
+                   State(ids.LOCATION, 'pathname')], 
+                  prevent_initial_call=True)
+    def store_response(input_value: str, data: dict, pathname: str) -> dict:
+        print(f"This is the answer {input_value}")
+        if input_value != '':
+            print(type(data))
+            if not data:
+                data = {}
+            data[pathname] = input_value
+            print(data)
+            return data, False
+        else:
+            raise PreventUpdate
+    
     return html.Div(
         className='app-div',
         children=[
@@ -52,30 +57,27 @@ def render(app: Dash,
             html.Br(),
             html.H6('1. Materials:'),
             html.Div(
-                children=[
-                    # ''
-                    materials_table.render(app, materials),
-                ],
-                style={'padding': '10px'}, id=ids.MATERIAL_DATAFRAME 
+                children=[material],
+                style={'padding': '10px'}
             ),
             html.Br(),
             html.H6('2. Procedures:'),
             html.Div(
-                children=[
-                    # ''
-                    sequence_table.render(app, sequences)
-                ],
-                style={'padding': '10px'}, id=ids.SEQUENCE_DATAFRAME
+                children=[sequence],
+                style={'padding': '10px'}
             ),
             html.Br(),
-            html.Div(radio_items.render(app, current_question)),
+            html.Div(radio),
+            html.Div(id='test' + str(current_question)),
             html.Br(),
             html.Div([
-                html.Div(id='my-test' + str(current_question)),
-                dbc.Button('Save', className='me-1', disabled=True, id=ids.SAVE_BUTTON + str(current_question)),
                 dcc.Link([
-                    dbc.Button('Next', className='me-1', id=ids.NEXT_PAGE + str(current_question)),
-                    ], href=f'/question-{current_question + 1}' if current_question < 50 else f'/question-{current_question}',
+                    dbc.Button('Back', className='me-1', id=ids.NEXT_PAGE + str(current_question)),
+                    ], href=f'/question-{current_question - 1}' if current_question > 1 else f'/',
+                         refresh=True),
+                dcc.Link([
+                    dbc.Button('Next', className='me-1', id=ids.NEXT_PAGE + str(current_question), disabled=True),
+                    ], href=f'/question-{current_question + 1}' if current_question < 50 else f'/submit',
                          refresh=True),
                 
                 ])

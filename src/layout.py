@@ -1,14 +1,16 @@
 import re
+import json
+import pandas as pd
 import dash_bootstrap_components as dbc
 from data_processing import load_df
-from dash import Dash, html, dcc
+from dash import Dash, html, dcc, dash_table
 from dash.dependencies import Input, Output
 from dash.exceptions import PreventUpdate
-import sidebar, layout_question, ids, main_page
+import sidebar, layout_question, ids, main_page, close_page
 
 file_names = {i+1: {'materials': str(i).zfill(4) + '_materials.tsv', 'sequences': str(i).zfill(4) + '_sequences.tsv'} for i in range(50)}
 
-def create_layout(app: Dash, database) -> dbc.Container:
+def create_layout(app: Dash) -> dbc.Container:
     # Set styles
     SIDEBAR_STYLE = {
         'position': 'fixed',
@@ -24,13 +26,12 @@ def create_layout(app: Dash, database) -> dbc.Container:
     MAINBODY_STYLE={'marginLeft': '20%', 'height': '100%', 'overflowY': 'auto'}
     
     # Load layouts
-    number_suvery = len(list(database.list_collections()))
-    cll = database[f'survey_{number_suvery}']
     home = main_page.layout_home(app)
+    end = close_page.layout_final_page(app)
     layout_tables = []
     for key in range(1, 51):
         df_materials, df_sequences = load_df(file_names, key)
-        ly = layout_question.render(app, df_materials, df_sequences, key, cll)
+        ly = layout_question.render(app, df_materials, df_sequences, key)
         layout_tables.append(ly)
     
     # Set callbacks
@@ -41,15 +42,18 @@ def create_layout(app: Dash, database) -> dbc.Container:
                   )
     def render_page_content(pathname: str) -> html.Div:
         if pathname == '/':
-            return home, True, ''
+            return home
         elif key := re.search(r'\d+', pathname):
             idx = int(key.group()) - 1
             return layout_tables[idx]
+        elif pathname == '/submit':
+            return end
         else:
             raise PreventUpdate
         
     return dbc.Container([
         dcc.Location(id=ids.LOCATION, refresh=False),
+        dcc.Store(id=ids.INPUT_STORE, storage_type='local', data={}),
         dbc.Row([
             dbc.Col(
                 html.H1(
@@ -69,9 +73,7 @@ def create_layout(app: Dash, database) -> dbc.Container:
             dbc.Col([
             ], xs=8, sm=8, md=10, lg=10, xl=10, xxl=10, style=MAINBODY_STYLE,
                     id=ids.PAGE_CONTENT
-                    )
-            
+                    ),
         ]),
-        
         
     ], fluid=True)

@@ -1,8 +1,6 @@
-import base64
 import pandas as pd
 from dash import Dash, html, dash_table
 from rdkit.Chem import MolFromInchi, Draw 
-from io import BytesIO
 
 def render(app: Dash, df_materials: pd.DataFrame) -> html.Div:
     
