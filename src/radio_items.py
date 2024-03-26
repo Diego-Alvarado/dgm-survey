@@ -14,7 +14,8 @@ def render(app: Dash, current_question: int) -> html.Div:
                 options= [{'label': i, 'value': i } for i in responses] ,
                 value='',
                 id=ids.RESPONSE_RADIO + str(current_question),
-                persistence=True
+                persistence=True,
+                persistence_type='session'
             ),
             html.Div(
                 id=ids.OUTPUT_RESPONSE + str(current_question),

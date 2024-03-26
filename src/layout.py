@@ -75,9 +75,9 @@ def create_layout(app: Dash) -> dbc.Container:
         
     return dbc.Container([
         dcc.Location(id=ids.LOCATION, refresh=False),
-        dcc.Store(id=ids.INPUT_STORE, storage_type='local', data={}),
+        dcc.Store(id=ids.INPUT_STORE, storage_type='session', data={}),
         dcc.Store(id=ids.PATH_SURVEY, storage_type='local', data=[]),
-        dcc.Store(id=ids.GROUND_TRUTH, storage_type='local', data=actual_values),
+        dcc.Store(id=ids.GROUND_TRUTH, storage_type='session', data=actual_values),
         dbc.Row([
             dbc.Col(
                 html.H1(
