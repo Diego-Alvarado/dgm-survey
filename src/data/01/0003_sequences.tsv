@@ -1,0 +1,22 @@
+A	B
+[START]	[START]
+ADD DMF	ADD 3-methyl-6-(methylthio)-2-[3-(trifluoromethyl)phenyl]-4-quinolinecarboxylic acid
+ADD 3-methyl-6-(methylthio)-2-[3-(trifluoromethyl)phenyl]-4-quinolinecarboxylic acid	ADD DCM
+ADD DCM	ADD DMF
+ADD oxalyl chloride	ADD oxalyl chloride at 0°C
+STIR for 2 h	STIR at 25°C for 2 h
+REMOVE solvent	ADD methanol
+MAKE SOLUTION with methanol	ADD triethylamine
+ADD triethylamine	STIR at 25°C for 20 min
+STIR at 25°C for 48 h	CONCENTRATE residue
+REMOVE solvent	PURIFY by chromatography
+ADD	YIELD: methyl 3-methyl-6-(methylthio)-2-[3-(trifluoromethyl)phenyl]-4-quinolinecarboxylate
+EXTRACT with ethyl acetate	[END]
+REPEAT 3 time(s)	
+WASH extracts with brine	
+DRY SOLUTION with Na2SO4	
+FILTER	
+CONCENTRATE	
+PURIFY by chromatography	
+YIELD: methyl 3-methyl-6-(methylthio)-2-[3-(trifluoromethyl)phenyl]-4-quinolinecarboxylate	
+[END]	

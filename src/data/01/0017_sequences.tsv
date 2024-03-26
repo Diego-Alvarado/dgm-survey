@@ -1,0 +1,15 @@
+A	B
+[START]	[START]
+ADD 5-Acetyl-2-amino-4-methylthiazole	ADD 5-Acetyl-2-amino-4-methylthiazole
+ADD THF	ADD 2-chloroethyl isocyanate
+ADD triethylamine	ADD THF at 0°C
+ADD 2-chloroethyl isocyanate	ADD triethylamine for 16 h
+STIR at 25°C for 16 h	STIR at 65°C for 48 h
+REFLUX for 16 h	COOL
+REMOVE solvent	FILTER
+WASH	REMOVE solvent
+YIELD: 1-(5-acetyl-4-methylthiazol-2-yl)imidazolidin-2-one	EXTRACT with dichloromethane
+[END]	WASH
+	DRY SOLUTION with Na2SO4
+	YIELD: 1-(5-acetyl-4-methylthiazol-2-yl)imidazolidin-2-one
+	[END]

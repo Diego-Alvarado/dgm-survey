@@ -1,7 +1,0 @@
-index	role	name	inchi
-1	REACTANT	3-(5-(aminomethyl)-1-oxoisoindolin-2-yl)piperidine-2,6-dione hydrochloride	InChI=1S/C14H15N3O3.ClH/c15-6-8-1-2-10-9(5-8)7-17(14(10)20)11-3-4-12(18)16-13(11)19;/h1-2,5,11H,3-4,6-7,15H2,(H,16,18,19);1H
-2	REACTANT	2,2-difluoro-2-(4-isopropoxy-3-methylphenyl)acetic acid	InChI=1S/C12H14F2O3/c1-7(2)17-10-5-4-9(6-8(10)3)12(13,14)11(15)16/h4-7H,1-3H3,(H,15,16)
-3	REACTANT	NaHCO3	InChI=1S/CH2O3.Na/c2-1(3)4;/h(H2,2,3,4);/q;+1/p-1
-4	REACTANT	phosphoryl chloride	InChI=1S/ClH2OP/c1-3-2/h3H2
-5	REACTANT	pyridine	InChI=1S/C5H5N/c1-2-4-6-5-3-1/h1-5H
-0	TARGET	n-((2-(2,6-dioxopiperidin-3-yl)-1-oxoisoindolin-5-yl)methyl)-2,2-difluoro-2-(4-isopropoxy-3-methylphenyl)acetamide	InChI=1S/C26H27F2N3O5/c1-14(2)36-21-8-5-18(10-15(21)3)26(27,28)25(35)29-12-16-4-6-19-17(11-16)13-31(24(19)34)20-7-9-22(32)30-23(20)33/h4-6,8,10-11,14,20H,7,9,12-13H2,1-3H3,(H,29,35)(H,30,32,33)

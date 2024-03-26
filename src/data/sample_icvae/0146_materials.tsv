@@ -1,6 +1,0 @@
-index	role	name	inchi
-2	REACTANT	6-chloro-1,7-naphthyridin-4-yl trifluoromethanesulfonate	InChI=1S/C9H4ClF3N2O3S/c10-8-3-5-6(4-15-8)14-2-1-7(5)18-19(16,17)9(11,12)13/h1-4H
-3	REACTANT	piperidin-3-yl-carbamic acid tert-butyl ester	InChI=1S/C10H20N2O2/c1-10(2,3)14-9(13)12-8-5-4-6-11-7-8/h8,11H,4-7H2,1-3H3,(H,12,13)
-4	REACTANT	DIPEA	InChI=1S/C8H19N/c1-6-9(7(2)3)8(4)5/h7-8H,6H2,1-5H3
-0	SOLVENT	DCM	InChI=1S/CH2Cl2/c2-1-3/h1H2
-1	TARGET	(s)-tert-butyl 1-(6-chloro-1,7-naphthyridin-4-yl)piperidin-3-ylcarbamate	InChI=1S/C18H23ClN4O2/c1-18(2,3)25-17(24)22-12-5-4-8-23(11-12)15-6-7-20-14-10-21-16(19)9-13(14)15/h6-7,9-10,12H,4-5,8,11H2,1-3H3,(H,22,24)

@@ -1,4 +1,0 @@
-index	role	name	inchi
-0	REACTANT	NaHCO3	InChI=1S/CH2O3.Na/c2-1(3)4;/h(H2,2,3,4);/q;+1/p-1
-2	SOLVENT	water	InChI=1S/H2O/h1H2
-1	TARGET	5-bromo-3-(5-phenyl-1,2,4-oxadiazol-3-yl)pyrazin-2-amine	InChI=1S/C12H8BrN5O/c13-8-6-15-10(14)9(16-8)11-17-12(19-18-11)7-4-2-1-3-5-7/h1-6H,(H2,14,15)

@@ -1,5 +1,0 @@
-index	role	name	inchi
-0	REACTANT	methyl 6-amino-5-nitronicotinate	InChI=1S/C7H7N3O4/c1-14-7(11)4-2-5(10(12)13)6(8)9-3-4/h2-3H,1H3,(H2,8,9)
-2	REACTANT	hydrogen	InChI=1S/H
-3	SOLVENT	methanol	InChI=1S/CH4O/c1-2/h2H,1H3
-1	TARGET	methyl 5,6-diaminonicotinate	InChI=1S/C7H9N3O2/c1-12-7(11)4-2-5(8)6(9)10-3-4/h2-3H,8H2,1H3,(H2,9,10)

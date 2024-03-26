@@ -1,9 +1,0 @@
-A	B
-[START]	[START]
-ADD 4-(3,4-dihydroquinolin-1(2H)-ylsulfonyl)benzoic acid	ADD 4-(3,4-dihydroquinolin-1(2H)-ylsulfonyl)benzoic acid
-ADD N-(4-(2-aminothiazol-4-yl)phenyl)acetamide	ADD N-(4-(2-aminothiazol-4-yl)phenyl)acetamide
-PURIFY by chromatography	STIR at 25°C for 16 h
-YIELD: n-(4-(4-acetamidophenyl)thiazol-2-yl)-4-(3,4-dihydroquinolin-1(2h)-ylsulfonyl)benzamide	CRYSTALLISE with ethyl acetate
-[END]	FILTER
-	YIELD: n-(4-(4-acetamidophenyl)thiazol-2-yl)-4-(3,4-dihydroquinolin-1(2h)-ylsulfonyl)benzamide
-	[END]

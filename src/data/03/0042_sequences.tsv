@@ -1,0 +1,11 @@
+A	B
+[START]	[START]
+ADD at 0°C	ADD
+STIR at 0°C for 20 min	STIR at 25°C for 2 h
+HEAT	CONCENTRATE
+STIR for 48 h	FILTER
+FILTER	YIELD: n-(5-((2-amino-3-chloropyridin-4-yl)oxy)pyridin-2-yl)-2-oxo-1-phenyl-1,2,4,5,6,7-hexahydropyrazolo[1,5-a]pyridine-3-carboxamide
+CONCENTRATE filtrate	[END]
+PURIFY by chromatography	
+YIELD: n-(5-((2-amino-3-chloropyridin-4-yl)oxy)pyridin-2-yl)-2-oxo-1-phenyl-1,2,4,5,6,7-hexahydropyrazolo[1,5-a]pyridine-3-carboxamide	
+[END]	

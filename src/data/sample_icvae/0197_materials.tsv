@@ -1,8 +1,0 @@
-index	role	name	inchi
-1	REACTANT	3-ethoxyacryloyl chloride	InChI=1S/C5H7ClO2/c1-2-8-4-3-5(6)7/h3-4H,2H2,1H3
-4	REACTANT	2-chloro-6-methylaniline	InChI=1S/C7H8ClN/c1-5-3-2-4-6(8)7(5)9/h2-4H,9H2,1H3
-5	REACTANT	HCl	InChI=1S/ClH/h1H
-6	REACTANT	pyridine	InChI=1S/C5H5N/c1-2-4-6-5-3-1/h1-5H
-0	SOLVENT	THF	InChI=1S/C4H8O/c1-2-4-5-3-1/h1-4H2
-3	SOLVENT	water	InChI=1S/H2O/h1H2
-2	TARGET	(e)-n-(2-chloro-6-methylphenyl)-3-ethoxyacrylamide	InChI=1S/C12H14ClNO2/c1-3-16-8-7-11(15)14-12-9(2)5-4-6-10(12)13/h4-8H,3H2,1-2H3,(H,14,15)/b8-7+

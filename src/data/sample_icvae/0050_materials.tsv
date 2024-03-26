@@ -1,6 +1,0 @@
-index	role	name	inchi
-1	REACTANT	methyl 6-oxo-1,6-dihydropyridine-2-carboxylate	InChI=1S/C7H7NO3/c1-11-7(10)5-3-2-4-6(9)8-5/h2-4H,1H3,(H,8,9)
-3	REACTANT	POCl3	InChI=1S/Cl3OP/c1-5(2,3)4
-0	SOLVENT	methanol	InChI=1S/CH4O/c1-2/h2H,1H3
-2	SOLVENT	water	InChI=1S/H2O/h1H2
-4	TARGET	3-[(6-butoxypyridin-2-yl)methyl]-2-thioxo-1,2,3,7-tetrahydro-6h-purin-6-one	InChI=1S/C15H17N5O2S/c1-2-3-7-22-11-6-4-5-10(18-11)8-20-13-12(16-9-17-13)14(21)19-15(20)23/h4-6,9H,2-3,7-8H2,1H3,(H,16,17)(H,19,21,23)

@@ -1,7 +1,0 @@
-index	role	name	inchi
-1	REACTANT	sodium azide	InChI=1S/N3.Na/c1-3-2;/q-1;+1
-4	REACTANT	ethyl 3-(bromomethyl)picolinate	InChI=1S/C9H10BrNO2/c1-2-13-9(12)8-7(6-10)4-3-5-11-8/h3-5H,2,6H2,1H3
-5	REACTANT	3-methylpicolinic acid	InChI=1S/C7H7NO2/c1-5-3-2-4-8-6(5)7(9)10/h2-4H,1H3,(H,9,10)
-2	SOLVENT	ethanol	InChI=1S/C2H6O/c1-2-3/h3H,2H2,1H3
-3	SOLVENT	water	InChI=1S/H2O/h1H2
-0	TARGET	ethyl 3-(azidomethyl)picolinate	InChI=1S/C9H10N4O2/c1-2-15-9(14)8-7(6-12-13-10)4-3-5-11-8/h3-5H,2,6H2,1H3

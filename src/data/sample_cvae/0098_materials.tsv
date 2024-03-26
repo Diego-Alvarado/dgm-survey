@@ -1,5 +1,0 @@
-index	role	name	inchi
-3	REACTANT	sulfuric acid	InChI=1S/H2O4S/c1-5(2,3)4/h(H2,1,2,3,4)
-0	SOLVENT	methanol	InChI=1S/CH4O/c1-2/h2H,1H3
-1	SOLVENT	water	InChI=1S/H2O/h1H2
-2	TARGET	methyl 3-bromopyridine-2-carboxylate	InChI=1S/C7H6BrNO2/c1-11-7(10)6-5(8)3-2-4-9-6/h2-4H,1H3

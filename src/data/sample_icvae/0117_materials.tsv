@@ -1,4 +1,0 @@
-index	role	name	inchi
-1	REACTANT	1-(4-hydroxy-benzyl)-4-(4-isopropyl-phenyl)-6-prop-2-ynyloxy-1H-quinazolin-2-one	InChI=1S/C27H24N2O3/c1-4-15-32-23-13-14-25-24(16-23)26(21-9-7-20(8-10-21)18(2)3)28-27(31)29(25)17-19-5-11-22(30)12-6-19/h1,5-14,16,18,30H,15,17H2,2-3H3
-2	SOLVENT	acetone	InChI=1S/C3H6O/c1-3(2)4/h1-2H3
-0	TARGET	4-(4-isopropyl-phenyl)-1-[4-(2-{2-[2-(2-methoxy-ethoxy)-ethoxy]-ethoxy}-ethoxy)-benzyl]-6-prop-2-ynyloxy-1h-quinazolin-2-one	InChI=1S/C36H42N2O7/c1-5-16-44-32-14-15-34-33(25-32)35(30-10-8-29(9-11-30)27(2)3)37-36(39)38(34)26-28-6-12-31(13-7-28)45-24-23-43-22-21-42-20-19-41-18-17-40-4/h1,6-15,25,27H,16-24,26H2,2-4H3

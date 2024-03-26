@@ -1,0 +1,13 @@
+A	B
+[START]	[START]
+ADD DCM	ADD triethylamine
+ADD triethylamine	ADD DCM
+ADD cyclopropanecarbonyl chloride at 25°C	ADD cyclopropanecarbonyl chloride
+STIR at 25°C for 2 h	STIR at 25°C for 48 h
+WASH with NaHCO3	ADD DCM
+COLLECT organic phase	WASH with NaHCO3
+DRY SOLUTION	DRY SOLUTION organic phase with Na2SO4
+CONCENTRATE	CONCENTRATE
+PURIFY by chromatography	PURIFY by chromatography
+YIELD: ((1r,5s)-3-(2-chloropyrimidin-4-yl)-3,8-diazabicyclo[3.2.1]octan-8-yl)(cyclopropyl)methanone	YIELD: ((1r,5s)-3-(2-chloropyrimidin-4-yl)-3,8-diazabicyclo[3.2.1]octan-8-yl)(cyclopropyl)methanone
+[END]	[END]

@@ -1,0 +1,21 @@
+A	B
+[START]	[START]
+ADD morpholine	ADD 3,8-dibromo-imidazo[1,2-a]pyrazine
+ADD 3,8-dibromo-imidazo[1,2-a]pyrazine	ADD 3-bromo-8-chloro-imidazo[1,2-a]pyrazine
+ADD DIPEA	ADD morpholine
+ADD acetonitrile	ADD DIPEA
+ADD 3-bromo-8-chloro-imidazo[1,2-a]pyrazine	REMOVE solvent
+STIR at 65°C for 5 h	CONCENTRATE residue
+EVAPORATE solvent	MAKE SOLUTION with DCM
+MAKE SOLUTION with DCM	WASH with Na2CO3
+WASH with Na2CO3	DRY SOLUTION organic phase with Na2SO4
+SEPARATE organic phase	FILTER
+DRY SOLUTION with Na2SO4	EVAPORATE
+FILTER	PURIFY by chromatography
+EVAPORATE solvent	YIELD: 3-bromo-8-morpholin-4-yl-imidazo[1,2-a]pyrazine
+PURIFY by chromatography	[END]
+COLLECT fractions	
+EVAPORATE	
+CRYSTALLISE with ethyl ether	
+YIELD: 3-bromo-8-morpholin-4-yl-imidazo[1,2-a]pyrazine	
+[END]	

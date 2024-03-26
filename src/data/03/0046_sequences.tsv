@@ -1,0 +1,13 @@
+A	B
+[START]	[START]
+ADD methanol	ADD methanol
+ADD p-toluenesulfonic acid	ADD p-toluenesulfonic acid
+STIR at 25°C for 2 h	STIR at 25°C for 5 h
+EVAPORATE solvent	EVAPORATE residue
+ADD	MAKE SOLUTION
+STIR for 2 h	PURIFY by chromatography
+SET PH [NEUTRALISE]	YIELD: (1s,2s,4s)-4-(1,2-dihydroxyethyl)-2-(o-benzoyloxymethyl)-dioxolane
+EVAPORATE	[END]
+PURIFY by chromatography	
+YIELD: (1s,2s,4s)-4-(1,2-dihydroxyethyl)-2-(o-benzoyloxymethyl)-dioxolane	
+[END]	

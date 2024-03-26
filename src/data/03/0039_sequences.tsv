@@ -1,0 +1,17 @@
+A	B
+[START]	[START]
+ADD THF	ADD THF
+ADD NaHMDS at < -10°C	ADD NaHMDS at < -10°C
+ADD allyl bromide for 20 min	ADD NaHMDS
+QUENCH with ammonium chloride	STIR for 2 h
+STAND at 25°C	ADD allyl bromide
+EXTRACT with ethyl acetate	HEAT for 20 min
+REPEAT 3 time(s)	COOL
+DRY SOLUTION organic phase with MgSO4	ADD brine
+FILTER	EXTRACT with ethyl acetate
+CONCENTRATE	DRY SOLUTION extracts with Na2SO4
+PURIFY by chromatography	CONCENTRATE
+YIELD: (4r,5s)-3-((s)-2-allylhexanoyl)-4-methyl-5-phenyloxazolidin-2-one	PURIFY by chromatography
+[END]	RECRYSTALLISATION
+	YIELD: (4r,5s)-3-((s)-2-allylhexanoyl)-4-methyl-5-phenyloxazolidin-2-one
+	[END]

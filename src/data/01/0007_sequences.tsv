@@ -1,0 +1,15 @@
+A	B
+[START]	[START]
+ADD n-butanol	ADD 9-benzyl-2-chloro-9h-purin-6-ylamine
+ADD 9-benzyl-2-chloro-9h-purin-6-ylamine	ADD n-butanol
+ADD isobutylamine	ADD isobutylamine
+HEAT	MICROWAVE at > 80°C
+ADD	FILTER
+ADD	PURIFY by chromatography
+EXTRACT	YIELD: 6-amino-9-benzyl-2-(isobutylamino)purine
+DRY SOLUTION organic phase with Na2SO4	[END]
+FILTER	
+EVAPORATE	
+PURIFY by chromatography	
+YIELD: 6-amino-9-benzyl-2-(isobutylamino)purine	
+[END]	

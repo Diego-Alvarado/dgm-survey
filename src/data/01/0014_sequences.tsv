@@ -1,0 +1,13 @@
+A	B
+[START]	[START]
+ADD sulfuric acid	ADD sulfuric acid
+ADD 2-{2-[3-(5-fluoro-pyridin-2-yl)-5-methyl-isoxazol-4-yl]-2-hydroxy-ethyl}-thiazole-5-carboxylic acid	ADD 2-{2-[3-(5-fluoro-pyridin-2-yl)-5-methyl-isoxazol-4-yl]-2-hydroxy-ethyl}-thiazole-5-carboxylic acid at 25°C
+HEAT to > 80°C for 20 min	STIR for 48 h
+COOL to 25°C	HEAT to > 80°C for 20 min
+ADD	QUENCH
+FILTER	CONCENTRATE
+DRY	PARTITION with ethyl acetate
+YIELD: 2-{(e)-2-[3-(5-fluoro-pyridin-2-yl)-5-methyl-isoxazol-4-yl]-vinyl}-thiazole-5-carboxylic acid	CONCENTRATE
+[END]	PURIFY by chromatography
+	YIELD: 2-{(e)-2-[3-(5-fluoro-pyridin-2-yl)-5-methyl-isoxazol-4-yl]-vinyl}-thiazole-5-carboxylic acid
+	[END]

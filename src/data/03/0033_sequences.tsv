@@ -1,0 +1,19 @@
+A	B
+[START]	[START]
+ADD 2-phenyl-2-(phenylsulfonyl)acetic acid	ADD 2-phenyl-2-(phenylsulfonyl)acetic acid
+ADD DCM	ADD DCM
+ADD	COOL to 0°C
+ADD oxalyl chloride	ADD
+STIR at 25°C for 2 h	ADD 5-aminotetrazole monohydrate
+ADD 5-aminotetrazole monohydrate	ADD oxalyl chloride
+ADD DCM	STIR at 25°C for 16 h
+MAKE SOLUTION with DIPEA	ADD DCM
+STIR for 20 min	ADD DIPEA
+ADD	STIR at 25°C for 2 h
+STIR at 25°C for 16 h	PARTITION with NaHCO3
+CONCENTRATE	EXTRACT
+REMOVE	DRY SOLUTION
+MAKE SOLUTION	CONCENTRATE
+PURIFY by chromatography	YIELD: 2-phenyl-2-(phenylsulfonyl)-n-(1h-tetrazol-5-yl)acetamide
+YIELD: 2-phenyl-2-(phenylsulfonyl)-n-(1h-tetrazol-5-yl)acetamide	[END]
+[END]	

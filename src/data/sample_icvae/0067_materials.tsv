@@ -1,5 +1,0 @@
-index	role	name	inchi
-0	REACTANT	2,3-dichloroquinoxaline	InChI=1S/C8H4Cl2N2/c9-7-8(10)12-6-4-2-1-3-5(6)11-7/h1-4H
-2	REACTANT	sodium hydride	InChI=1S/H/q-1
-1	SOLVENT	THF	InChI=1S/C4H8O/c1-2-4-5-3-1/h1-4H2
-3	TARGET	2-chloro-5-[1-(3-chloroquinoxalin-2-yloxy)-2,2,2-trifluoroethyl]thiazole	InChI=1S/C13H6Cl2F3N3OS/c14-10-11(21-7-4-2-1-3-6(7)20-10)22-9(13(16,17)18)8-5-19-12(15)23-8/h1-5,9H

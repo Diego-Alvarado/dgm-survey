@@ -1,0 +1,18 @@
+A	B
+[START]	[START]
+ADD THF	ADD THF
+ADD borane-tetrahydrofuran complex	ADD borane-tetrahydrofuran complex at 0°C
+STIR at 0°C for 20 min	STIR at 0°C for 20 min
+HEAT to 25°C for 16 h	QUENCH
+COMBINE	ADD water
+QUENCH with methanol	EXTRACT with ethyl acetate
+CONCENTRATE	COMBINE organic phase
+ADD water	WASH with brine
+EXTRACT with ethyl acetate	DRY SOLUTION with Na2SO4
+REPEAT 3 time(s)	CONCENTRATE filtrate
+WASH organic phase with brine	PURIFY by chromatography
+DRY SOLUTION with Na2SO4	YIELD: methyl 3-(hydroxymethyl)benzoate
+FILTER	[END]
+CONCENTRATE	
+YIELD: methyl 3-(hydroxymethyl)benzoate	
+[END]	

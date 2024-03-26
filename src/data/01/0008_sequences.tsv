@@ -1,0 +1,17 @@
+A	B
+[START]	[START]
+ADD malononitrile	ADD malononitrile
+ADD 4-chloro-N-(2-methylbut-3-yn-2-yl)benzamide	ADD 4-chloro-N-(2-methylbut-3-yn-2-yl)benzamide
+ADD methanol	ADD methanol
+DEGAS	ADD potassium hydroxide
+COOL	STIR at 25°C for 5 h
+ADD potassium hydroxide	ADD water
+ADD water	STIR at 25°C for 16 h
+STIR at 65°C for 2 h	EXTRACT with dichloromethane
+ADD water	WASH
+EXTRACT with ethyl acetate	PURIFY by chromatography
+FILTER	YIELD: 2-amino-4-(4-chlorophenyl)-1-[2-methylbut-3-yn-2-yl]-1h-pyrrole-3-carbonitrile
+CONCENTRATE	[END]
+PURIFY by chromatography	
+YIELD: 2-amino-4-(4-chlorophenyl)-1-[2-methylbut-3-yn-2-yl]-1h-pyrrole-3-carbonitrile	
+[END]	

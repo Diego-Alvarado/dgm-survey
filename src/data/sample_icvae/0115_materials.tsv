@@ -1,6 +1,0 @@
-index	role	name	inchi
-1	REACTANT	(1s,2r)-2-(3,5-difluorophenyl)cyclopentanol	InChI=1S/C11H12F2O/c12-8-4-7(5-9(13)6-8)10-2-1-3-11(10)14/h4-6,10-11,14H,1-3H2/t10-,11+/m1/s1
-3	REACTANT	Dess - Martin periodinane	InChI=1S/C13H13IO8/c1-8(15)19-14(20-9(2)16,21-10(3)17)12-7-5-4-6-11(12)13(18)22-14/h4-7H,1-3H3
-4	REACTANT	NaOH	InChI=1S/Na.H2O/h;1H2/q+1;/p-1
-2	SOLVENT	DCM	InChI=1S/CH2Cl2/c2-1-3/h1H2
-0	TARGET	2-(3,5-difluorophenyl)cyclopentanone	InChI=1S/C11H10F2O/c12-8-4-7(5-9(13)6-8)10-2-1-3-11(10)14/h4-6,10H,1-3H2

@@ -1,0 +1,17 @@
+A	B
+[START]	[START]
+ADD ethanol	ADD ethanol
+ADD water	ADD water
+ADD	HEAT to > 80°C
+REFLUX for 2 h	STIR for 16 h
+COOL	FILTER
+FILTER	ADD ethanol
+WASH with ethyl ether	COOL to 25°C
+DRY	REMOVE
+YIELD: 5-(3-oxo-2-pyridin-2-yl-2,3-dihydro-1h-pyrazol-4-yl)-nicotinic acid	COOL
+[END]	FILTER
+	WASH with water
+	REPEAT 2 time(s)
+	DRY
+	YIELD: 5-(3-oxo-2-pyridin-2-yl-2,3-dihydro-1h-pyrazol-4-yl)-nicotinic acid
+	[END]

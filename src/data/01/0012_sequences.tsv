@@ -1,0 +1,13 @@
+A	B
+[START]	[START]
+ADD 5-(3-bromopropyl)-n-cyclopropyl-1-(4-{[(2,2,2-trifluoroethyl)amino]carbonyl}phenyl)-1h-1,2,3-triazole-4-carboxamide	ADD 5-(3-bromopropyl)-n-cyclopropyl-1-(4-{[(2,2,2-trifluoroethyl)amino]carbonyl}phenyl)-1h-1,2,3-triazole-4-carboxamide
+ADD acetonitrile	ADD acetonitrile
+ADD tetrabutylammonium fluoride hydrate	ADD tetrabutylammonium fluoride hydrate
+STIR at 65°C for 16 h	STIR at 25°C
+COOL to 25°C	CONCENTRATE
+EVAPORATE solvent	MAKE SOLUTION with acetonitrile
+PURIFY by chromatography	STIR for 16 h
+RECRYSTALLISATION with hexane	CONCENTRATE
+YIELD: n-cyclopropyl-5-[(1e)-prop-1-en-1-yl]-1-(4-{[(2,2,2-trifluoroethyl)amino]carbonyl}phenyl)-1h-1,2,3-triazole-4-carboxamide	PURIFY by chromatography
+[END]	YIELD: n-cyclopropyl-5-[(1e)-prop-1-en-1-yl]-1-(4-{[(2,2,2-trifluoroethyl)amino]carbonyl}phenyl)-1h-1,2,3-triazole-4-carboxamide
+	[END]

@@ -1,0 +1,16 @@
+A	B
+[START]	[START]
+ADD POCl3	ADD DMF
+ADD DMF at 0°C	ADD POCl3
+ADD (S)-N-acetyl-1,2,3,4-tetrahydropyridine-2-carboxylate	ADD at 25°C
+ADD DMF	STIR for 2 h
+HEAT to 25°C	ADD (S)-N-acetyl-1,2,3,4-tetrahydropyridine-2-carboxylate
+STIR for 2 h	STIR at 25°C for 2 h
+ADD	REMOVE
+EXTRACT with ethyl acetate	EXTRACT
+WASH organic phase	PURIFY by chromatography
+DRY SOLUTION with Na2SO4	YIELD: (s)-n-acetyl-5-formyl-1,2,3,4-tetrahydropyridine-2-carboxylate
+DISTIL	[END]
+RECRYSTALLISATION	
+YIELD: (s)-n-acetyl-5-formyl-1,2,3,4-tetrahydropyridine-2-carboxylate	
+[END]	

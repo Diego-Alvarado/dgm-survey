@@ -1,4 +1,0 @@
-index	role	name	inchi
-0	REACTANT	TFA	InChI=1S/C2HF3O2/c3-2(4,5)1(6)7/h(H,6,7)
-1	SOLVENT	toluene	InChI=1S/C7H8/c1-7-5-3-2-4-6-7/h2-6H,1H3
-2	TARGET	n1-(3-fluoro-4-(2-(1-(2-(methylamino)ethyl)-1h-imidazol-4-yl)thieno[3,2-b]pyridin-7-yloxy)phenyl)-n3-(2-methoxyphenyl)malonamide	InChI=1S/C29H27FN6O4S/c1-31-11-12-36-16-22(33-17-36)26-14-21-29(41-26)25(9-10-32-21)40-23-8-7-18(13-19(23)30)34-27(37)15-28(38)35-20-5-3-4-6-24(20)39-2/h3-10,13-14,16-17,31H,11-12,15H2,1-2H3,(H,34,37)(H,35,38)

@@ -1,9 +1,25 @@
+from pathlib import Path
 from dash import html, Dash, dcc
+from dash.dependencies import Input, Output
+from dash.exceptions import PreventUpdate
 import dash_bootstrap_components as dbc
 from PIL import Image
+import ids
 
 def layout_home(app: Dash) -> html.Div:
-    img = Image.open('assets/Picture1.png')
+    img = Image.open('src/assets/Picture1.png')
+    
+    
+    @app.callback(Output(ids.PATH_SURVEY, 'data'),
+                  Input(ids.SURVEY_NUMBER, 'value'))
+    def store_path(value: str) -> list[str]:
+        files = Path(value).glob('*.tsv')
+        files = sorted(files, key=lambda x: x.name) 
+        files = [value + f.name for f in files]
+       #  print(files)
+        return files
+    
+    
     return html.Div([
         # html.H4('Background'),
         html.P("""
@@ -35,8 +51,10 @@ def layout_home(app: Dash) -> html.Div:
                materials. Please compare the sequences and select which is more feasible to be
                executed in a lab.
                """),
+        html.P('\nPlease select survey number: '),
+        dcc.Dropdown(options={f'src/data/0{v}/': v for v in range(1, 5)}, id=ids.SURVEY_NUMBER, value='src/data/01/', persistence=True),
         dcc.Link([
-                    dbc.Button('Next', className='me-1'),
+                    dbc.Button('Next', className='me-1', id=ids.HOME_BUTTON, disabled=False),
                     ], href=f'/question-1',
                          refresh=True)
     ])

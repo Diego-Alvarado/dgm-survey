@@ -1,6 +1,0 @@
-index	role	name	inchi
-0	REACTANT	ethylene glycol	InChI=1S/C2H6O2/c3-1-2-4/h3-4H,1-2H2
-1	REACTANT	methylhydrazine	InChI=1S/CH6N2/c1-3-2/h3H,2H2,1H3
-3	REACTANT	2-chloro-6-morpholino-4-phenyl-3-cyano-pyridine	InChI=1S/C16H14ClN3O/c17-16-14(11-18)13(12-4-2-1-3-5-12)10-15(19-16)20-6-8-21-9-7-20/h1-5,10H,6-9H2
-2	SOLVENT	water	InChI=1S/H2O/h1H2
-4	TARGET	3-amino-1-methyl-6-morpholino-4-phenyl-1h-pyrazolo[3,4-b]pyridine	InChI=1S/C17H19N5O/c1-21-17-15(16(18)20-21)13(12-5-3-2-4-6-12)11-14(19-17)22-7-9-23-10-8-22/h2-6,11H,7-10H2,1H3,(H2,18,20)

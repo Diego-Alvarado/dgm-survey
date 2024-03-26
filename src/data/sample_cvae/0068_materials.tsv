@@ -1,5 +1,0 @@
-index	role	name	inchi
-0	REACTANT	TFA	InChI=1S/C2HF3O2/c3-2(4,5)1(6)7/h(H,6,7)
-3	REACTANT	(s)-tert-butyl 2-(4-(3-ethylureido)phenyl)-4-(3-methylmorpholino)-5,6-dihydropyrido[3,4-d]pyrimidine-7(8h)-carboxylate	InChI=1S/C26H36N6O4/c1-6-27-24(33)28-19-9-7-18(8-10-19)22-29-21-15-31(25(34)36-26(3,4)5)12-11-20(21)23(30-22)32-13-14-35-16-17(32)2/h7-10,17H,6,11-16H2,1-5H3,(H2,27,28,33)
-2	SOLVENT	DCM	InChI=1S/CH2Cl2/c2-1-3/h1H2
-1	TARGET	(s)-1-ethyl-3-(4-(4-(3-methylmorpholino)-5,6,7,8-tetrahydropyrido[3,4-d]pyrimidin-2-yl)phenyl)urea 2,2,2-trifluoroacetate	InChI=1S/C21H28N6O2/c1-3-23-21(28)24-16-6-4-15(5-7-16)19-25-18-12-22-9-8-17(18)20(26-19)27-10-11-29-13-14(27)2/h4-7,14,22H,3,8-13H2,1-2H3,(H2,23,24,28)

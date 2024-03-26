@@ -1,0 +1,16 @@
+A	B
+[START]	[START]
+ADD (5-(aminomethyl)-6-methoxy-4-methylpyridin-2-yl)methanol	ADD (5-(aminomethyl)-6-methoxy-4-methylpyridin-2-yl)methanol
+ADD 6-bromo-1-isopropyl-3-methyl-1H-indole-4-carboxylic acid	ADD 6-bromo-1-isopropyl-3-methyl-1H-indole-4-carboxylic acid
+ADD HOAt	ADD HOAt
+ADD DCM	ADD DCM
+ADD DMF	ADD EDC
+ADD EDC	ADD DMF
+STIR at 25°C for 2 h	STIR for 2 h
+EVAPORATE	STIR at 25°C for 20 min
+PURIFY by chromatography	CONCENTRATE
+YIELD: 6-bromo-n-((6-(hydroxymethyl)-2-methoxy-4-methylpyridin-3-yl)methyl)-1-isopropyl-3-methyl-1h-indole-4-carboxamide	PARTITION with water
+[END]	FILTER
+	PURIFY by chromatography
+	YIELD: 6-bromo-n-((6-(hydroxymethyl)-2-methoxy-4-methylpyridin-3-yl)methyl)-1-isopropyl-3-methyl-1h-indole-4-carboxamide
+	[END]

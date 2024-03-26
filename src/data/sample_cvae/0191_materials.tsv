@@ -1,5 +1,0 @@
-index	role	name	inchi
-0	REACTANT	3-oxa-8-azabicyclo[3.2.1]octane hydrochloride	InChI=1S/C6H11NO.ClH/c1-2-6-4-8-3-5(1)7-6;/h5-7H,1-4H2;1H
-1	REACTANT	2,6-dichloro-9H-purine	InChI=1S/C5H2Cl2N4/c6-3-2-4(9-1-8-2)11-5(7)10-3/h1H,(H,8,9,10,11)
-3	REACTANT	DIPEA	InChI=1S/C8H19N/c1-6-9(7(2)3)8(4)5/h7-8H,6H2,1-5H3
-2	TARGET	2-chloro-6-(3-oxa-8-azabicyclo[3.2.1]oct-8-yl)-9h-purine	InChI=1S/C11H12ClN5O/c12-11-15-9-8(13-5-14-9)10(16-11)17-6-1-2-7(17)4-18-3-6/h5-7H,1-4H2,(H,13,14,15,16)

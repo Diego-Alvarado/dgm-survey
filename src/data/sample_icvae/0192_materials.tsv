@@ -1,6 +1,0 @@
-index	role	name	inchi
-2	REACTANT	((r)-1-(6-chloro-7-fluoro-2-oxo-1,2-dihydroquinolin-3-yl)ethyl)-2-methylpropane-2-sulfinamide	InChI=1S/C15H18ClFN2O2S/c1-8(7-15(2,3)22(18)21)10-4-9-5-11(16)12(17)6-13(9)19-14(10)20/h4-6,8H,7,18H2,1-3H3,(H,19,20)/t8-,22?/m1/s1
-4	REACTANT	HCl	InChI=1S/ClH/h1H
-0	SOLVENT	dioxane	InChI=1S/C4H8O2/c1-2-4-6-5-3-1/h1-4H2
-1	SOLVENT	methanol	InChI=1S/CH4O/c1-2/h2H,1H3
-3	TARGET	3-(1-aminoethyl)-6-chloro-7-fluoroquinolin-2(1h)-one hydrochloride	InChI=1S/C11H10ClFN2O/c1-5(14)7-2-6-3-8(12)9(13)4-10(6)15-11(7)16/h2-5H,14H2,1H3,(H,15,16)

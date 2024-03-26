@@ -1,0 +1,14 @@
+A	B
+[START]	[START]
+ADD (5RS)-3-Oxo-2-[3-(trifluoromethyl)benzyl]-2,3,5,6,7,8-hexahydro[1,2,4]triazolo[4,3-a]pyridine-5-carboxylic acid / trifluoroacetic acid	ADD (5RS)-3-Oxo-2-[3-(trifluoromethyl)benzyl]-2,3,5,6,7,8-hexahydro[1,2,4]triazolo[4,3-a]pyridine-5-carboxylic acid / trifluoroacetic acid
+ADD THF	ADD THF
+ADD 1-[bis(dimethylamino)methylene]-1H-1,2,3-triazolo[4,5-b]pyridinium 3-oxid hexafluorophosphate	ADD 1-[bis(dimethylamino)methylene]-1H-1,2,3-triazolo[4,5-b]pyridinium 3-oxid hexafluorophosphate
+ADD triethylamine	ADD triethylamine
+STIR at 25°C for 20 min	STIR at 25°C for 20 min
+ADD	ADD
+STIR at 25°C for 48 h	STIR at 25°C for 48 h
+REMOVE solvent	REMOVE solvent
+PURIFY by chromatography	PURIFY by chromatography
+CONCENTRATE	CONCENTRATE
+YIELD: (5rs)-5-[(3,3-difluoropyrrolidin-1-yl)carbonyl]-2-[3-(trifluoromethyl)benzyl]-5,6,7,8-tetrahydro[1,2,4]triazolo[4,3-a]pyridin-3(2h)-one	YIELD: (5rs)-5-[(3,3-difluoropyrrolidin-1-yl)carbonyl]-2-[3-(trifluoromethyl)benzyl]-5,6,7,8-tetrahydro[1,2,4]triazolo[4,3-a]pyridin-3(2h)-one
+[END]	[END]

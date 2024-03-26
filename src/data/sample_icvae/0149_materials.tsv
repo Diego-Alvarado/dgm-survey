@@ -1,6 +1,0 @@
-index	role	name	inchi
-2	REACTANT	4-(4-chloro-5-methylsulfanyl-6-morpholin-4-yl-pyrimidin-2-yl)-phenol	InChI=1S/C15H16ClN3O2S/c1-22-12-13(16)17-14(10-2-4-11(20)5-3-10)18-15(12)19-6-8-21-9-7-19/h2-5,20H,6-9H2,1H3
-4	REACTANT	2-chloroethyl isocyanate	InChI=1S/C3H4ClNO/c4-1-2-5-3-6/h1-2H2
-0	SOLVENT	toluene	InChI=1S/C7H8/c1-7-5-3-2-4-6-7/h2-6H,1H3
-3	SOLVENT	DCM	InChI=1S/CH2Cl2/c2-1-3/h1H2
-1	TARGET	(2-chloro-ethyl)-carbamic acid 4-(4-chloro-5-methylsulfanyl-6-morpholin-4-yl-pyrimidin-2-yl)-phenyl ester	InChI=1S/C18H20Cl2N4O3S/c1-28-14-15(20)22-16(23-17(14)24-8-10-26-11-9-24)12-2-4-13(5-3-12)27-18(25)21-7-6-19/h2-5H,6-11H2,1H3,(H,21,25)

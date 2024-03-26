@@ -1,6 +1,0 @@
-index	role	name	inchi
-0	REACTANT	benzyl (2s)-2-(cyanomethyl)-4-[7-[3-fluoro-2-(trifluoromethyl)phenyl]-2-methylsulfinyl-6,8-dihydro-5h-pyrido[3,4-d]pyrimidin-4-yl]piperazine-1-carboxylate	InChI=1S/C29H28F4N6O3S/c1-43(41)27-35-23-17-37(24-9-5-8-22(30)25(24)29(31,32)33)13-11-21(23)26(36-27)38-14-15-39(20(16-38)10-12-34)28(40)42-18-19-6-3-2-4-7-19/h2-9,20H,10-11,13-18H2,1H3/t20-,43?/m0/s1
-3	REACTANT	sodium tert-butoxide	InChI=1S/C4H9O.Na/c1-4(2,3)5;/h1-3H3;/q-1;+1
-4	REACTANT	[(2s,4r)-4-[tert-butyl(diphenyl)silyl]oxy-1-methyl-pyrrolidin-2-yl]methanol	InChI=1S/C22H31NO2Si/c1-22(2,3)26(20-11-7-5-8-12-20,21-13-9-6-10-14-21)25-19-15-18(17-24)23(4)16-19/h5-14,18-19,24H,15-17H2,1-4H3/t18-,19+/m0/s1
-1	SOLVENT	THF	InChI=1S/C4H8O/c1-2-4-5-3-1/h1-4H2
-2	TARGET	benzyl (2s)-4-[2-[[(2s,4r)-4-[tert-butyl(diphenyl)silyl]oxy-1-methyl-pyrrolidin-2-yl]methoxy]-7-[3-fluoro-2-(trifluoromethyl)phenyl]-6,8-dihydro-5h-pyrido[3,4-d]pyrimidin-4-yl]-2-(cyanomethyl)piperazine-1-carboxylate	InChI=1S/C50H55F4N7O4Si/c1-49(2,3)66(39-17-10-6-11-18-39,40-19-12-7-13-20-40)65-38-29-37(58(4)31-38)34-63-47-56-43-32-59(44-22-14-21-42(51)45(44)50(52,53)54)26-24-41(43)46(57-47)60-27-28-61(36(30-60)23-25-55)48(62)64-33-35-15-8-5-9-16-35/h5-22,36-38H,23-24,26-34H2,1-4H3/t36-,37-,38+/m0/s1

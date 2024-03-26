@@ -1,5 +1,0 @@
-index	role	name	inchi
-2	REACTANT	4-hydroxybutyl methyl phthalate	InChI=1S/C13H16O5/c1-17-12(15)10-6-2-3-7-11(10)13(16)18-9-5-4-8-14/h2-3,6-7,14H,4-5,8-9H2,1H3
-0	SOLVENT	ethyl acetate	InChI=1S/C4H8O2/c1-3-6-4(2)5/h3H2,1-2H3
-3	SOLVENT	acetone	InChI=1S/C3H6O/c1-3(2)4/h1-2H3
-1	TARGET	4-(2-(methoxycarbonyl)benzoyloxy)butanoic acid	InChI=1S/C13H14O6/c1-18-12(16)9-5-2-3-6-10(9)13(17)19-8-4-7-11(14)15/h2-3,5-6H,4,7-8H2,1H3,(H,14,15)

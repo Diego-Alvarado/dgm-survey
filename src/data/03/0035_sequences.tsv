@@ -1,0 +1,19 @@
+A	B
+[START]	[START]
+ADD methyl 3-methyl-7-(methylsulfonyl)-2-[3-(trifluoromethyl)phenyl]-4-quinolinecarboxylate	ADD methyl 3-methyl-7-(methylsulfonyl)-2-[3-(trifluoromethyl)phenyl]-4-quinolinecarboxylate
+ADD 3-chloroperbenzoic acid	ADD 3-chloroperbenzoic acid
+ADD DCM	ADD DCM
+STIR at 25°C for 5 h	ADD at 0°C
+ADD NaHCO3	STIR at 25°C for 20 min
+STIR for 20 min	QUENCH with ammonium chloride
+EXTRACT with dichloromethane	STIR at 25°C for 20 min
+REPEAT 3 time(s)	ADD NaHCO3
+WASH extracts with brine	EXTRACT with dichloromethane
+DRY SOLUTION with Na2SO4	WASH organic phase with brine
+FILTER	DRY SOLUTION with MgSO4
+CONCENTRATE	FILTER
+PURIFY by chromatography	EVAPORATE solvent
+YIELD: methyl 3-methyl-7-(methylsulfonyl)-2-[3-(trifluoromethyl)phenyl]-4-quinolinecarboxylate	DRY residue
+[END]	RECRYSTALLISATION
+	YIELD: methyl 3-methyl-7-(methylsulfonyl)-2-[3-(trifluoromethyl)phenyl]-4-quinolinecarboxylate
+	[END]

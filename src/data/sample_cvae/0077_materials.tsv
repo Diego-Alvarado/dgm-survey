@@ -1,5 +1,0 @@
-index	role	name	inchi
-1	REACTANT	HCl	InChI=1S/ClH/h1H
-2	REACTANT	tert-butyl 4-(4-methylthiazol-2-yl)piperazine-1-carboxylate	InChI=1S/C13H21N3O2S/c1-10-9-19-11(14-10)15-5-7-16(8-6-15)12(17)18-13(2,3)4/h9H,5-8H2,1-4H3
-3	SOLVENT	dioxane	InChI=1S/C4H8O2/c1-2-4-6-5-3-1/h1-4H2
-0	TARGET	4-methyl-2-(piperazin-1-yl)thiazole hydrochloride	InChI=1S/C8H13N3S/c1-7-6-12-8(10-7)11-4-2-9-3-5-11/h6,9H,2-5H2,1H3

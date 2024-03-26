@@ -1,0 +1,16 @@
+A	B
+[START]	[START]
+ADD 1-(4-chloro-2-fluorobenzyl)-5-bromopyridin-2(1h)-one	ADD 1-(4-chloro-2-fluorobenzyl)-5-bromopyridin-2(1h)-one
+ADD dioxane	ADD potassium acetate
+ADD PdCl2(dppf)	ADD nitrogen 4,4,5,5-tetramethyl-2-(4,4,5,5-tetramethyl-1,3,2-dioxaborolan-2-yl)-1,3,2-dioxaborolane
+ADD potassium acetate	ADD dioxane
+ADD nitrogen 4,4,5,5-tetramethyl-2-(4,4,5,5-tetramethyl-1,3,2-dioxaborolan-2-yl)-1,3,2-dioxaborolane	ADD PdCl2(dppf)
+STIR at 65°C for 5 h	STIR at 25°C for 20 min
+QUENCH with water	ADD PdCl2(dppf)
+EXTRACT with ethyl acetate	EXTRACT with ethyl acetate
+DRY SOLUTION organic phase with Na2SO4	DRY SOLUTION extracts with Na2SO4
+FILTER	CONCENTRATE
+CONCENTRATE	PURIFY by chromatography
+PURIFY by chromatography	YIELD: 1-(4-chloro-2-fluorobenzyl)-5-(4,4,5,5-tetramethyl-1,3,2-dioxaborolan-2-yl)pyridin-2(1h)-one
+YIELD: 1-(4-chloro-2-fluorobenzyl)-5-(4,4,5,5-tetramethyl-1,3,2-dioxaborolan-2-yl)pyridin-2(1h)-one	[END]
+[END]	

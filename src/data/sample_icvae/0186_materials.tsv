@@ -1,6 +1,0 @@
-index	role	name	inchi
-0	REACTANT	nitric acid	InChI=1S/HNO3/c2-1(3)4/h(H,2,3,4)
-4	REACTANT	sulfuric acid	InChI=1S/H2O4S/c1-5(2,3)4/h(H2,1,2,3,4)
-2	SOLVENT	water	InChI=1S/H2O/h1H2
-3	SOLVENT	nitromethane	InChI=1S/CH3NO2/c1-2(3)4/h1H3
-1	TARGET	n-acetyl-6-nitro-1-aminoindan	InChI=1S/C11H12N2O3/c1-7(14)12-11-5-3-8-2-4-9(13(15)16)6-10(8)11/h2,4,6,11H,3,5H2,1H3,(H,12,14)

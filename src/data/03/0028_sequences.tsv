@@ -1,0 +1,16 @@
+A	B
+[START]	[START]
+ADD	ADD DIPEA
+STIR at 25°C for 20 min	ADD DMA
+ADD DMA	STIR for 16 h
+ADD DIPEA	ADD DMA
+STIR at 25°C for 2 h	ADD for 16 h
+REMOVE	STIR
+PARTITION with NaHCO3	CONCENTRATE
+WASH organic phase with NaHCO3	MAKE SOLUTION with NaHCO3
+REPEAT 2 time(s)	SEPARATE
+DRY SOLUTION with Na2SO4	WASH
+FILTER	DRY SOLUTION with MgSO4
+CONCENTRATE	PURIFY by chromatography
+YIELD: (s)-tert-butyl 4-((r)-3-amino-3-(4-chlorobenzyl)piperidin-1-yl)-3-((s)-2,3-dihydro-1h-inden-1-yl)-4-oxobutanoate	YIELD: (s)-tert-butyl 4-((r)-3-amino-3-(4-chlorobenzyl)piperidin-1-yl)-3-((s)-2,3-dihydro-1h-inden-1-yl)-4-oxobutanoate
+[END]	[END]

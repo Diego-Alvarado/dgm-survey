@@ -1,0 +1,18 @@
+A	B
+[START]	[START]
+ADD ethyl (r)-5-(2-(2,5-difluorophenyl)pyrrolidin-1-yl)pyrazolo[1,5-a]pyrimidine-3-carboxylate	ADD ethyl (r)-5-(2-(2,5-difluorophenyl)pyrrolidin-1-yl)pyrazolo[1,5-a]pyrimidine-3-carboxylate
+ADD ethanol	ADD LiOH
+HEAT to > 80°C for 20 min	ADD ethanol
+ADD LiOH	ADD water at 25°C
+HEAT to > 80°C for 16 h	EXTRACT with ethyl ether
+COOL	REPEAT 2 time(s)
+CONCENTRATE	SET PH to 5
+ADD water	CONCENTRATE
+WASH with ethyl acetate	PURIFY by chromatography
+SET PH [DECREASE] to 2	YIELD: (r)-5-(2-(2,5-difluorophenyl)pyrrolidin-1-yl)pyrazolo[1,5-a]pyrimidine-3-carboxylic acid
+EXTRACT	[END]
+DRY SOLUTION	
+FILTER	
+CONCENTRATE	
+YIELD: (r)-5-(2-(2,5-difluorophenyl)pyrrolidin-1-yl)pyrazolo[1,5-a]pyrimidine-3-carboxylic acid	
+[END]	

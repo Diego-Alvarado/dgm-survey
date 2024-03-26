@@ -1,5 +1,0 @@
-index	role	name	inchi
-0	REACTANT	LiBH4	InChI=1S/BH4.Li/h1H4;/q-1;+1
-1	SOLVENT	THF	InChI=1S/C4H8O/c1-2-4-5-3-1/h1-4H2
-2	SOLVENT	water	InChI=1S/H2O/h1H2
-3	TARGET	ethyl 1-(4-chlorophenyl)-3-(hydroxymethyl)-1h-pyrazole-4-carboxylate	InChI=1S/C13H13ClN2O3/c1-2-19-13(18)11-7-16(15-12(11)8-17)10-5-3-9(14)4-6-10/h3-7,17H,2,8H2,1H3

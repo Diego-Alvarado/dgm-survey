@@ -1,0 +1,18 @@
+A	B
+[START]	[START]
+ADD DABCO	ADD ethyl 2-butynoate
+ADD ethyl 2-butynoate	ADD DABCO
+ADD toluene	ADD toluene at 65°C for 48 h
+HEAT to > 80°C for 5 h	STIR
+COOL to 25°C	QUENCH
+PARTITION with HCl	ADD water
+WASH organic phase with HCl and NaOH	ADD HCl
+DRY SOLUTION with MgSO4	SEPARATE
+FILTER	WASH organic phase with ethyl acetate
+CONCENTRATE	WASH with HCl
+PURIFY by chromatography	REPEAT 3 time(s)
+YIELD: ethyl (2e)-3-[2-bromo-4-(difluoromethoxy)-5-fluorophenoxy]but-2-enoate	DRY SOLUTION with MgSO4
+[END]	CONCENTRATE
+	PURIFY by chromatography
+	YIELD: ethyl (2e)-3-[2-bromo-4-(difluoromethoxy)-5-fluorophenoxy]but-2-enoate
+	[END]

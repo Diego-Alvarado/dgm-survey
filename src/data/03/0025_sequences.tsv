@@ -1,0 +1,15 @@
+A	B
+[START]	[START]
+ADD tert-butyl 1H-pyrrole-1-carboxylate	ADD dimethyl acetylenedicarboxylate
+ADD dimethyl acetylenedicarboxylate	ADD AlCl3 at 25°C
+ADD AlCl3	STIR for 20 min
+STIR at 65°C for 48 h	COOL to 0°C
+PURIFY by chromatography	ADD tert-butyl 1H-pyrrole-1-carboxylate
+YIELD: (1r,4s)-7-tert-butyl 2,3-dimethyl 7-azabicyclo[2.2.1]hepta-2,5-diene-2,3,7-tricarboxylate	ADD
+[END]	STIR at 0°C for 2 h
+	WASH
+	DRY SOLUTION with Na2SO4
+	FILTER
+	EVAPORATE
+	YIELD: (1r,4s)-7-tert-butyl 2,3-dimethyl 7-azabicyclo[2.2.1]hepta-2,5-diene-2,3,7-tricarboxylate
+	[END]

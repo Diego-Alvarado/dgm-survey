@@ -1,0 +1,17 @@
+A	B
+[START]	[START]
+ADD sodium hydride	ADD THF
+ADD 4-(4-hydroxyphenyl)butylamine hydrobromide	ADD 4-(4-hydroxyphenyl)butylamine hydrobromide
+ADD THF at 0°C	COOL to 0°C
+HEAT to 25°C for 20 min	ADD sodium hydride
+STIR	ADD
+ADD	STIR at 0°C for 20 min
+STIR at 25°C for 48 h	HEAT to 25°C
+ADD	ABSORB
+EVAPORATE solvent	PARTITION with HCl
+PURIFY by chromatography	WASH
+YIELD: [4-(4-benzyloxycarbonylaminobutyl)phenoxy]acetic acid ethyl ester	DRY SOLUTION
+[END]	FILTER
+	CONCENTRATE
+	YIELD: [4-(4-benzyloxycarbonylaminobutyl)phenoxy]acetic acid ethyl ester
+	[END]

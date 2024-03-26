@@ -1,8 +1,0 @@
-index	role	name	inchi
-0	REACTANT	phenyllithium	InChI=1S/C6H5.Li/c1-2-4-6-5-3-1;/h1-5H;
-5	REACTANT	tert-butyl 2-(4-methyl-phenyl)-2-oxo-acetate	InChI=1S/C13H16O3/c1-9-5-7-10(8-6-9)11(14)12(15)16-13(2,3)4/h5-8H,1-4H3
-6	REACTANT	acetic acid	InChI=1S/C2H4O2/c1-2(3)4/h1H3,(H,3,4)
-1	SOLVENT	THF	InChI=1S/C4H8O/c1-2-4-5-3-1/h1-4H2
-3	SOLVENT	diethyl ether	InChI=1S/C4H10O/c1-3-5-4-2/h3-4H2,1-2H3
-4	SOLVENT	water	InChI=1S/H2O/h1H2
-2	TARGET	tert-butyl 2-(4-methyl-phenyl)-2-phenyl-2-hydroxy-acetate	InChI=1S/C19H22O3/c1-14-10-12-16(13-11-14)19(21,15-8-6-5-7-9-15)17(20)22-18(2,3)4/h5-13,21H,1-4H3

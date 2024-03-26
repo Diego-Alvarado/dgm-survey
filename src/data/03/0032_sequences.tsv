@@ -1,0 +1,18 @@
+A	B
+[START]	[START]
+ADD 2-oxo-1,2-dihydropyridine-3-carbaldehyde	ADD
+ADD 4-(trifluoromethoxy)phenylboronic acid	ADD 4-(trifluoromethoxy)phenylboronic acid
+ADD copper(II) acetate	ADD 2-oxo-1,2-dihydropyridine-3-carbaldehyde
+ADD	ADD copper(II) acetate
+IRRADIATE at > 80°C for 20 min	STIR at > 80°C for 20 min
+COOL to 25°C	MICROWAVE
+CONCENTRATE	COOL to 25°C for 2 h
+PURIFY by chromatography	QUENCH
+YIELD: 2-oxo-1-(4-(trifluoromethoxy)phenyl)-1,2-dihydropyridine-3-carbaldehyde	WASH with brine
+[END]	DRY SOLUTION
+	FILTER
+	EVAPORATE solvent
+	PURIFY by chromatography
+	ELUTE
+	YIELD: 2-oxo-1-(4-(trifluoromethoxy)phenyl)-1,2-dihydropyridine-3-carbaldehyde
+	[END]

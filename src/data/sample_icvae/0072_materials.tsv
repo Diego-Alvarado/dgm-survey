@@ -1,7 +1,0 @@
-index	role	name	inchi
-0	REACTANT	n-butyllithium	InChI=1S/C4H9.Li/c1-3-4-2;/h1,3-4H2,2H3;
-2	REACTANT	tert-butyl 4-bromo-3-fluorobenzoate	InChI=1S/C11H12BrFO2/c1-11(2,3)15-10(14)7-4-5-8(12)9(13)6-7/h4-6H,1-3H3
-5	REACTANT	HCl	InChI=1S/ClH/h1H
-1	SOLVENT	THF	InChI=1S/C4H8O/c1-2-4-5-3-1/h1-4H2
-3	SOLVENT	hexane	InChI=1S/C6H14/c1-3-5-6-4-2/h3-6H2,1-2H3
-4	TARGET	4-(tert-butoxycarbonyl)-2-fluorobenzoic acid	InChI=1S/C12H13FO4/c1-12(2,3)17-11(16)7-4-5-8(10(14)15)9(13)6-7/h4-6H,1-3H3,(H,14,15)
