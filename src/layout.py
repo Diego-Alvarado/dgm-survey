@@ -14,7 +14,7 @@ import sidebar, layout_question, ids, main_page, close_page, materials_table
 def create_layout(app: Dash) -> dbc.Container:
     
     
-    files = Path('src/data/01/').glob('*tsv')
+    files = Path('data/01/').glob('*tsv')
     files = sorted(files, key=lambda x: x.name) 
     files = {(i + 2)//2: {'materials': files[i].absolute().as_posix(), 'sequences': files[i + 1]} for i in range(0, len(files), 2)}
     

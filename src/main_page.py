@@ -7,7 +7,7 @@ from PIL import Image
 import ids
 
 def layout_home(app: Dash) -> html.Div:
-    img = Image.open('src/assets/Picture1.png')
+    img = Image.open('assets/Picture1.png')
     
     
     @app.callback(Output(ids.PATH_SURVEY, 'data'),
@@ -52,7 +52,7 @@ def layout_home(app: Dash) -> html.Div:
                executed in a lab.
                """),
         html.P('\nPlease select survey number: '),
-        dcc.Dropdown(options={f'src/data/0{v}/': v for v in range(1, 5)}, id=ids.SURVEY_NUMBER, value='src/data/01/', persistence=True),
+        dcc.Dropdown(options={f'data/0{v}/': v for v in range(1, 5)}, id=ids.SURVEY_NUMBER, value='src/data/01/', persistence=True),
         dcc.Link([
                     dbc.Button('Next', className='me-1', id=ids.HOME_BUTTON, disabled=False),
                     ], href=f'/question-1',
