@@ -1,18 +1,18 @@
 A	B
 [START]	[START]
-ADD trifluoromethanesulfonic anhydride	ADD trifluoromethanesulfonic anhydride
-ADD 1-benzyl-7-hydroxy-6-methyl-8-nitro-2,3-dihydro-1h-imidazo[1,2-a]pyridin-5-one	ADD 1-benzyl-7-hydroxy-6-methyl-8-nitro-2,3-dihydro-1h-imidazo[1,2-a]pyridin-5-one
-ADD triethylamine	ADD triethylamine
-ADD DCM at < -10°C	ADD DCM
-STIR at 25°C for 5 h	STIR at 25°C for 2 h
-PARTITION	CONCENTRATE
-WASH organic phase with NaHCO3	ADD ethyl acetate
-DRY SOLUTION with Na2SO4	ADD NaHCO3
-CONCENTRATE	STIR at 25°C for 2 h
-PURIFY by chromatography	ADD
-YIELD: trifluoro-methanesulfonic acid 1-benzyl-6-methyl-8-nitro-5-oxo-1,2,3,5-tetrahydro-imidazo[1,2-a]pyridin-7-yl ester	DRY SOLUTION with Na2SO4
-[END]	FILTER
-	CONCENTRATE
-	PURIFY by chromatography
-	YIELD: trifluoro-methanesulfonic acid 1-benzyl-6-methyl-8-nitro-5-oxo-1,2,3,5-tetrahydro-imidazo[1,2-a]pyridin-7-yl ester
-	[END]
+ADD sodium hydrogen	ADD THF
+ADD ethyl 2-diethoxy phosphate	ADD ethyl 2-diethoxy phosphate
+ADD THF at 0°C	ADD sodium hydrogen
+STIR at 0°C for 20 min	STIR at 25°C for 48 h
+ADD at 0°C	ADD water
+STIR at 25°C for 2 h	ADD for 20 min
+ADD water	STIR at 65°C
+EXTRACT with ethyl acetate	EXTRACT with ethyl ether
+REPEAT 2 time(s)	WASH organic phase
+WASH organic phase with brine	DRY SOLUTION
+DRY SOLUTION with Na2SO4	EVAPORATE
+FILTER	YIELD: ethyl (e)-3-(4,4-difluorocyclohexyl)acrylate
+EVAPORATE	[END]
+PURIFY by chromatography	
+YIELD: ethyl (e)-3-(4,4-difluorocyclohexyl)acrylate	
+[END]	

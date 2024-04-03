@@ -1,14 +1,15 @@
 A	B
 [START]	[START]
-ADD 1-benzyl-5-chloro-3-chloromethylcinnolin-4(1h)-one	ADD 1-benzyl-5-chloro-3-chloromethylcinnolin-4(1h)-one
-ADD DMSO	ADD DMSO
-ADD sodium borohydride	ADD sodium borohydride
-STIR at 25°C for 2 h	STIR at 65°C for 5 h
-ADD water	ADD water
-COLLECT	EXTRACT with ethyl acetate
-DRY	WASH organic phase with brine
-YIELD: 1-benzyl-5-chloro-3-methylcinnolin-4(1h)-one	DRY SOLUTION with Na2SO4
-[END]	FILTER
-	CONCENTRATE
-	YIELD: 1-benzyl-5-chloro-3-methylcinnolin-4(1h)-one
-	[END]
+ADD methyl 2,6-dichloro-4-cyanonicotinate	ADD methyl 2,6-dichloro-4-cyanonicotinate
+ADD 1H-indazol-6-amine	ADD 1H-indazol-6-amine
+ADD triethylamine	ADD triethylamine
+ADD THF	ADD THF
+STIR at 65°C for 48 h	ADD THF
+ADD water	ADD ethyl acetate
+ADD ethyl acetate	WASH
+WASH organic phase	DRY SOLUTION with Na2SO4
+DRY SOLUTION with MgSO4	CONCENTRATE
+EVAPORATE	PURIFY by chromatography
+PURIFY by chromatography	YIELD: methyl 2-(1h-indazol-6-ylamino)-6-chloro-4-cyanonicotinate
+YIELD: methyl 2-(1h-indazol-6-ylamino)-6-chloro-4-cyanonicotinate	[END]
+[END]	

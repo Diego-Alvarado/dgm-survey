@@ -1,6 +1,7 @@
 index	role	name	inchi
-0	REACTANT	2,4,5-trichloropyrimidine	InChI=1S/C4HCl3N2/c5-2-1-8-4(7)9-3(2)6/h1H
-2	REACTANT	1-methyl-4-amino-1H-pyrazole-3-carbonitrile	InChI=1S/C5H6N4/c1-9-3-4(7)5(2-6)8-9/h3H,7H2,1H3
-3	REACTANT	triethylamine	InChI=1S/C6H15N/c1-4-7(5-2)6-3/h4-6H2,1-3H3
-1	SOLVENT	ethanol	InChI=1S/C2H6O/c1-2-3/h3H,2H2,1H3
-4	TARGET	2,5-dichloro-n-(3-cyano-1-methyl-1h-pyrazol-4-yl)-pyrimidin-4-amine	InChI=1S/C9H6Cl2N6/c1-17-4-7(6(2-12)16-17)14-8-5(10)3-13-9(11)15-8/h3-4H,1H3,(H,13,14,15)
+3	REACTANT	3-(5-(4-chlorobenzyl)-1-methyl-2,4-dioxo-6-(3-(trifluoromethoxy)phenyl)-1,2-dihydropyrido[2,3-d]pyrimidin-3(4H)-yl)propyl formate	InChI=1S/C26H21ClF3N3O5/c1-32-23-22(24(35)33(25(32)36)10-3-11-37-15-34)20(12-16-6-8-18(27)9-7-16)21(14-31-23)17-4-2-5-19(13-17)38-26(28,29)30/h2,4-9,13-15H,3,10-12H2,1H3
+4	REACTANT	LiOH.H2O	InChI=1S/Li.2H2O/h;2*1H2/q+1;;/p-1
+0	SOLVENT	ethyl acetate	InChI=1S/C4H8O2/c1-3-6-4(2)5/h3H2,1-2H3
+1	SOLVENT	THF	InChI=1S/C4H8O/c1-2-4-5-3-1/h1-4H2
+5	SOLVENT	water	InChI=1S/H2O/h1H2
+2	TARGET	5-(4-chlorobenzyl)-3-(3-hydroxypropyl)-1-methyl-6-(3-(trifluoromethoxy)phenyl)pyrido[2,3-d]pyrimidine-2,4(1h,3h)-dione	InChI=1S/C25H21ClF3N3O4/c1-31-22-21(23(34)32(24(31)35)10-3-11-33)19(12-15-6-8-17(26)9-7-15)20(14-30-22)16-4-2-5-18(13-16)36-25(27,28)29/h2,4-9,13-14,33H,3,10-12H2,1H3

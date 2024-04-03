@@ -1,14 +1,19 @@
 A	B
 [START]	[START]
-ADD (5RS)-3-Oxo-2-[3-(trifluoromethyl)benzyl]-2,3,5,6,7,8-hexahydro[1,2,4]triazolo[4,3-a]pyridine-5-carboxylic acid / trifluoroacetic acid	ADD (5RS)-3-Oxo-2-[3-(trifluoromethyl)benzyl]-2,3,5,6,7,8-hexahydro[1,2,4]triazolo[4,3-a]pyridine-5-carboxylic acid / trifluoroacetic acid
-ADD THF	ADD 1-[bis(dimethylamino)methylene]-1H-1,2,3-triazolo[4,5-b]pyridinium 3-oxid hexafluorophosphate
-ADD 1-[bis(dimethylamino)methylene]-1H-1,2,3-triazolo[4,5-b]pyridinium 3-oxid hexafluorophosphate	ADD triethylamine
-ADD triethylamine	ADD THF
-STIR at 25°C for 20 min	STIR at 25°C for 16 h
-ADD	REMOVE solvent
-STIR at 25°C for 48 h	PURIFY by chromatography
-REMOVE solvent	YIELD: (5rs)-5-[(3,3-difluoropyrrolidin-1-yl)carbonyl]-2-[3-(trifluoromethyl)benzyl]-5,6,7,8-tetrahydro[1,2,4]triazolo[4,3-a]pyridin-3(2h)-one
-PURIFY by chromatography	[END]
+ADD methanol	ADD iron powder
+ADD water	ADD ethyl acetate
+ADD iron powder	ADD water
+BUBBLE N2	MICROWAVE
+STIR at > 80°C for 2 h	HEAT
+COOL to 25°C	FILTER
+FILTER	SEPARATE
+WASH	WASH extracts
+CONCENTRATE filtrate	DRY SOLUTION with MgSO4
+EXTRACT with ethyl acetate	FILTER
+REPEAT 3 time(s)	CONCENTRATE
+WASH extracts	YIELD: 4-((3r,4r)-1-(5-chloro-2-methoxypyridin-4-yl)-3-methylpiperidin-4-yloxy)aniline
+DRY SOLUTION with Na2SO4	[END]
 CONCENTRATE	
-YIELD: (5rs)-5-[(3,3-difluoropyrrolidin-1-yl)carbonyl]-2-[3-(trifluoromethyl)benzyl]-5,6,7,8-tetrahydro[1,2,4]triazolo[4,3-a]pyridin-3(2h)-one	
+DRY [VACUUM] residue	
+YIELD: 4-((3r,4r)-1-(5-chloro-2-methoxypyridin-4-yl)-3-methylpiperidin-4-yloxy)aniline	
 [END]	

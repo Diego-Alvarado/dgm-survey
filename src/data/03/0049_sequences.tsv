@@ -1,18 +1,14 @@
 A	B
 [START]	[START]
-ADD HBr	ADD cyano-(5-oxo-5,6,7,8-tetrahydro-isoquinolin-6-yl)-acetic acid ethyl ester
-ADD acetic acid	ADD HBr
-ADD cyano-(5-oxo-5,6,7,8-tetrahydro-isoquinolin-6-yl)-acetic acid ethyl ester	ADD acetic acid at 25°C
-STIR at 0°C	STIR for 48 h
-MAKE SOLUTION	ADD
-ADD	HEAT to > 80°C for 2 h
-STIR at 25°C for 16 h	CONCENTRATE
-FILTER	EXTRACT with ethyl acetate
-WASH with ethyl ether	WASH extracts with water
-YIELD: 2-bromo-4,5-dihydro-1h-pyrrolo[2,3-f]isoquinoline-3-carboxylic acid ethyl ester hydrobromide	REPEAT 3 time(s)
-[END]	FILTER
-	EVAPORATE solvent
-	PURIFY by chromatography
-	COMBINE fractions
-	YIELD: 2-bromo-4,5-dihydro-1h-pyrrolo[2,3-f]isoquinoline-3-carboxylic acid ethyl ester hydrobromide
+ADD methyl 2-(2-methyl-1h-indol-5-yl)-3-[(2s)-2-methylpyrrolidin-1-yl]quinoxaline-6-carboxylate	ADD methyl 2-(2-methyl-1h-indol-5-yl)-3-[(2s)-2-methylpyrrolidin-1-yl]quinoxaline-6-carboxylate
+ADD methanol	ADD NaOH
+ADD water	ADD water
+ADD NaOH	ADD methanol at 25°C
+STIR at 25°C for 48 h	STAND at 65°C for 2 h
+CONCENTRATE	REMOVE solvent
+MAKE SOLUTION with water	SET PH with AcOH
+SET PH with AcOH to 5	CRYSTALLISE with water
+FILTER	WASH with methanol
+YIELD: 2-(2-methyl-1h-indol-5-yl)-3-[(2s)-2-methylpyrrolidin-1-yl]quinoxaline-6-carboxylic acid	DRY
+[END]	YIELD: 2-(2-methyl-1h-indol-5-yl)-3-[(2s)-2-methylpyrrolidin-1-yl]quinoxaline-6-carboxylic acid
 	[END]

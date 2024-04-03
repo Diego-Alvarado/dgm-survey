@@ -1,17 +1,23 @@
 A	B
 [START]	[START]
-ADD THF	ADD THF
-ADD NaHMDS at < -10°C	ADD NaHMDS at < -10°C
-ADD allyl bromide for 20 min	ADD NaHMDS
-QUENCH with ammonium chloride	STIR for 2 h
-STAND at 25°C	ADD allyl bromide
-EXTRACT with ethyl acetate	HEAT for 20 min
-REPEAT 3 time(s)	COOL
-DRY SOLUTION organic phase with MgSO4	ADD brine
-FILTER	EXTRACT with ethyl acetate
-CONCENTRATE	DRY SOLUTION extracts with Na2SO4
-PURIFY by chromatography	CONCENTRATE
-YIELD: (4r,5s)-3-((s)-2-allylhexanoyl)-4-methyl-5-phenyloxazolidin-2-one	PURIFY by chromatography
-[END]	RECRYSTALLISATION
-	YIELD: (4r,5s)-3-((s)-2-allylhexanoyl)-4-methyl-5-phenyloxazolidin-2-one
+ADD N-[(allyloxy)carbonyl]-4-{{2-[(benzhydryloxy)carbonyl]phenyl}[tert-butoxy(oxo)acetyl]amino}-L-phenylalanine	ADD N-[(allyloxy)carbonyl]-4-{{2-[(benzhydryloxy)carbonyl]phenyl}[tert-butoxy(oxo)acetyl]amino}-L-phenylalanine
+ADD TBTU	ADD HOBt
+ADD HOBt	ADD TBTU
+ADD DMF	ADD triethylamine
+ADD methyl 2-(4-aminobutoxy)-6-hydroxybenzoate	ADD DMF at 25°C
+ADD triethylamine	ADD methyl 2-(4-aminobutoxy)-6-hydroxybenzoate
+STIR at 25°C for 2 h	ADD DMF for 20 min
+ADD	STIR at 25°C for 48 h
+ADD water	ADD water
+EXTRACT with ethyl acetate	STIR for 20 min
+REPEAT 2 time(s)	CONCENTRATE organic phase
+WASH organic phase with NaHCO3	MAKE SOLUTION with NaHCO3
+REPEAT 2 time(s)	WASH with ethyl acetate
+DRY SOLUTION with Na2SO4	REPEAT 2 time(s)
+FILTER	DRY SOLUTION organic phase with Na2SO4
+CONCENTRATE	FILTER
+PURIFY by chromatography	CONCENTRATE filtrate
+YIELD: methyl 2-{4-[(n-[(allyloxy)carbonyl]-4-{{2-[(benzhydryloxy)carbonyl]phenyl}[tert-butoxy(oxo)acetyl]amino}-1-phenylalanyl)amino]butoxy}-6-hydroxybenzoate	PURIFY by chromatography
+[END]	CONCENTRATE
+	YIELD: methyl 2-{4-[(n-[(allyloxy)carbonyl]-4-{{2-[(benzhydryloxy)carbonyl]phenyl}[tert-butoxy(oxo)acetyl]amino}-1-phenylalanyl)amino]butoxy}-6-hydroxybenzoate
 	[END]

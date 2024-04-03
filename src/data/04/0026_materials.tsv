@@ -1,6 +1,5 @@
 index	role	name	inchi
-3	REACTANT	triethylamine	InChI=1S/C6H15N/c1-4-7(5-2)6-3/h4-6H2,1-3H3
-4	REACTANT	n-butylisothiocyanate	InChI=1S/C5H9NS/c1-2-3-4-6-5-7/h2-4H2,1H3
-1	SOLVENT	DCM	InChI=1S/CH2Cl2/c2-1-3/h1H2
-2	SOLVENT	water	InChI=1S/H2O/h1H2
-0	TARGET	1-butyl-3-cycloheptylthiourea	InChI=1S/C12H24N2S/c1-2-3-10-13-12(15)14-11-8-6-4-5-7-9-11/h11H,2-10H2,1H3,(H2,13,14,15)
+0	REACTANT	phenylethynylmagnesium bromide	InChI=1S/C8H5.BrH.Mg/c1-2-8-6-4-3-5-7-8;;/h3-7H;1H;/p-1
+1	REACTANT	n-methoxy-n,2,6-trimethylisonicotinamide	InChI=1S/C10H14N2O2/c1-7-5-9(6-8(2)11-7)10(13)12(3)14-4/h5-6H,1-4H3
+2	SOLVENT	THF	InChI=1S/C4H8O/c1-2-4-5-3-1/h1-4H2
+3	TARGET	1-(2,6-dimethyl-pyridin-4-yl)-3-phenyl-propynone	InChI=1S/C16H13NO/c1-12-10-15(11-13(2)17-12)16(18)9-8-14-6-4-3-5-7-14/h3-7,10-11H,1-2H3

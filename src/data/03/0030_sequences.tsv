@@ -1,21 +1,10 @@
 A	B
 [START]	[START]
-ADD 1-(4-bromophenyl)-2-oxopyrrolidin-3-yl methanesulfonate	ADD
-ADD THF	BUBBLE N2
-ADD 3-methoxyaniline	ADD 3-methoxyaniline
-HEAT to > 80°C for 48 h	ADD THF
-COOL to 25°C	MICROWAVE at > 80°C
-ADD ethyl acetate	ADD 1-(4-bromophenyl)-2-oxopyrrolidin-3-yl methanesulfonate
-WASH	HEAT to 65°C for 20 min
-DRY SOLUTION with Na2SO4	COOL
-FILTER	ADD water
-CONCENTRATE	ADD ethyl acetate
-YIELD: (r)-1-(4-bromophenyl)-3-((3-methoxyphenyl)amino)pyrrolidin-2-one	FILTER
-[END]	VACUUM
-	ADD
-	FILTER
-	EXTRACT with dichloromethane
-	REPEAT 3 time(s)
-	RECRYSTALLISATION
-	YIELD: (r)-1-(4-bromophenyl)-3-((3-methoxyphenyl)amino)pyrrolidin-2-one
+ADD 2-methylsulfanyl-5,6,7,8-tetrahydro-3h-quinazolin-4-one	ADD 2-methylsulfanyl-5,6,7,8-tetrahydro-3h-quinazolin-4-one
+ADD 1-tert-butylpiperazine	ADD 1-tert-butylpiperazine
+ADD isoamyl alcohol	ADD isoamyl alcohol
+SEPARATE	STIR at 25°C for 5 h
+YIELD: 2-(4-tert-butylpiperazin-1-yl)-5,6,7,8-tetrahydro-3h-quinazolin-4-one	EVAPORATE solvent
+[END]	PURIFY by chromatography
+	YIELD: 2-(4-tert-butylpiperazin-1-yl)-5,6,7,8-tetrahydro-3h-quinazolin-4-one
 	[END]

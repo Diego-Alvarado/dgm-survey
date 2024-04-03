@@ -1,4 +1,5 @@
 index	role	name	inchi
-1	REACTANT	ethyl 2-hydroxy-2-(4-cyclohexylphenyl)acetate	InChI=1S/C16H22O3/c1-2-19-16(18)15(17)14-10-8-13(9-11-14)12-6-4-3-5-7-12/h8-12,15,17H,2-7H2,1H3
+3	REACTANT	HCl	InChI=1S/ClH/h1H
+1	SOLVENT	THF	InChI=1S/C4H8O/c1-2-4-5-3-1/h1-4H2
 2	SOLVENT	water	InChI=1S/H2O/h1H2
-0	TARGET	ethyl 2-chloro-2-(4-cyclohexylphenyl)acetate	InChI=1S/C16H21ClO2/c1-2-19-16(18)15(17)14-10-8-13(9-11-14)12-6-4-3-5-7-12/h8-12,15H,2-7H2,1H3
+0	TARGET	2-[2,4-difluoro-3-[[2-fluoro-3-(3-fluorophenyl)-5-hydroxy-phenyl]methylamino]phenoxy]acetic acid	InChI=1S/C21H15F4NO4/c22-13-3-1-2-11(6-13)15-8-14(27)7-12(19(15)24)9-26-21-16(23)4-5-17(20(21)25)30-10-18(28)29/h1-8,26-27H,9-10H2,(H,28,29)

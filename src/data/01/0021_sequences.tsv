@@ -1,16 +1,18 @@
 A	B
 [START]	[START]
-ADD 5-[3-(2-chloro-4-pyrimidinyl)imidazo[1,2-a]pyridin-2-yl]-n-(2,6-difluorophenyl)-2-(methyloxy)benzamide	ADD 5-[3-(2-chloro-4-pyrimidinyl)imidazo[1,2-a]pyridin-2-yl]-n-(2,6-difluorophenyl)-2-(methyloxy)benzamide
-ADD 2-(methyloxy)-4-[4-(methylsulfonyl)-1-piperazinyl]aniline	ADD 2-(methyloxy)-4-[4-(methylsulfonyl)-1-piperazinyl]aniline
-ADD p-toluenesulfonic acid	ADD p-toluenesulfonic acid
-ADD trifluoroethanol	ADD trifluoroethanol
-HEAT to > 80°C for 48 h	ADD ammonia
-ADD ammonia	ADD methanol
-ADD methanol for 48 h	HEAT to > 80°C for 48 h
-CONCENTRATE	ADD
-ADD dichloromethane	CONCENTRATE residue
-ADD	PURIFY by chromatography
-CONCENTRATE	PURIFY by chromatography
-PURIFY by chromatography	YIELD: n-(2,6-difluorophenyl)-2-(methyloxy)-5-{3-[2-({2-(methyloxy)-4-[4-(methylsulfonyl)-1-piperazinyl]phenyl}amino)-4-pyrimidinyl]imidazo[1,2-a]pyridin-2-yl}benzamide
-YIELD: n-(2,6-difluorophenyl)-2-(methyloxy)-5-{3-[2-({2-(methyloxy)-4-[4-(methylsulfonyl)-1-piperazinyl]phenyl}amino)-4-pyrimidinyl]imidazo[1,2-a]pyridin-2-yl}benzamide	[END]
-[END]	
+ADD perchloric acid	ADD perchloric acid
+ADD ethanol	ADD sodium hypochlorite trap
+BUBBLE sodium hypochlorite trap	ADD ethanol
+STIR at 25°C for 48 h	STIR at 25°C for 2 h
+COLLECT	ADD sodium hypochlorite trap
+YIELD: 4-octahydro-(4-phenoxyphenyl)-1,2,3,6,7,8,9,9a-quinolizinium perchlorate	STIR at 25°C for 16 h
+[END]	QUENCH with ammonium chloride
+	EXTRACT with dichloromethane
+	REPEAT 3 time(s)
+	WASH organic phase with brine
+	DRY SOLUTION with Na2SO4
+	FILTER
+	CONCENTRATE
+	PURIFY by chromatography
+	YIELD: 4-octahydro-(4-phenoxyphenyl)-1,2,3,6,7,8,9,9a-quinolizinium perchlorate
+	[END]

@@ -1,19 +1,18 @@
 A	B
 [START]	[START]
-ADD (5-(aminomethyl)-6-methoxy-4-methylpyridin-2-yl)methanol	ADD EDC
-ADD 6-bromo-1-isopropyl-3-methyl-1H-indole-4-carboxylic acid	ADD (5-(aminomethyl)-6-methoxy-4-methylpyridin-2-yl)methanol
-ADD HOAt	ADD DCM
-ADD DCM	ADD DMF
-ADD DMF	ADD 6-bromo-1-isopropyl-3-methyl-1H-indole-4-carboxylic acid
-ADD EDC	ADD HOAt
-STIR at 25°C for 2 h	STIR at 25°C for 16 h
-EVAPORATE	REMOVE solvent
-PURIFY by chromatography	MAKE SOLUTION
-YIELD: 6-bromo-n-((6-(hydroxymethyl)-2-methoxy-4-methylpyridin-3-yl)methyl)-1-isopropyl-3-methyl-1h-indole-4-carboxamide	PURIFY by chromatography
-[END]	TRITURATE with hexane
-	FILTER
-	WASH with brine
-	REPEAT 1 time(s)
-	CONCENTRATE
-	YIELD: 6-bromo-n-((6-(hydroxymethyl)-2-methoxy-4-methylpyridin-3-yl)methyl)-1-isopropyl-3-methyl-1h-indole-4-carboxamide
-	[END]
+ADD sodium hydride	ADD ethyl 2-cyano-2-phenylacetate
+ADD THF	ADD sodium hydride
+ADD ethyl 2-cyano-2-phenylacetate at 0°C	ADD THF
+STIR at 0°C for 2 h	ADD methyl iodide
+ADD methyl iodide	COOL to 0°C
+HEAT to 25°C for 16 h	STIR for 20 min
+QUENCH	ADD
+SEPARATE	STIR at 25°C for 48 h
+PARTITION with ethyl acetate	ADD ethyl acetate
+REPEAT 3 time(s)	FILTER
+DRY SOLUTION organic phase with MgSO4	CONCENTRATE
+FILTER	PURIFY by chromatography
+REMOVE solvent	YIELD: ethyl 2-cyano-2-phenylpropanoate
+PURIFY by chromatography	[END]
+YIELD: ethyl 2-cyano-2-phenylpropanoate	
+[END]	

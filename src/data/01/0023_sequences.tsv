@@ -1,16 +1,18 @@
 A	B
 [START]	[START]
-ADD (5-(aminomethyl)-6-methoxy-4-methylpyridin-2-yl)methanol	ADD (5-(aminomethyl)-6-methoxy-4-methylpyridin-2-yl)methanol
-ADD 6-bromo-1-isopropyl-3-methyl-1H-indole-4-carboxylic acid	ADD 6-bromo-1-isopropyl-3-methyl-1H-indole-4-carboxylic acid
-ADD HOAt	ADD HOAt
-ADD DCM	ADD DCM
-ADD DMF	ADD EDC
-ADD EDC	ADD DMF
-STIR at 25°C for 2 h	STIR for 2 h
-EVAPORATE	STIR at 25°C for 20 min
-PURIFY by chromatography	CONCENTRATE
-YIELD: 6-bromo-n-((6-(hydroxymethyl)-2-methoxy-4-methylpyridin-3-yl)methyl)-1-isopropyl-3-methyl-1h-indole-4-carboxamide	PARTITION with water
-[END]	FILTER
-	PURIFY by chromatography
-	YIELD: 6-bromo-n-((6-(hydroxymethyl)-2-methoxy-4-methylpyridin-3-yl)methyl)-1-isopropyl-3-methyl-1h-indole-4-carboxamide
-	[END]
+ADD sodium hydride	ADD methyl iodide
+ADD THF	ADD THF
+ADD ethyl 2-cyano-2-phenylacetate at 0°C	ADD sodium hydride
+STIR at 0°C for 2 h	ADD ethyl 2-cyano-2-phenylacetate
+ADD methyl iodide	STIR at 25°C for 2 h
+HEAT to 25°C for 16 h	CONCENTRATE
+QUENCH	ADD
+SEPARATE	EXTRACT
+PARTITION with ethyl acetate	WASH organic phase with brine
+REPEAT 3 time(s)	DRY SOLUTION with MgSO4
+DRY SOLUTION organic phase with MgSO4	CONCENTRATE
+FILTER	YIELD: ethyl 2-cyano-2-phenylpropanoate
+REMOVE solvent	[END]
+PURIFY by chromatography	
+YIELD: ethyl 2-cyano-2-phenylpropanoate	
+[END]	

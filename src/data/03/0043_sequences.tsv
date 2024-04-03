@@ -1,14 +1,14 @@
 A	B
 [START]	[START]
-ADD 3-[1-(ethylsulfonyl)-4-piperidinyl]-5-(5-formyl-3-thienyl)-1H-indole-7-carboxamide	ADD 3-[1-(ethylsulfonyl)-4-piperidinyl]-5-(5-formyl-3-thienyl)-1H-indole-7-carboxamide
-ADD methanol	ADD DCM
-ADD DCM	ADD methanol
-STIR at 25°C for 2 h	COOL
-ADD sodium borohydride	ADD sodium borohydride
-STIR at 25°C for 2 h	STIR
-EVAPORATE solvent	STAND
-PURIFY by chromatography	ADD ethyl ether
-YIELD: 3-[1-(ethylsulfonyl)-4-piperidinyl]-5-{5-[(methylamino)methyl]-3-thienyl}-1h-indole-7-carboxamide	DRY
-[END]	PURIFY by chromatography
-	YIELD: 3-[1-(ethylsulfonyl)-4-piperidinyl]-5-{5-[(methylamino)methyl]-3-thienyl}-1h-indole-7-carboxamide
-	[END]
+ADD 4-fluoro-1-nitro-2-(trifluoromethyl)benzene	ADD 4-fluoro-1-nitro-2-(trifluoromethyl)benzene
+ADD sodium carbonate	ADD DMSO
+ADD DMSO	ADD sodium carbonate
+ADD	HEAT to 65°C for 16 h
+STIR	COOL to 25°C
+ADD	CONCENTRATE
+HEAT to 65°C	PURIFY by chromatography
+ADD	YIELD: 7-[4-nitro-3-(trifluoromethyl)phenyl]-7-azabicyclo[2.2.1]heptane
+WASH	[END]
+REPEAT 3 time(s)	
+YIELD: 7-[4-nitro-3-(trifluoromethyl)phenyl]-7-azabicyclo[2.2.1]heptane	
+[END]	

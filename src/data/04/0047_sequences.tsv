@@ -1,18 +1,17 @@
 A	B
 [START]	[START]
-ADD N-(5-bromopyridin-3-yl)pivalamide	ADD N-(5-bromopyridin-3-yl)pivalamide
-ADD 1-methyl-6-(4,4,5,5-tetramethyl-1,3,2-dioxaborolan-2-yl)-3,4-dihydroquinolin-2(1h)-one	ADD 1-methyl-6-(4,4,5,5-tetramethyl-1,3,2-dioxaborolan-2-yl)-3,4-dihydroquinolin-2(1h)-one
-ADD DMF	ADD DMF
-BUBBLE Ar	HEAT to 65°C
-ADD	STIR for 2 h
-HEAT to > 80°C for 20 min	COOL to 25°C
-ADD ethyl acetate	ADD ethyl acetate
-FILTER	WASH with brine
-WASH with ethyl acetate	DRY SOLUTION with Na2SO4
-WASH with brine	CONCENTRATE
-DRY SOLUTION with Na2SO4	PURIFY by chromatography
-FILTER	YIELD: 2,2-dimethyl-n-[5-(1-methyl-2-oxo-1,2,3,4-tetrahydro-quinolin-6-yl)-pyridin-3-yl]-propionamide
-EVAPORATE	[END]
-PURIFY by chromatography	
-YIELD: 2,2-dimethyl-n-[5-(1-methyl-2-oxo-1,2,3,4-tetrahydro-quinolin-6-yl)-pyridin-3-yl]-propionamide	
-[END]	
+ADD 1-(2-fluoro-4-iodophenyl)-3-methyl-6-methylamino-1H-pyrimidine-2,4-dione	ADD diphenyl ether
+ADD diethyl malonate	HEAT to 65°C for 20 min
+ADD diphenyl ether	ADD diethyl malonate
+HEAT to > 80°C	DISTIL
+STIR for 2 h	ADD 1-(2-fluoro-4-iodophenyl)-3-methyl-6-methylamino-1H-pyrimidine-2,4-dione
+CONCENTRATE	STIR at 25°C for 2 h
+PURIFY by chromatography	COOL
+YIELD: 3-methyl-1-(2-fluoro-4-iodophenyl)-5-hydroxy-8-methylpyrido[2,3-d]pyrimidine-2,4,7(1h,3h,8h)-trione	CRYSTALLISE
+[END]	COLLECT
+	STAND at < -10°C for 2 h
+	COLLECT
+	WASH
+	REPEAT 3 time(s)
+	YIELD: 3-methyl-1-(2-fluoro-4-iodophenyl)-5-hydroxy-8-methylpyrido[2,3-d]pyrimidine-2,4,7(1h,3h,8h)-trione
+	[END]

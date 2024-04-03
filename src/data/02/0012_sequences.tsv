@@ -1,14 +1,16 @@
 A	B
 [START]	[START]
-ADD 5-(3-bromopropyl)-n-cyclopropyl-1-(4-{[(2,2,2-trifluoroethyl)amino]carbonyl}phenyl)-1h-1,2,3-triazole-4-carboxamide	ADD 5-(3-bromopropyl)-n-cyclopropyl-1-(4-{[(2,2,2-trifluoroethyl)amino]carbonyl}phenyl)-1h-1,2,3-triazole-4-carboxamide
-ADD acetonitrile	ADD acetonitrile
-ADD tetrabutylammonium fluoride hydrate	ADD tetrabutylammonium fluoride hydrate
-STIR at 65°C for 16 h	STIR at 25°C for 48 h
-COOL to 25°C	QUENCH with NaHCO3
-EVAPORATE solvent	EXTRACT with ethyl acetate
-PURIFY by chromatography	WASH organic phase with brine
-RECRYSTALLISATION with hexane	DRY SOLUTION with Na2SO4
-YIELD: n-cyclopropyl-5-[(1e)-prop-1-en-1-yl]-1-(4-{[(2,2,2-trifluoroethyl)amino]carbonyl}phenyl)-1h-1,2,3-triazole-4-carboxamide	CONCENTRATE
-[END]	PURIFY by chromatography
-	YIELD: n-cyclopropyl-5-[(1e)-prop-1-en-1-yl]-1-(4-{[(2,2,2-trifluoroethyl)amino]carbonyl}phenyl)-1h-1,2,3-triazole-4-carboxamide
-	[END]
+ADD ethyl 2-((1-(3-chlorophenyl)cyclopropyl)amino)pyrimidine-5-carboxylate	ADD ethyl 2-((1-(3-chlorophenyl)cyclopropyl)amino)pyrimidine-5-carboxylate
+ADD hydrazine hydrate	ADD ethanol
+ADD ethanol at 25°C	ADD hydrazine hydrate at 25°C
+STIR at > 80°C for 16 h	STIR at > 80°C for 16 h
+COOL to 25°C	COOL to 25°C
+CONCENTRATE	ADD
+REMOVE solvent	EXTRACT with dichloromethane
+ADD ethanol	WASH organic phase
+STIR at 25°C	DRY SOLUTION with MgSO4
+FILTER	FILTER
+WASH with ethanol	CONCENTRATE
+DRY	YIELD: 2-((1-(3-chlorophenyl)cyclopropyl)amino)pyrimidine-5-carbohydrazide
+YIELD: 2-((1-(3-chlorophenyl)cyclopropyl)amino)pyrimidine-5-carbohydrazide	[END]
+[END]	

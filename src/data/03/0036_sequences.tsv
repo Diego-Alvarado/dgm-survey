@@ -1,11 +1,6 @@
 A	B
 [START]	[START]
-ADD TFA	ADD DCM
-ADD DCM at 25°C for 2 h	ADD TFA at 0°C
-CONCENTRATE	REMOVE solvent
-PURIFY by chromatography	EVAPORATE solvent
-YIELD: (2r,5r)-2,6-diaza-bicyclo[3.2.0]heptane-6-carboxylic acid benzyl ester	MAKE SOLUTION with DCM
-[END]	FILTER
-	CONCENTRATE
-	YIELD: (2r,5r)-2,6-diaza-bicyclo[3.2.0]heptane-6-carboxylic acid benzyl ester
-	[END]
+SPE	SPE
+ELUTE	ELUTE
+YIELD: n-(3,5-difluorophenyl)-3-(8-(2,6-difluorophenyl)-2-{[2-(dimethylamino)ethyl]-amino}-7-oxo-5,6,7,8-tetrahydropyrimido[4,5-d]pyrimidin-4-yl)-4-methylbenzamide	YIELD: n-(3,5-difluorophenyl)-3-(8-(2,6-difluorophenyl)-2-{[2-(dimethylamino)ethyl]-amino}-7-oxo-5,6,7,8-tetrahydropyrimido[4,5-d]pyrimidin-4-yl)-4-methylbenzamide
+[END]	[END]

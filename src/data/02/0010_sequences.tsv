@@ -1,12 +1,17 @@
 A	B
 [START]	[START]
-ADD ethanol	ADD
-ADD water	ADD ethanol
-ADD	HEAT to > 80°C for 2 h
-REFLUX for 2 h	ADD water at 0°C for 20 min
-COOL	FILTER
-FILTER	DRY [AIR-DRYING]
-WASH with ethyl ether	ADSORB
-DRY	PURIFY by chromatography
-YIELD: 5-(3-oxo-2-pyridin-2-yl-2,3-dihydro-1h-pyrazol-4-yl)-nicotinic acid	YIELD: 5-(3-oxo-2-pyridin-2-yl-2,3-dihydro-1h-pyrazol-4-yl)-nicotinic acid
-[END]	[END]
+ADD 2-chloro-n-(3,5-difluoro-4-methoxyphenyl)acetamide	ADD sodium iodide
+ADD 6-(trifluoromethyl)-1H-imidazo[4,5-c]pyridine-2-thiol	ADD 2-chloro-n-(3,5-difluoro-4-methoxyphenyl)acetamide
+ADD sodium iodide	ADD 6-(trifluoromethyl)-1H-imidazo[4,5-c]pyridine-2-thiol
+ADD triethylamine	ADD triethylamine
+ADD acetonitrile	ADD acetonitrile
+STIR at 65°C for 2 h	STIR at > 80°C for 16 h
+PURIFY by chromatography	EVAPORATE
+YIELD: n-(3,5-difluoro-4-methoxyphenyl)-2-((6-(trifluoromethyl)-3h-imidazo[4,5-c]pyridin-2-yl)thio)acetamide	PARTITION with NaHCO3
+[END]	EXTRACT with ethyl acetate
+	REPEAT 3 time(s)
+	DRY SOLUTION with Na2SO4
+	FILTER
+	EVAPORATE filtrate
+	YIELD: n-(3,5-difluoro-4-methoxyphenyl)-2-((6-(trifluoromethyl)-3h-imidazo[4,5-c]pyridin-2-yl)thio)acetamide
+	[END]

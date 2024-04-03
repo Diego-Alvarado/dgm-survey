@@ -1,21 +1,17 @@
 A	B
 [START]	[START]
-ADD (methoxymethyl)triphenylphosphonium chloride	ADD (methoxymethyl)triphenylphosphonium chloride
-MAKE SOLUTION	ADD THF
-ADD THF at 0°C	STIR at 25°C for 48 h
-STIR at 0°C for 20 min	ADD water
-MAKE SOLUTION	SET PH with NaOH to 10
-ADD THF	EXTRACT with ethyl acetate
-STIR at 25°C for 48 h	WASH organic phase with brine
-ADD water	REPEAT 2 time(s)
-COOL to 0°C	DRY SOLUTION with Na2SO4
-STAND	FILTER
-STIR at 25°C for 2 h	CONCENTRATE filtrate
-EXTRACT	PURIFY by chromatography
-SET PH with NaOH to 10	YIELD: [4-(dimethylamino-phenyl-methyl)-cyclohexyl]-acetaldehyde
-STIR	[END]
-DRY SOLUTION extracts with Na2SO4	
-CONCENTRATE	
-PURIFY by chromatography	
-YIELD: [4-(dimethylamino-phenyl-methyl)-cyclohexyl]-acetaldehyde	
-[END]	
+ADD 2,6-dichloro-4-methoxypyridine	ADD 2,6-dichloro-4-methoxypyridine
+ADD sulfuric acid	ADD sulfuric acid
+HEAT to > 80°C for 2 h	ADD
+ADD	HEAT to > 80°C for 48 h
+FILTER	ADD sulfuric acid at 0°C for 2 h
+WASH with water	COOL
+YIELD: 2,6-dichloro-4-methoxy-3-nitropyridine	ADD
+[END]	EXTRACT with chloroform
+	REPEAT 2 time(s)
+	WASH with brine
+	DRY SOLUTION with MgSO4
+	EVAPORATE
+	PURIFY by chromatography
+	YIELD: 2,6-dichloro-4-methoxy-3-nitropyridine
+	[END]

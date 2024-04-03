@@ -1,15 +1,15 @@
 A	B
 [START]	[START]
-ADD n-butanol	ADD 9-benzyl-2-chloro-9h-purin-6-ylamine
-ADD 9-benzyl-2-chloro-9h-purin-6-ylamine	ADD n-butanol
-ADD isobutylamine	ADD isobutylamine
-HEAT	STIR at 25°C for 16 h
-ADD	PURIFY by chromatography
-ADD	YIELD: 6-amino-9-benzyl-2-(isobutylamino)purine
-EXTRACT	[END]
-DRY SOLUTION organic phase with Na2SO4	
-FILTER	
-EVAPORATE	
-PURIFY by chromatography	
-YIELD: 6-amino-9-benzyl-2-(isobutylamino)purine	
-[END]	
+ADD 4-[5-(4-t-butylphenyl)-1,3,4-oxadiazol-2-yl]-3-nitrobenzoic acid	ADD 4-[5-(4-t-butylphenyl)-1,3,4-oxadiazol-2-yl]-3-nitrobenzoic acid
+ADD Pd / C	ADD THF
+ADD THF	ADD Pd / C
+STIR at 25°C for 20 min	STIR at 25°C for 16 h
+FILTER	FILTER
+CONCENTRATE filtrate	EVAPORATE filtrate
+PURIFY by chromatography	ADD THF
+RECRYSTALLISATION	WASH with brine
+YIELD: 3-amino-4-[5-(4-t-butylphenyl)-1,3,4-oxadiazol-2-yl]benzoic acid	DRY SOLUTION with MgSO4
+[END]	REMOVE solvent
+	PURIFY by chromatography
+	YIELD: 3-amino-4-[5-(4-t-butylphenyl)-1,3,4-oxadiazol-2-yl]benzoic acid
+	[END]

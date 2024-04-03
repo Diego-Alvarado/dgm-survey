@@ -1,18 +1,20 @@
 A	B
 [START]	[START]
-ADD n-butylisothiocyanate	ADD DCM
-ADD DCM	ADD n-butylisothiocyanate
-ADD	ADD triethylamine
-MAKE SOLUTION	STIR for 5 h
-ADD triethylamine	ADD water
-STIR at 25°C for 2 h	EXTRACT with ethyl acetate
-ADD water	REPEAT 2 time(s)
-ADD	DRY SOLUTION organic phase with Na2SO4
-SEPARATE organic phase	CONCENTRATE
-EXTRACT	PURIFY by chromatography
-DRY SOLUTION organic phase	YIELD: 1-butyl-3-cycloheptylthiourea
-FILTER	[END]
+ADD n-methoxy-n,2,6-trimethylisonicotinamide	ADD n-methoxy-n,2,6-trimethylisonicotinamide
+ADD THF	ADD THF
+ADD phenylethynylmagnesium bromide	ADD phenylethynylmagnesium bromide
+ADD at 0°C	STIR at 25°C for 20 min
+STIR at 25°C for 2 h	ADD
+QUENCH	STIR
+ADD	EXTRACT with ethyl acetate
+STIR for 20 min	WASH organic phase with brine
+SEPARATE	DRY SOLUTION with Na2SO4
+EXTRACT with ethyl acetate	CONCENTRATE
+REPEAT 2 time(s)	PURIFY by chromatography
+WASH organic phase with brine	YIELD: 1-(2,6-dimethyl-pyridin-4-yl)-3-phenyl-propynone
+DRY SOLUTION with Na2SO4	[END]
+FILTER	
 CONCENTRATE	
 PURIFY by chromatography	
-YIELD: 1-butyl-3-cycloheptylthiourea	
+YIELD: 1-(2,6-dimethyl-pyridin-4-yl)-3-phenyl-propynone	
 [END]	

@@ -1,18 +1,11 @@
 A	B
 [START]	[START]
-ADD THF	ADD THF
-ADD borane-tetrahydrofuran complex	ADD borane-tetrahydrofuran complex
-STIR at 0°C for 20 min	ADD THF
-HEAT to 25°C for 16 h	STIR
-COMBINE	ADD water
-QUENCH with methanol	ADD
-CONCENTRATE	EXTRACT with ethyl acetate
-ADD water	WASH organic phase
-EXTRACT with ethyl acetate	DRY SOLUTION
-REPEAT 3 time(s)	FILTER
-WASH organic phase with brine	CONCENTRATE
-DRY SOLUTION with Na2SO4	PURIFY by chromatography
-FILTER	YIELD: methyl 3-(hydroxymethyl)benzoate
-CONCENTRATE	[END]
-YIELD: methyl 3-(hydroxymethyl)benzoate	
+ADD 6-(4-Fluoro-3-methylphenyl)-2-isobutyl-4-methanesulfonyloxymethyl-2H-pyridazin-3-one	ADD 6-(4-Fluoro-3-methylphenyl)-2-isobutyl-4-methanesulfonyloxymethyl-2H-pyridazin-3-one
+ADD piperidine	ADD piperidine
+ADD ethanol	ADD ethanol
+HEAT to 65°C for 2 h	STIR under reflux for 5 h
+STIR	COOL
+DISTIL	PURIFY by chromatography
+PURIFY by chromatography	YIELD: 6-(4-fluoro-3-methylphenyl)-2-isobutyl-4-(piperidino)methyl-2h-pyridazin-3-one
+YIELD: 6-(4-fluoro-3-methylphenyl)-2-isobutyl-4-(piperidino)methyl-2h-pyridazin-3-one	[END]
 [END]	

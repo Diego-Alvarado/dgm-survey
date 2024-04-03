@@ -1,18 +1,12 @@
 A	B
 [START]	[START]
-ADD 1-(4-chloro-2-fluorobenzyl)-5-bromopyridin-2(1h)-one	ADD potassium acetate
-ADD dioxane	ADD nitrogen 4,4,5,5-tetramethyl-2-(4,4,5,5-tetramethyl-1,3,2-dioxaborolan-2-yl)-1,3,2-dioxaborolane
-ADD PdCl2(dppf)	ADD dioxane
-ADD potassium acetate	ADD 1-(4-chloro-2-fluorobenzyl)-5-bromopyridin-2(1h)-one
-ADD nitrogen 4,4,5,5-tetramethyl-2-(4,4,5,5-tetramethyl-1,3,2-dioxaborolan-2-yl)-1,3,2-dioxaborolane	ADD PdCl2(dppf) at 25°C
-STIR at 65°C for 5 h	STIR at > 80°C for 16 h
-QUENCH with water	COOL to 25°C
-EXTRACT with ethyl acetate	ADD
-DRY SOLUTION organic phase with Na2SO4	EXTRACT with ethyl acetate
-FILTER	WASH extracts with water
-CONCENTRATE	DRY SOLUTION
-PURIFY by chromatography	FILTER
-YIELD: 1-(4-chloro-2-fluorobenzyl)-5-(4,4,5,5-tetramethyl-1,3,2-dioxaborolan-2-yl)pyridin-2(1h)-one	CONCENTRATE
-[END]	PURIFY by chromatography
-	YIELD: 1-(4-chloro-2-fluorobenzyl)-5-(4,4,5,5-tetramethyl-1,3,2-dioxaborolan-2-yl)pyridin-2(1h)-one
-	[END]
+ADD tert-butyl [2-({[5-(5-fluoropentyl)-1-(4-{[(2,2,2-trifluoroethyl)amino]carbonyl}phenyl)-1H-1,2,3-triazol-4-yl]carbonyl}amino)ethyl]carbamate	ADD tert-butyl [2-({[5-(5-fluoropentyl)-1-(4-{[(2,2,2-trifluoroethyl)amino]carbonyl}phenyl)-1H-1,2,3-triazol-4-yl]carbonyl}amino)ethyl]carbamate
+ADD ethyl acetate	ADD ethyl acetate
+ADD HCl	ADD HCl
+ADD	ADD at 0°C
+STIR at 25°C for 48 h	STIR at 25°C for 2 h
+EVAPORATE solvent	STIR
+ADD	YIELD: n-(2-aminoethyl)-5-(5-fluoropentyl)-1-(4-{[(2,2,2-trifluoroethyl)amino]carbonyl}phenyl)-1h-1,2,3-triazole-4-carboxamide monohydrochloride
+FILTER	[END]
+YIELD: n-(2-aminoethyl)-5-(5-fluoropentyl)-1-(4-{[(2,2,2-trifluoroethyl)amino]carbonyl}phenyl)-1h-1,2,3-triazole-4-carboxamide monohydrochloride	
+[END]	

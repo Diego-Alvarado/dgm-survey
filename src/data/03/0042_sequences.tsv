@@ -1,11 +1,23 @@
 A	B
 [START]	[START]
-ADD at 0°C	ADD
-STIR at 0°C for 20 min	STIR at 25°C for 2 h
-HEAT	CONCENTRATE
-STIR for 48 h	FILTER
-FILTER	YIELD: n-(5-((2-amino-3-chloropyridin-4-yl)oxy)pyridin-2-yl)-2-oxo-1-phenyl-1,2,4,5,6,7-hexahydropyrazolo[1,5-a]pyridine-3-carboxamide
-CONCENTRATE filtrate	[END]
-PURIFY by chromatography	
-YIELD: n-(5-((2-amino-3-chloropyridin-4-yl)oxy)pyridin-2-yl)-2-oxo-1-phenyl-1,2,4,5,6,7-hexahydropyrazolo[1,5-a]pyridine-3-carboxamide	
+ADD sodium hydride	ADD sodium hydride
+ADD THF	ADD THF
+ADD 1-(3-bromophenyl)pyrrolidin-2-one	ADD diethyl oxalate
+ADD diethyl oxalate	ADD 1-(3-bromophenyl)pyrrolidin-2-one
+ADD	COOL
+REFLUX for 5 h	ADD
+COOL to 25°C	STIR at 25°C for 5 h
+STIR for 16 h	REMOVE
+ADD acetic acid	SET PH to 5
+STIR at 25°C for 2 h	ADD acetic acid
+PARTITION	STIR
+SET PH to 2	QUENCH with water
+SEPARATE	ADD water
+WASH organic phase with brine	EXTRACT with ethyl acetate
+DRY SOLUTION	WASH organic phase with water
+CONCENTRATE	DRY SOLUTION with MgSO4
+PURIFY by chromatography	CONCENTRATE
+MAKE SOLUTION	PURIFY by chromatography
+FILTER	YIELD: ethyl 2-(1-(3-bromophenyl)-2-oxopyrrolidin-3-yl)-2-oxoacetate
+YIELD: ethyl 2-(1-(3-bromophenyl)-2-oxopyrrolidin-3-yl)-2-oxoacetate	[END]
 [END]	

@@ -1,12 +1,17 @@
 A	B
 [START]	[START]
-ADD 1-methyl-4-amino-1H-pyrazole-3-carbonitrile	ADD 1-methyl-4-amino-1H-pyrazole-3-carbonitrile
-ADD 2,4,5-trichloropyrimidine	ADD 2,4,5-trichloropyrimidine
-ADD triethylamine	ADD triethylamine
-ADD ethanol	ADD ethanol
-HEAT to 65°C	REFLUX for 2 h
-STIR for 16 h	COOL to 25°C
-CONCENTRATE	FILTER
-PURIFY by chromatography	YIELD: 2,5-dichloro-n-(3-cyano-1-methyl-1h-pyrazol-4-yl)-pyrimidin-4-amine
-YIELD: 2,5-dichloro-n-(3-cyano-1-methyl-1h-pyrazol-4-yl)-pyrimidin-4-amine	[END]
-[END]	
+ADD 3-(5-(4-chlorobenzyl)-1-methyl-2,4-dioxo-6-(3-(trifluoromethoxy)phenyl)-1,2-dihydropyrido[2,3-d]pyrimidin-3(4H)-yl)propyl formate	ADD 3-(5-(4-chlorobenzyl)-1-methyl-2,4-dioxo-6-(3-(trifluoromethoxy)phenyl)-1,2-dihydropyrido[2,3-d]pyrimidin-3(4H)-yl)propyl formate
+ADD THF	ADD LiOH.H2O
+ADD water	ADD THF
+ADD LiOH.H2O	ADD water
+STIR at 25°C for 20 min	STIR at 25°C for 5 h
+ADD ethyl acetate	ADD water
+ADD water	HEAT to 65°C
+DRY SOLUTION organic phase with Na2SO4	EVAPORATE solvent
+CONCENTRATE residue	MAKE SOLUTION with ethyl acetate
+PURIFY by chromatography	ADD
+YIELD: 5-(4-chlorobenzyl)-3-(3-hydroxypropyl)-1-methyl-6-(3-(trifluoromethoxy)phenyl)pyrido[2,3-d]pyrimidine-2,4(1h,3h)-dione	DRY SOLUTION organic phase with Na2SO4
+[END]	CONCENTRATE
+	PURIFY by chromatography
+	YIELD: 5-(4-chlorobenzyl)-3-(3-hydroxypropyl)-1-methyl-6-(3-(trifluoromethoxy)phenyl)pyrido[2,3-d]pyrimidine-2,4(1h,3h)-dione
+	[END]

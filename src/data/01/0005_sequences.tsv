@@ -1,18 +1,13 @@
 A	B
 [START]	[START]
-ADD spiro[5.5]undecan-3-ol	ADD 6-hydroxy-naphthalene-2-carboxylic acid methyl ester
-ADD 6-hydroxy-naphthalene-2-carboxylic acid methyl ester	ADD toluene
-ADD triphenylphosphine	ADD triphenylphosphine
-ADD toluene	COOL to 0°C
-REFLUX	ADD spiro[5.5]undecan-3-ol
-ADD DIAD	ADD DIAD
-REFLUX	STIR at 25°C for 16 h
-ADD dichloromethane	QUENCH with water
-PURIFY by chromatography	SEPARATE
-YIELD: methyl 6-(spiro[5.5]undecan-3-yloxy)-2-naphthoate	EXTRACT with ethyl acetate
-[END]	REPEAT 3 time(s)
-	DRY SOLUTION with Na2SO4
-	CONCENTRATE
+ADD (2S)-1-tert-butoxycarbonyl-5,5-dimethyl-pyrrolidine-2-carboxylic acid	ADD (2S)-1-tert-butoxycarbonyl-5,5-dimethyl-pyrrolidine-2-carboxylic acid
+ADD THF at 25°C	ADD THF
+HEAT to 65°C for 20 min	STIR at 25°C for 16 h
+COOL	ADD brine
+QUENCH with methanol	EXTRACT with ethyl acetate
+CONCENTRATE	REPEAT 3 time(s)
+YIELD: tert-butyl (5s)-5-(hydroxymethyl)-2,2-dimethyl-pyrrolidine-1-carboxylate	DRY SOLUTION extracts with Na2SO4
+[END]	CONCENTRATE
 	PURIFY by chromatography
-	YIELD: methyl 6-(spiro[5.5]undecan-3-yloxy)-2-naphthoate
+	YIELD: tert-butyl (5s)-5-(hydroxymethyl)-2,2-dimethyl-pyrrolidine-1-carboxylate
 	[END]

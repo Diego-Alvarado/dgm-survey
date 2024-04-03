@@ -1,18 +1,11 @@
 A	B
 [START]	[START]
-ADD methyl 4-(3-(tert-butoxy)-2-(cyanomethyl)-3-oxoprop-1-en-1-yl)-3-nitrobenzoate	ADD iron powder
-ADD acetic acid	ADD acetic acid
-ADD iron powder at 65°C	ADD methyl 4-(3-(tert-butoxy)-2-(cyanomethyl)-3-oxoprop-1-en-1-yl)-3-nitrobenzoate
-HEAT to > 80°C for 2 h	STIR at 65°C for 48 h
-FILTER	SET PH with NaHCO3 to 7
-WASH solid with AcOH	ADD ethyl acetate
-CONCENTRATE	WASH
-SET PH with NaHCO3	DRY SOLUTION with MgSO4
-ADD ethyl acetate	FILTER
-FILTER	EVAPORATE solvent
-WASH solid with ethyl acetate	PURIFY by chromatography
-WASH with water	YIELD: 4-tert-butyl 8-methyl 2-amino-3h-benzo[b]azepine-4,8-dicarboxylate
-DRY SOLUTION with Na2SO4	[END]
-CONCENTRATE	
-YIELD: 4-tert-butyl 8-methyl 2-amino-3h-benzo[b]azepine-4,8-dicarboxylate	
+ADD 3-amino-1-benzhydryl-pyrrolidin-2-one	ADD diphenylmethyl isocyanate
+ADD DCM	ADD DCM
+ADD diphenylmethyl isocyanate	ADD 3-amino-1-benzhydryl-pyrrolidin-2-one at 25°C
+STIR at 25°C for 5 h	CONCENTRATE
+REFLUX	WASH with dichloromethane
+REMOVE solvent	RECRYSTALLISATION
+PURIFY by chromatography	YIELD: 1-benzhydryl-3-(1-benzhydryl-2-oxo-pyrrolidin-3-yl)-urea
+YIELD: 1-benzhydryl-3-(1-benzhydryl-2-oxo-pyrrolidin-3-yl)-urea	[END]
 [END]	

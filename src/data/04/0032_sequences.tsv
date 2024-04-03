@@ -1,12 +1,14 @@
 A	B
 [START]	[START]
-ADD 2-oxo-1,2-dihydropyridine-3-carbaldehyde	ADD copper(II) acetate
-ADD 4-(trifluoromethoxy)phenylboronic acid	ADD 2-oxo-1,2-dihydropyridine-3-carbaldehyde
-ADD copper(II) acetate	ADD 4-(trifluoromethoxy)phenylboronic acid
-ADD	STIR at 25°C for 48 h
-IRRADIATE at > 80°C for 20 min	PARTITION
-COOL to 25°C	SEPARATE organic phase
-CONCENTRATE	DRY SOLUTION
-PURIFY by chromatography	EVAPORATE solvent
-YIELD: 2-oxo-1-(4-(trifluoromethoxy)phenyl)-1,2-dihydropyridine-3-carbaldehyde	YIELD: 2-oxo-1-(4-(trifluoromethoxy)phenyl)-1,2-dihydropyridine-3-carbaldehyde
-[END]	[END]
+ADD ethyl acetate	ADD ethyl acetate
+ADD HCl	ADD HCl
+ADD ethyl acetate	STIR for 16 h
+STIR at 25°C for 2 h	WASH solid with ethyl ether
+COOL to 25°C	ADD ethanol
+FILTER	STIR for 5 h
+WASH with ethyl ether	SONICATE
+DRY [VACUUM]	FILTER
+YIELD: (1r,2s)-2-amino-1-(naphthalen-2-yl)propan-1-ol hydrochloride	TRITURATE with ethyl ether
+[END]	FILTER
+	YIELD: (1r,2s)-2-amino-1-(naphthalen-2-yl)propan-1-ol hydrochloride
+	[END]

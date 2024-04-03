@@ -1,5 +1,9 @@
 index	role	name	inchi
-0	REACTANT	NaHCO3	InChI=1S/CH2O3.Na/c2-1(3)4;/h(H2,2,3,4);/q;+1/p-1
-2	REACTANT	DIPEA	InChI=1S/C8H19N/c1-6-9(7(2)3)8(4)5/h7-8H,6H2,1-5H3
-3	SOLVENT	DMA	InChI=1S/C4H9NO/c1-4(6)5(2)3/h1-3H3
-1	TARGET	(s)-tert-butyl 4-((r)-3-amino-3-(4-chlorobenzyl)piperidin-1-yl)-3-((s)-2,3-dihydro-1h-inden-1-yl)-4-oxobutanoate	InChI=1S/C29H37ClN2O3/c1-28(2,3)35-26(33)17-25(24-14-11-21-7-4-5-8-23(21)24)27(34)32-16-6-15-29(31,19-32)18-20-9-12-22(30)13-10-20/h4-5,7-10,12-13,24-25H,6,11,14-19,31H2,1-3H3/t24-,25?,29?/m1/s1
+2	REACTANT	N-methylmorpholine	InChI=1S/C5H11NO/c1-6-2-4-7-5-3-6/h2-5H2,1H3
+3	REACTANT	Boc-Chg-OH	InChI=1S/C13H23NO4/c1-13(2,3)18-12(17)14-10(11(15)16)9-7-5-4-6-8-9/h9-10H,4-8H2,1-3H3,(H,14,17)(H,15,16)/t10-/m0/s1
+6	REACTANT	HATU	InChI=1S/C10H15N6O.F6P/c1-14(2)10(15(3)4)17-16-9-8(12-13-16)6-5-7-11-9;1-7(2,3,4,5)6/h5-7H,1-4H3;/q+1;-1
+0	SOLVENT	ethyl acetate	InChI=1S/C4H8O2/c1-3-6-4(2)5/h3H2,1-2H3
+4	SOLVENT	DCM	InChI=1S/CH2Cl2/c2-1-3/h1H2
+5	SOLVENT	water	InChI=1S/H2O/h1H2
+7	SOLVENT	NMP	InChI=1S/C5H9NO/c1-6-4-2-3-5(6)7/h2-4H2,1H3
+1	TARGET	{1-cyclohexyl-2-[2-(6-fluoro-1-{2-[2-(2-methoxy-ethoxy)-ethoxy]-ethyl}-1h-indol-3-ylmethyl)-pyrrolidin-1-yl]-2-oxo-ethyl}-carbamic acid tert-butyl ester	InChI=1S/C33H50FN3O6/c1-33(2,3)43-32(39)36-30(23-9-6-5-7-10-23)31(38)37-15-8-11-29(37)26(14-16-41-19-20-42-18-17-40-4)27-22-35-28-21-24(34)12-13-25(27)28/h12-13,21-23,26,29-30,35H,5-11,14-20H2,1-4H3,(H,36,39)

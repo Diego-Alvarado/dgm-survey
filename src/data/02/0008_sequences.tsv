@@ -1,17 +1,16 @@
 A	B
 [START]	[START]
-ADD malononitrile	ADD 4-chloro-N-(2-methylbut-3-yn-2-yl)benzamide
-ADD 4-chloro-N-(2-methylbut-3-yn-2-yl)benzamide	ADD potassium hydroxide
-ADD methanol	ADD methanol
-DEGAS	ADD malononitrile
-COOL	STIR at 25°C for 2 h
-ADD potassium hydroxide	ADD water
-ADD water	EXTRACT with ethyl acetate
-STIR at 65°C for 2 h	REPEAT 2 time(s)
-ADD water	WASH organic phase with water
-EXTRACT with ethyl acetate	DRY SOLUTION with Na2SO4
-FILTER	FILTER
-CONCENTRATE	CONCENTRATE
-PURIFY by chromatography	PURIFY by chromatography
-YIELD: 2-amino-4-(4-chlorophenyl)-1-[2-methylbut-3-yn-2-yl]-1h-pyrrole-3-carbonitrile	YIELD: 2-amino-4-(4-chlorophenyl)-1-[2-methylbut-3-yn-2-yl]-1h-pyrrole-3-carbonitrile
-[END]	[END]
+ADD 1-[3-(3-{1-azaspiro[4.5]decane-1-carbonyl}cyclohexyl)phenyl]-5-cyclopropyl-1h-pyrazole-4-carboxylic acid methyl ester	ADD 1-[3-(3-{1-azaspiro[4.5]decane-1-carbonyl}cyclohexyl)phenyl]-5-cyclopropyl-1h-pyrazole-4-carboxylic acid methyl ester
+ADD ethanol	ADD ethanol
+ADD NaOH	ADD NaOH
+PARTITION	STIR at 25°C for 2 h
+EXTRACT with water	FILTER
+REMOVE	SET PH with HCl to 5
+SET PH with HCl	EXTRACT with ethyl acetate
+EXTRACT with ethyl acetate	WASH extracts
+REPEAT 2 time(s)	DRY SOLUTION with Na2SO4
+DRY SOLUTION organic phase with MgSO4	CONCENTRATE
+FILTER	RECRYSTALLISATION
+CONCENTRATE	YIELD: 1-[3-(3-{1-azaspiro[4.5]decane-1-carbonyl}cyclohexyl)phenyl]-5-cyclopropyl-1h-pyrazole-4-carboxylic acid
+YIELD: 1-[3-(3-{1-azaspiro[4.5]decane-1-carbonyl}cyclohexyl)phenyl]-5-cyclopropyl-1h-pyrazole-4-carboxylic acid	[END]
+[END]	

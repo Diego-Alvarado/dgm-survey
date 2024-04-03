@@ -1,14 +1,13 @@
 A	B
 [START]	[START]
-ADD 4-trifluoromethylpropiophenone	ADD bromine
-ADD acetic acid at 25°C	ADD 4-trifluoromethylpropiophenone
-ADD bromine	ADD acetic acid at 0°C for 20 min
-ADD acetic acid for 2 h	STIR for 2 h
-STIR for 2 h	COOL
-QUENCH with water	QUENCH with water
-STIR for 2 h	CONCENTRATE
-FILTER	WASH with hexane
-WASH with water	FILTER
-DRY [VACUUM] solid	YIELD: 2-bromo-1-[4-(trifluoromethyl)phenyl]propan-1-one
-YIELD: 2-bromo-1-[4-(trifluoromethyl)phenyl]propan-1-one	[END]
+ADD DIPEA	ADD DIPEA
+ADD THF	ADD THF
+ADD acryloyl chloride at 0°C for 20 min	ADD acryloyl chloride at 0°C
+STIR at 0°C for 2 h	HEAT to 25°C for 48 h
+QUENCH with water	CONCENTRATE
+STIR for 20 min	PURIFY by chromatography
+SEPARATE	YIELD: n-(3-(2-(3-fluoro-4-(2-methoxyethoxy)phenylamino)-7h-pyrrolo[2,3-d]pyrimidin-4-yloxy)phenyl)acrylamide
+REMOVE solvent	[END]
+PURIFY by chromatography	
+YIELD: n-(3-(2-(3-fluoro-4-(2-methoxyethoxy)phenylamino)-7h-pyrrolo[2,3-d]pyrimidin-4-yloxy)phenyl)acrylamide	
 [END]	

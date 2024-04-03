@@ -1,16 +1,12 @@
 A	B
 [START]	[START]
-ADD POCl3	ADD DMF
-ADD DMF at 0°C	ADD POCl3
-ADD (S)-N-acetyl-1,2,3,4-tetrahydropyridine-2-carboxylate	ADD at 25°C
-ADD DMF	STIR for 2 h
-HEAT to 25°C	ADD (S)-N-acetyl-1,2,3,4-tetrahydropyridine-2-carboxylate
-STIR for 2 h	STIR at 25°C for 2 h
-ADD	REMOVE
-EXTRACT with ethyl acetate	EXTRACT
-WASH organic phase	PURIFY by chromatography
-DRY SOLUTION with Na2SO4	YIELD: (s)-n-acetyl-5-formyl-1,2,3,4-tetrahydropyridine-2-carboxylate
-DISTIL	[END]
-RECRYSTALLISATION	
-YIELD: (s)-n-acetyl-5-formyl-1,2,3,4-tetrahydropyridine-2-carboxylate	
-[END]	
+ADD 2-amino-4-bromo-5-chloro-3-fluorobenzoic acid	ADD urea
+ADD urea	ADD 2-amino-4-bromo-5-chloro-3-fluorobenzoic acid
+STIR at > 80°C for 5 h	REFLUX for 5 h
+COOL to 25°C	COOL to 25°C
+WASH solid with water	ADD water
+REPEAT 3 time(s)	EXTRACT with ethyl acetate
+FILTER	CONCENTRATE
+DRY	PURIFY by chromatography
+YIELD: 7-bromo-6-chloro-8-fluoroquinazoline-2,4(1h,3h)-dione	YIELD: 7-bromo-6-chloro-8-fluoroquinazoline-2,4(1h,3h)-dione
+[END]	[END]

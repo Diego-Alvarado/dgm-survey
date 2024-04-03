@@ -1,8 +1,4 @@
 index	role	name	inchi
-2	REACTANT	ethyl 2-butynoate	InChI=1S/C6H8O2/c1-3-5-6(7)8-4-2/h4H2,1-2H3
-3	REACTANT	DABCO	InChI=1S/C6H12N2/c1-2-8-5-3-7(1)4-6-8/h1-6H2
-5	REACTANT	HCl	InChI=1S/ClH/h1H
-6	REACTANT	NaOH	InChI=1S/Na.H2O/h;1H2/q+1;/p-1
-0	SOLVENT	toluene	InChI=1S/C7H8/c1-7-5-3-2-4-6-7/h2-6H,1H3
-4	SOLVENT	water	InChI=1S/H2O/h1H2
-1	TARGET	ethyl (2e)-3-[2-bromo-4-(difluoromethoxy)-5-fluorophenoxy]but-2-enoate	InChI=1S/C13H12BrF3O4/c1-3-19-12(18)4-7(2)20-10-6-9(15)11(5-8(10)14)21-13(16)17/h4-6,13H,3H2,1-2H3/b7-4+
+0	REACTANT	(5-(furan-2-yl)-2-methoxyphenyl)(phenyl)methanol	InChI=1S/C18H16O3/c1-20-17-10-9-14(16-8-5-11-21-16)12-15(17)18(19)13-6-3-2-4-7-13/h2-12,18-19H,1H3
+2	REACTANT	phenyl magnesium	InChI=1S/C6H5.Mg/c1-2-4-6-5-3-1;/h1-5H;
+1	TARGET	(5-(furan-2-yl)-2-methoxyphenyl)(phenyl)methanone	InChI=1S/C18H14O3/c1-20-17-10-9-14(16-8-5-11-21-16)12-15(17)18(19)13-6-3-2-4-7-13/h2-12H,1H3

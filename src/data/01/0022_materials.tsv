@@ -1,6 +1,8 @@
 index	role	name	inchi
-1	REACTANT	sodium hydride	InChI=1S/H/q-1
-4	REACTANT	1,2,4-triazole	InChI=1S/C2H3N3/c1-3-2-5-4-1/h1-2H,(H,3,4,5)
-0	SOLVENT	DMF	InChI=1S/C3H7NO/c1-4(2)3-5/h3H,1-2H3
-2	SOLVENT	water	InChI=1S/H2O/h1H2
-3	TARGET	ethyl 6,7-dimethoxy-4-(3,4-dimethoxyphenyl)-2-(1,2,4-triazol-1-ylmethyl)quinoline-3-carboxylate	InChI=1S/C25H26N4O6/c1-6-35-25(30)24-18(12-29-14-26-13-27-29)28-17-11-22(34-5)21(33-4)10-16(17)23(24)15-7-8-19(31-2)20(9-15)32-3/h7-11,13-14H,6,12H2,1-5H3
+2	REACTANT	cis-tert-butyl 2-aminocyclohexylcarbamate	InChI=1S/C11H22N2O2/c1-11(2,3)15-10(14)13-9-7-5-4-6-8(9)12/h8-9H,4-7,12H2,1-3H3,(H,13,14)
+4	REACTANT	triethylamine	InChI=1S/C6H15N/c1-4-7(5-2)6-3/h4-6H2,1-3H3
+5	REACTANT	methyl 6-chloro-4-cyano-2-(4-fluoro-3-methylphenylamino)nicotinate	InChI=1S/C15H11ClFN3O2/c1-8-5-10(3-4-11(8)17)19-14-13(15(21)22-2)9(7-18)6-12(16)20-14/h3-6H,1-2H3,(H,19,20)
+0	SOLVENT	ethyl acetate	InChI=1S/C4H8O2/c1-3-6-4(2)5/h3H2,1-2H3
+1	SOLVENT	THF	InChI=1S/C4H8O/c1-2-4-5-3-1/h1-4H2
+3	SOLVENT	water	InChI=1S/H2O/h1H2
+6	TARGET	methyl 6-((1r,2s)-2-(tert-butoxycarbonylamino)cyclohexylamino)-4-cyano-2-(4-fluoro-3-methylphenylamino)nicotinate	InChI=1S/C26H32FN5O4/c1-15-12-17(10-11-18(15)27)29-23-22(24(33)35-5)16(14-28)13-21(32-23)30-19-8-6-7-9-20(19)31-25(34)36-26(2,3)4/h10-13,19-20H,6-9H2,1-5H3,(H,31,34)(H2,29,30,32)/t19-,20+/m1/s1

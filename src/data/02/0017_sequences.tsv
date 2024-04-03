@@ -1,12 +1,12 @@
 A	B
 [START]	[START]
-ADD 5-Acetyl-2-amino-4-methylthiazole	ADD 5-Acetyl-2-amino-4-methylthiazole
-ADD THF	ADD 2-chloroethyl isocyanate
-ADD triethylamine	ADD THF
-ADD 2-chloroethyl isocyanate	ADD triethylamine
-STIR at 25°C for 16 h	STIR at 25°C for 16 h
-REFLUX for 16 h	CONCENTRATE
-REMOVE solvent	PURIFY by chromatography
-WASH	YIELD: 1-(5-acetyl-4-methylthiazol-2-yl)imidazolidin-2-one
-YIELD: 1-(5-acetyl-4-methylthiazol-2-yl)imidazolidin-2-one	[END]
+ADD 4-methoxy-5-nitrobenzenesulphonamide	ADD 4-methoxy-5-nitrobenzenesulphonamide
+ADD ethanol	ADD ethanol
+ADD Raney nickel	ADD Raney nickel
+ADD at 25°C	STAND at 25°C for 2 h
+STIR	FILTER
+SEPARATE	EVAPORATE filtrate
+WASH with ethanol	YIELD: 3-amino-4-methoxybenzenesulphonamide
+CONCENTRATE	[END]
+YIELD: 3-amino-4-methoxybenzenesulphonamide	
 [END]	

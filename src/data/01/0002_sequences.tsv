@@ -1,28 +1,19 @@
 A	B
 [START]	[START]
-ADD 2-(4-nitro-1H-pyrazol-3-yl)pyrazine	ADD 1,4-dioxane
-ADD 1,4-dioxane	ADD NaH
-ADD NaH at 0°C	ADD 4-ethoxycyclohexyl 4-nitrobenzenesulfonate
-REMOVE	ADD 2-(4-nitro-1H-pyrazol-3-yl)pyrazine at 25°C
-STIR at 25°C for 2 h	ADD water for 20 min
-ADD	ADD ethyl acetate
-ADD 4-ethoxycyclohexyl 4-nitrobenzenesulfonate	WASH with water
-STIR under reflux	EXTRACT with ethyl ether
-ADD for 16 h	DRY SOLUTION organic phase with Na2SO4
-QUENCH with NaHCO3	FILTER
-EVAPORATE	CONCENTRATE
-ADD ethyl acetate	PURIFY by chromatography
-ADD NaHCO3	YIELD: 2-(1-(trans-4-ethoxycyclohexyl)-4-nitro-1h-pyrazol-3-yl)pyrazine
-ADD water	[END]
-MAKE SOLUTION	
-SEPARATE	
-EXTRACT with ethyl acetate	
-REPEAT 2 time(s)	
-COMBINE organic phase	
-DRY SOLUTION with Na2SO4	
-FILTER	
-EVAPORATE solvent	
-PURIFY by chromatography	
-TRITURATE	
-YIELD: 2-(1-(trans-4-ethoxycyclohexyl)-4-nitro-1h-pyrazol-3-yl)pyrazine	
-[END]	
+ADD 5-bromo-2-ethylisoindoline-1,3-dione	ADD 5-bromo-2-ethylisoindoline-1,3-dione
+ADD DMF	ADD DMF
+ADD tert-butyl acrylate	ADD trio-tolylphosphine
+ADD DIPEA	ADD DIPEA
+ADD Pd(OAc)2	ADD tert-butyl acrylate
+ADD trio-tolylphosphine	ADD Pd(OAc)2
+MICROWAVE at > 80°C for 2 h	ADD
+EVAPORATE	BUBBLE N2
+PURIFY by chromatography	HEAT to > 80°C for 48 h
+YIELD: (e)-tert-butyl 3-(2-ethyl-1,3-dioxoisoindolin-5-yl)acrylate	COOL to 25°C
+[END]	PARTITION
+	WASH organic phase with brine
+	DRY SOLUTION with MgSO4
+	CONCENTRATE
+	PURIFY by chromatography
+	YIELD: (e)-tert-butyl 3-(2-ethyl-1,3-dioxoisoindolin-5-yl)acrylate
+	[END]

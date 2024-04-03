@@ -1,14 +1,20 @@
 A	B
 [START]	[START]
-ADD sodium hydride	ADD sodium hydride
-ADD 4-(4-hydroxyphenyl)butylamine hydrobromide	ADD THF
-ADD THF at 0°C	ADD 4-(4-hydroxyphenyl)butylamine hydrobromide
-HEAT to 25°C for 20 min	STIR at 25°C for 16 h
-STIR	EVAPORATE solvent
-ADD	YIELD: [4-(4-benzyloxycarbonylaminobutyl)phenoxy]acetic acid ethyl ester
-STIR at 25°C for 48 h	[END]
-ADD	
-EVAPORATE solvent	
-PURIFY by chromatography	
-YIELD: [4-(4-benzyloxycarbonylaminobutyl)phenoxy]acetic acid ethyl ester	
-[END]	
+COOL	ADD 3-(4-methoxyphenyl)propionic acid
+ADD DMF	ADD diisopropylethylamine
+ADD diisopropylethylamine	ADD DMF at 0°C
+ADD 3-(4-methoxyphenyl)propionic acid	ADD TBTU
+ADD TBTU at < -10°C	STIR at 25°C for 2 h
+STIR at < -10°C for 2 h	STIR at 25°C for 20 min
+CONCENTRATE	ADD ethyl acetate
+ADD ethyl acetate	STIR at 25°C for 48 h
+WASH organic phase with brine	QUENCH
+DRY SOLUTION with Na2SO4	SEPARATE
+CONCENTRATE	WASH
+PURIFY by chromatography	REPEAT 3 time(s)
+YIELD: (r)-(2-(benzofuran-3-yl)-1-(3-(4-methoxyphenyl)propanamido)ethyl) boronic acid	WASH
+[END]	DRY SOLUTION with MgSO4
+	CONCENTRATE organic phase
+	SPE
+	YIELD: (r)-(2-(benzofuran-3-yl)-1-(3-(4-methoxyphenyl)propanamido)ethyl) boronic acid
+	[END]

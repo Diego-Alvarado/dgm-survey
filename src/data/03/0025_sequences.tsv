@@ -1,15 +1,13 @@
 A	B
 [START]	[START]
-ADD tert-butyl 1H-pyrrole-1-carboxylate	ADD dimethyl acetylenedicarboxylate
-ADD dimethyl acetylenedicarboxylate	ADD AlCl3 at 25°C
-ADD AlCl3	STIR for 20 min
-STIR at 65°C for 48 h	COOL to 0°C
-PURIFY by chromatography	ADD tert-butyl 1H-pyrrole-1-carboxylate
-YIELD: (1r,4s)-7-tert-butyl 2,3-dimethyl 7-azabicyclo[2.2.1]hepta-2,5-diene-2,3,7-tricarboxylate	ADD
-[END]	STIR at 0°C for 2 h
-	WASH
-	DRY SOLUTION with Na2SO4
-	FILTER
-	EVAPORATE
-	YIELD: (1r,4s)-7-tert-butyl 2,3-dimethyl 7-azabicyclo[2.2.1]hepta-2,5-diene-2,3,7-tricarboxylate
-	[END]
+ADD 1-(5-bromo-2-hydroxyphenyl)ethanone	ADD 4-methoxybenzoyl chloride
+ADD pyridine	ADD 1-(5-bromo-2-hydroxyphenyl)ethanone
+ADD 4-methoxybenzoyl chloride	ADD pyridine at 25°C
+ADD at 25°C for 20 min	STIR at 65°C for 5 h
+ADD HCl	REMOVE residue
+COOL to 0°C	ADD HCl
+STIR	STIR for 16 h
+FILTER	SEPARATE
+WASH with water	YIELD: 4-methoxybenzoic acid 2-acetyl-4-bromophenyl ester
+YIELD: 4-methoxybenzoic acid 2-acetyl-4-bromophenyl ester	[END]
+[END]	

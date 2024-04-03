@@ -1,12 +1,14 @@
 A	B
 [START]	[START]
-ADD ethyl 2-hydroxy-2-(4-cyclohexylphenyl)acetate	ADD ethyl 2-hydroxy-2-(4-cyclohexylphenyl)acetate
-REFLUX for 2 h	MELT
-CONCENTRATE	STIR for 20 min
-ADD water	ADD water
-EXTRACT with ethyl ether	WASH
-WASH with water	FILTER
-DRY SOLUTION with MgSO4	YIELD: ethyl 2-chloro-2-(4-cyclohexylphenyl)acetate
-DISTIL	[END]
-YIELD: ethyl 2-chloro-2-(4-cyclohexylphenyl)acetate	
-[END]	
+ADD THF at 25°C	ADD THF
+STIR at 25°C for 2 h	ADD water
+REMOVE	REFLUX for 16 h
+ADD water	SET PH with HCl to 5
+SET PH [DECREASE] to 5	CONCENTRATE organic phase
+ADD HCl	EXTRACT with ethyl acetate
+EXTRACT with ethyl acetate	DRY SOLUTION organic phase with Na2SO4
+WASH extracts	FILTER
+DRY SOLUTION with Na2SO4	CONCENTRATE filtrate
+EVAPORATE	PURIFY by chromatography
+YIELD: 2-[2,4-difluoro-3-[[2-fluoro-3-(3-fluorophenyl)-5-hydroxy-phenyl]methylamino]phenoxy]acetic acid	YIELD: 2-[2,4-difluoro-3-[[2-fluoro-3-(3-fluorophenyl)-5-hydroxy-phenyl]methylamino]phenoxy]acetic acid
+[END]	[END]

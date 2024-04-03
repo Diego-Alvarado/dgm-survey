@@ -1,16 +1,10 @@
 A	B
 [START]	[START]
-ADD 1-(4-bromophenyl)-2-oxopyrrolidin-3-yl methanesulfonate	ADD 3-methoxyaniline
-ADD THF	ADD 1-(4-bromophenyl)-2-oxopyrrolidin-3-yl methanesulfonate
-ADD 3-methoxyaniline	ADD THF
-HEAT to > 80°C for 48 h	STIR for 20 min
-COOL to 25°C	ADD
-ADD ethyl acetate	STIR at > 80°C for 2 h
-WASH	ADD water
-DRY SOLUTION with Na2SO4	ADD ethyl acetate
-FILTER	WASH with water
-CONCENTRATE	DRY SOLUTION organic phase with Na2SO4
-YIELD: (r)-1-(4-bromophenyl)-3-((3-methoxyphenyl)amino)pyrrolidin-2-one	CONCENTRATE residue
+ADD 2-methylsulfanyl-5,6,7,8-tetrahydro-3h-quinazolin-4-one	ADD 2-methylsulfanyl-5,6,7,8-tetrahydro-3h-quinazolin-4-one
+ADD 1-tert-butylpiperazine	ADD 1-tert-butylpiperazine
+ADD isoamyl alcohol	ADD isoamyl alcohol
+SEPARATE	MICROWAVE at > 80°C for 2 h
+YIELD: 2-(4-tert-butylpiperazin-1-yl)-5,6,7,8-tetrahydro-3h-quinazolin-4-one	SEPARATE
 [END]	PURIFY by chromatography
-	YIELD: (r)-1-(4-bromophenyl)-3-((3-methoxyphenyl)amino)pyrrolidin-2-one
+	YIELD: 2-(4-tert-butylpiperazin-1-yl)-5,6,7,8-tetrahydro-3h-quinazolin-4-one
 	[END]

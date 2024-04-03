@@ -1,12 +1,15 @@
 A	B
 [START]	[START]
-ADD ethyl 2-hydroxy-2-(4-cyclohexylphenyl)acetate	ADD ethyl 2-hydroxy-2-(4-cyclohexylphenyl)acetate
-REFLUX for 2 h	ADD water
-CONCENTRATE	STIR at 25°C for 2 h
-ADD water	CONCENTRATE
-EXTRACT with ethyl ether	PURIFY by chromatography
-WASH with water	YIELD: ethyl 2-chloro-2-(4-cyclohexylphenyl)acetate
-DRY SOLUTION with MgSO4	[END]
-DISTIL	
-YIELD: ethyl 2-chloro-2-(4-cyclohexylphenyl)acetate	
-[END]	
+ADD THF at 25°C	ADD THF
+STIR at 25°C for 2 h	ADD
+REMOVE	HEAT to 25°C
+ADD water	STIR for 20 min
+SET PH [DECREASE] to 5	ADD water
+ADD HCl	SET PH with HCl to 2
+EXTRACT with ethyl acetate	EXTRACT with ethyl acetate
+WASH extracts	WASH extracts with brine
+DRY SOLUTION with Na2SO4	DRY SOLUTION
+EVAPORATE	CONCENTRATE
+YIELD: 2-[2,4-difluoro-3-[[2-fluoro-3-(3-fluorophenyl)-5-hydroxy-phenyl]methylamino]phenoxy]acetic acid	PURIFY by chromatography
+[END]	YIELD: 2-[2,4-difluoro-3-[[2-fluoro-3-(3-fluorophenyl)-5-hydroxy-phenyl]methylamino]phenoxy]acetic acid
+	[END]

@@ -1,13 +1,16 @@
 A	B
 [START]	[START]
-ADD methanol	ADD methanol
-ADD p-toluenesulfonic acid	ADD p-toluenesulfonic acid
-STIR at 25°C for 2 h	STIR at 25°C for 5 h
-EVAPORATE solvent	EVAPORATE residue
-ADD	MAKE SOLUTION
-STIR for 2 h	PURIFY by chromatography
-SET PH [NEUTRALISE]	YIELD: (1s,2s,4s)-4-(1,2-dihydroxyethyl)-2-(o-benzoyloxymethyl)-dioxolane
-EVAPORATE	[END]
+ADD aluminum chloride	ADD acetyl chloride
+ADD chlorobenzene	ADD aluminum chloride
+ADD 5-bromo-2,2,4,6-tetramethyl-2,3-dihydro-1-benzofuran	ADD 5-bromo-2,2,4,6-tetramethyl-2,3-dihydro-1-benzofuran
+ADD acetyl chloride at < -10°C	ADD chlorobenzene
+STIR	STIR at 25°C for 2 h
+STIR for 2 h	CONCENTRATE
+ADD	PURIFY by chromatography
+EXTRACT	YIELD: 1-(5-bromo-2,2,4,6-tetramethyl-2,3-dihydro-1-benzofuran-7-yl)ethanone
+WASH extracts with water	[END]
+DRY SOLUTION with MgSO4	
+REMOVE solvent	
 PURIFY by chromatography	
-YIELD: (1s,2s,4s)-4-(1,2-dihydroxyethyl)-2-(o-benzoyloxymethyl)-dioxolane	
+YIELD: 1-(5-bromo-2,2,4,6-tetramethyl-2,3-dihydro-1-benzofuran-7-yl)ethanone	
 [END]	

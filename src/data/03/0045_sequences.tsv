@@ -1,15 +1,19 @@
 A	B
 [START]	[START]
-ADD Pd(PPh3)4	ADD pyrimidin-5-ylboronic acid
-ADD cesium fluoride	ADD Pd(PPh3)4
-ADD pyrimidin-5-ylboronic acid	ADD cesium fluoride at 25°C
-DEGAS	STIR at > 80°C for 16 h
-HEAT to > 80°C for 2 h	ADD water
-ADD water	EXTRACT with dichloromethane
-EXTRACT with dichloromethane	REPEAT 3 time(s)
-DRY SOLUTION organic phase with MgSO4	DRY SOLUTION organic phase with Na2SO4
-FILTER	CONCENTRATE
-CONCENTRATE	PURIFY by chromatography
-PURIFY by chromatography	YIELD: (1r*,2r*,3r*)-methyl-2-phenyl-3-(4-(pyrimidin-5-yl)phenyl)cyclopropanecarboxylate
-YIELD: (1r*,2r*,3r*)-methyl-2-phenyl-3-(4-(pyrimidin-5-yl)phenyl)cyclopropanecarboxylate	[END]
-[END]	
+COMBINE	ADD 8-bromo-n-(3-hydroxy-3-methylbutan-2-yl)pyrido[4,3-b]pyrazine-2-carboxamide
+ADD Pd(dppf)2Cl2	ADD dioxane
+HEAT to 65°C for 2 h	ADD Pd(dppf)2Cl2
+CONCENTRATE	ADD 2,4-dichlorophenylboronic acid
+PURIFY by chromatography	ADD cesium carbonate
+YIELD: 8-(2,4-dichlorophenyl)-n-(3-hydroxy-3-methylbutan-2-yl)pyrido[4,3-b]pyrazine-2-carboxamide	DEGAS
+[END]	HEAT to > 80°C for 20 min
+	COOL to 25°C
+	ADD water
+	EXTRACT with ethyl acetate
+	REPEAT 2 time(s)
+	WASH
+	DRY SOLUTION with Na2SO4
+	FILTER
+	CONCENTRATE
+	YIELD: 8-(2,4-dichlorophenyl)-n-(3-hydroxy-3-methylbutan-2-yl)pyrido[4,3-b]pyrazine-2-carboxamide
+	[END]

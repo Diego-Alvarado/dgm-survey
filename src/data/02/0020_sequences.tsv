@@ -1,26 +1,8 @@
 A	B
 [START]	[START]
-ADD quinoline-3-carboxaldehyde	ADD quinoline-3-carboxaldehyde
-ADD benzotriazole	ADD benzotriazole
-ADD 1-(4-bromo-3-methoxyphenyl)piperazine	ADD ethanol
-ADD ethanol	ADD 1-(4-bromo-3-methoxyphenyl)piperazine
-ADD toluene	STIR at 25°C for 2 h
-HEAT to 65°C for 20 min	EVAPORATE solvent
-CONCENTRATE	MAKE SOLUTION with toluene
-EVAPORATE residue	CONCENTRATE
-MAKE SOLUTION with THF	MAKE SOLUTION with THF
-ADD methylmagnesium bromide	ADD methylmagnesium bromide
-ADD diethyl ether	ADD diethyl ether at 0°C
-STIR at 25°C for 16 h	STIR at 25°C for 2 h
-ADD ethyl acetate	ADD NaOH
-WASH with NaOH	ADD ethyl acetate
-REPEAT 2 time(s)	SEPARATE
-DRY SOLUTION with MgSO4	EXTRACT with ethyl acetate
-FILTER	REPEAT 2 time(s)
-CONCENTRATE	WASH organic phase with brine
-PURIFY by chromatography	DRY SOLUTION
-YIELD: 3-{1-[4-(4-bromo-3-methoxy-phenyl)-piperazin-1-yl]-ethyl}-quinoline	FILTER
-[END]	CONCENTRATE
-	PURIFY by chromatography
-	YIELD: 3-{1-[4-(4-bromo-3-methoxy-phenyl)-piperazin-1-yl]-ethyl}-quinoline
-	[END]
+HEAT for 5 h	COOL for 16 h
+ADD	ADD
+HEAT to 65°C for 2 h	FILTER
+PURIFY by chromatography	YIELD: 4-methyl-8-methylamino-2-(2-trifluoromethyl-pyridin-4-yl)-4h-pyrazolo[1,5-a]quinazolin-5-one
+YIELD: 4-methyl-8-methylamino-2-(2-trifluoromethyl-pyridin-4-yl)-4h-pyrazolo[1,5-a]quinazolin-5-one	[END]
+[END]	

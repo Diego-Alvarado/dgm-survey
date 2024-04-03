@@ -1,19 +1,19 @@
 A	B
 [START]	[START]
-ADD 2-phenyl-2-(phenylsulfonyl)acetic acid	ADD 2-phenyl-2-(phenylsulfonyl)acetic acid
-ADD DCM	ADD DCM
-ADD	COOL to 0°C
-ADD oxalyl chloride	ADD
-STIR at 25°C for 2 h	ADD 5-aminotetrazole monohydrate
-ADD 5-aminotetrazole monohydrate	ADD oxalyl chloride
-ADD DCM	STIR at 25°C for 16 h
-MAKE SOLUTION with DIPEA	ADD DCM
-STIR for 20 min	ADD DIPEA
-ADD	STIR at 25°C for 2 h
-STIR at 25°C for 16 h	PARTITION with NaHCO3
-CONCENTRATE	EXTRACT
-REMOVE	DRY SOLUTION
-MAKE SOLUTION	CONCENTRATE
-PURIFY by chromatography	YIELD: 2-phenyl-2-(phenylsulfonyl)-n-(1h-tetrazol-5-yl)acetamide
-YIELD: 2-phenyl-2-(phenylsulfonyl)-n-(1h-tetrazol-5-yl)acetamide	[END]
-[END]	
+ADD 4-(bromomethyl)-2-fluoro-1-methylbenzene	ADD 4-(bromomethyl)-2-fluoro-1-methylbenzene
+ADD THF	ADD THF
+ADD cesium carbonate	ADD water
+STIR at 25°C for 5 h	ADD cesium carbonate
+FILTER	BUBBLE N2
+ADD TFA	HEAT to > 80°C for 6 days
+ADD water	MICROWAVE
+STIR at 25°C for 16 h	ADD TFA
+EVAPORATE	CONCENTRATE
+ADD	MAKE SOLUTION
+STIR at 25°C for 2 h	PURIFY by chromatography
+FILTER	COMBINE fractions
+PURIFY by chromatography	EXTRACT with dichloromethane
+YIELD: {(1r,2s,4r)-4-[(5-{[1-(3-fluoro-4-methylbenzyl)-1h-pyrazol-3-yl]carbonyl}pyrimidin-4-yl)amino]-2-hydroxycyclopentyl}methyl sulfamate	DRY SOLUTION
+[END]	CONCENTRATE
+	YIELD: {(1r,2s,4r)-4-[(5-{[1-(3-fluoro-4-methylbenzyl)-1h-pyrazol-3-yl]carbonyl}pyrimidin-4-yl)amino]-2-hydroxycyclopentyl}methyl sulfamate
+	[END]

@@ -1,22 +1,21 @@
 A	B
 [START]	[START]
-ADD DMF	ADD 3-methyl-6-(methylthio)-2-[3-(trifluoromethyl)phenyl]-4-quinolinecarboxylic acid
-ADD 3-methyl-6-(methylthio)-2-[3-(trifluoromethyl)phenyl]-4-quinolinecarboxylic acid	ADD DCM
-ADD DCM	ADD DMF
-ADD oxalyl chloride	ADD oxalyl chloride at 0°C
-STIR for 2 h	STIR at 25°C for 2 h
-REMOVE solvent	ADD methanol
-MAKE SOLUTION with methanol	ADD triethylamine
-ADD triethylamine	STIR at 25°C for 20 min
-STIR at 25°C for 48 h	CONCENTRATE residue
-REMOVE solvent	PURIFY by chromatography
-ADD	YIELD: methyl 3-methyl-6-(methylthio)-2-[3-(trifluoromethyl)phenyl]-4-quinolinecarboxylate
-EXTRACT with ethyl acetate	[END]
-REPEAT 3 time(s)	
-WASH extracts with brine	
+ADD methyltriphenylphosphonium bromide	ADD methyltriphenylphosphonium bromide
+ADD THF	ADD THF
+ADD n-BuLi	COOL
+ADD hexane at < -10°C	ADD n-BuLi
+STIR for 2 h	ADD hexane
+ADD 6-bromo-2-(3-methoxypropyl)-2,3-dihydro-1h-inden-1-one	ADD 6-bromo-2-(3-methoxypropyl)-2,3-dihydro-1h-inden-1-one
+ADD THF	STIR at 25°C for 2 h
+STIR for 2 h	ADD ethyl acetate
+HEAT to 25°C	WASH
+STIR for 16 h	DRY SOLUTION organic phase with Na2SO4
+ADD ethyl acetate	CONCENTRATE
+SEPARATE aqueous phase	PURIFY by chromatography
+EXTRACT with ethyl acetate	YIELD: 6-bromo-2-(3-methoxypropyl)-1-methylene-2,3-dihydro-1h-indene
+WASH organic phase with brine	[END]
 DRY SOLUTION with Na2SO4	
-FILTER	
-CONCENTRATE	
+EVAPORATE	
 PURIFY by chromatography	
-YIELD: methyl 3-methyl-6-(methylthio)-2-[3-(trifluoromethyl)phenyl]-4-quinolinecarboxylate	
+YIELD: 6-bromo-2-(3-methoxypropyl)-1-methylene-2,3-dihydro-1h-indene	
 [END]	

@@ -1,9 +1,18 @@
 A	B
 [START]	[START]
-ADD 4-(3,4-dihydroquinolin-1(2H)-ylsulfonyl)benzoic acid	ADD 4-(3,4-dihydroquinolin-1(2H)-ylsulfonyl)benzoic acid
-ADD N-(4-(2-aminothiazol-4-yl)phenyl)acetamide	ADD N-(4-(2-aminothiazol-4-yl)phenyl)acetamide
-PURIFY by chromatography	STIR at 25°C for 16 h
-YIELD: n-(4-(4-acetamidophenyl)thiazol-2-yl)-4-(3,4-dihydroquinolin-1(2h)-ylsulfonyl)benzamide	CRYSTALLISE with ethyl acetate
-[END]	FILTER
-	YIELD: n-(4-(4-acetamidophenyl)thiazol-2-yl)-4-(3,4-dihydroquinolin-1(2h)-ylsulfonyl)benzamide
+ADD 7-(2,2,2-trifluoro-N-methylacetamido)thieno[2,3-b]pyrazine-6-carboxylate	ADD 7-(2,2,2-trifluoro-N-methylacetamido)thieno[2,3-b]pyrazine-6-carboxylate
+ADD potassium hydroxide	ADD potassium hydroxide
+ADD THF	ADD THF
+ADD ethanol	ADD water
+ADD water	ADD ethanol at 25°C
+STIR at 65°C for 48 h	STIR at > 80°C for 2 h
+EVAPORATE	COOL
+ADD citric acid	ADD citric acid
+STIR for 20 min	SET PH [NEUTRALISE]
+COLLECT	EXTRACT with dichloromethane
+WASH with water	WASH extracts
+DRY	DRY SOLUTION
+YIELD: 7-(methylamino)thieno[2,3-b]pyrazine-6-carboxylic acid	FILTER
+[END]	CONCENTRATE
+	YIELD: 7-(methylamino)thieno[2,3-b]pyrazine-6-carboxylic acid
 	[END]

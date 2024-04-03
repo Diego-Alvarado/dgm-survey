@@ -1,15 +1,16 @@
 A	B
 [START]	[START]
-ADD tert-butyl 1H-pyrrole-1-carboxylate	ADD tert-butyl 1H-pyrrole-1-carboxylate
-ADD dimethyl acetylenedicarboxylate	ADD AlCl3
-ADD AlCl3	ADD dimethyl acetylenedicarboxylate
-STIR at 65°C for 48 h	HEAT to 65°C for 2 h
-PURIFY by chromatography	COOL to 25°C
-YIELD: (1r,4s)-7-tert-butyl 2,3-dimethyl 7-azabicyclo[2.2.1]hepta-2,5-diene-2,3,7-tricarboxylate	ADD
-[END]	EXTRACT with ethyl acetate
-	REPEAT 2 time(s)
-	DRY SOLUTION organic phase with Na2SO4
-	FILTER
-	EVAPORATE solvent
-	YIELD: (1r,4s)-7-tert-butyl 2,3-dimethyl 7-azabicyclo[2.2.1]hepta-2,5-diene-2,3,7-tricarboxylate
+ADD 1-(5-bromo-2-hydroxyphenyl)ethanone	ADD 1-(5-bromo-2-hydroxyphenyl)ethanone
+ADD pyridine	ADD pyridine
+ADD 4-methoxybenzoyl chloride	ADD 4-methoxybenzoyl chloride
+ADD at 25°C for 20 min	ADD
+ADD HCl	STIR at 25°C for 2 h
+COOL to 0°C	EVAPORATE
+STIR	ADD HCl
+FILTER	EXTRACT with chloroform
+WASH with water	REPEAT 3 time(s)
+YIELD: 4-methoxybenzoic acid 2-acetyl-4-bromophenyl ester	DRY SOLUTION extracts
+[END]	EVAPORATE
+	PURIFY by chromatography
+	YIELD: 4-methoxybenzoic acid 2-acetyl-4-bromophenyl ester
 	[END]

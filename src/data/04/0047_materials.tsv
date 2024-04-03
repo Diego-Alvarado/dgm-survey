@@ -1,6 +1,5 @@
 index	role	name	inchi
-3	REACTANT	1-methyl-6-(4,4,5,5-tetramethyl-1,3,2-dioxaborolan-2-yl)-3,4-dihydroquinolin-2(1h)-one	InChI=1S/C16H22BNO3/c1-15(2)16(3,4)21-17(20-15)12-7-8-13-11(10-12)6-9-14(19)18(13)5/h7-8,10H,6,9H2,1-5H3
-4	REACTANT	N-(5-bromopyridin-3-yl)pivalamide	InChI=1S/C10H13BrN2O/c1-10(2,3)9(14)13-8-4-7(11)5-12-6-8/h4-6H,1-3H3,(H,13,14)
-0	SOLVENT	ethyl acetate	InChI=1S/C4H8O2/c1-3-6-4(2)5/h3H2,1-2H3
-2	SOLVENT	DMF	InChI=1S/C3H7NO/c1-4(2)3-5/h3H,1-2H3
-1	TARGET	2,2-dimethyl-n-[5-(1-methyl-2-oxo-1,2,3,4-tetrahydro-quinolin-6-yl)-pyridin-3-yl]-propionamide	InChI=1S/C20H23N3O2/c1-20(2,3)19(25)22-16-10-15(11-21-12-16)13-5-7-17-14(9-13)6-8-18(24)23(17)4/h5,7,9-12H,6,8H2,1-4H3,(H,22,25)
+0	REACTANT	diethyl malonate	InChI=1S/C7H12O4/c1-3-10-6(8)5-7(9)11-4-2/h3-5H2,1-2H3
+3	REACTANT	1-(2-fluoro-4-iodophenyl)-3-methyl-6-methylamino-1H-pyrimidine-2,4-dione	InChI=1S/C12H11FIN3O2/c1-15-10-6-11(18)16(2)12(19)17(10)9-4-3-7(14)5-8(9)13/h3-6,15H,1-2H3
+2	SOLVENT	diphenyl ether	InChI=1S/C12H10O/c1-3-7-11(8-4-1)13-12-9-5-2-6-10-12/h1-10H
+1	TARGET	3-methyl-1-(2-fluoro-4-iodophenyl)-5-hydroxy-8-methylpyrido[2,3-d]pyrimidine-2,4,7(1h,3h,8h)-trione	InChI=1S/C15H11FIN3O4/c1-18-11(22)6-10(21)12-13(18)20(15(24)19(2)14(12)23)9-4-3-7(17)5-8(9)16/h3-6,21H,1-2H3

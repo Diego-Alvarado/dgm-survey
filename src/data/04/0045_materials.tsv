@@ -1,6 +1,8 @@
 index	role	name	inchi
-0	REACTANT	Pd(PPh3)4	InChI=1S/4C18H15P.Pd/c4*1-4-10-16(11-5-1)19(17-12-6-2-7-13-17)18-14-8-3-9-15-18;/h4*1-15H;
-1	REACTANT	pyrimidin-5-ylboronic acid	InChI=1S/C4H5BN2O2/c8-5(9)4-1-6-3-7-2-4/h1-3,8-9H
-3	REACTANT	cesium fluoride	InChI=1S/Cs.FH/h;1H/q+1;/p-1
-2	SOLVENT	water	InChI=1S/H2O/h1H2
-4	TARGET	(1r*,2r*,3r*)-methyl-2-phenyl-3-(4-(pyrimidin-5-yl)phenyl)cyclopropanecarboxylate	InChI=1S/C21H18N2O2/c1-21(20(24)25)18(15-5-3-2-4-6-15)19(21)16-9-7-14(8-10-16)17-11-22-13-23-12-17/h2-13,18-19H,1H3,(H,24,25)/p-1/t18-,19-,21+/m0/s1
+1	REACTANT	Pd(dppf)2Cl2	InChI=1S/2C17H14P.2ClH.Fe.Pd/c2*1-3-9-15(10-4-1)18(17-13-7-8-14-17)16-11-5-2-6-12-16;;;;/h2*1-14H;2*1H;;/q2*-1;;;2*+2/p-2
+2	REACTANT	cesium carbonate	InChI=1S/CH2O3.Cs/c2-1(3)4;/h(H2,2,3,4);/q;+1/p-2
+3	REACTANT	8-bromo-n-(3-hydroxy-3-methylbutan-2-yl)pyrido[4,3-b]pyrazine-2-carboxamide	InChI=1S/C13H15BrN4O2/c1-7(13(2,3)20)17-12(19)10-6-16-9-5-15-4-8(14)11(9)18-10/h4-7,20H,1-3H3,(H,17,19)
+4	REACTANT	2,4-dichlorophenylboronic acid	InChI=1S/C6H5BCl2O2/c8-4-1-2-5(7(10)11)6(9)3-4/h1-3,10-11H
+0	SOLVENT	dioxane	InChI=1S/C4H8O2/c1-2-4-6-5-3-1/h1-4H2
+5	SOLVENT	water	InChI=1S/H2O/h1H2
+6	TARGET	8-(2,4-dichlorophenyl)-n-(3-hydroxy-3-methylbutan-2-yl)pyrido[4,3-b]pyrazine-2-carboxamide	InChI=1S/C19H18Cl2N4O2/c1-10(19(2,3)27)24-18(26)16-9-23-15-8-22-7-13(17(15)25-16)12-5-4-11(20)6-14(12)21/h4-10,27H,1-3H3,(H,24,26)

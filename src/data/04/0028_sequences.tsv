@@ -1,16 +1,21 @@
 A	B
 [START]	[START]
-ADD	ADD DMA
-STIR at 25°C for 20 min	HEAT to 65°C for 48 h
-ADD DMA	ADD DIPEA
-ADD DIPEA	ADD NaHCO3 for 16 h
-STIR at 25°C for 2 h	CONCENTRATE
-REMOVE	EXTRACT with ethyl acetate
-PARTITION with NaHCO3	WASH extracts with brine
-WASH organic phase with NaHCO3	DRY SOLUTION with Na2SO4
-REPEAT 2 time(s)	FILTER
-DRY SOLUTION with Na2SO4	CONCENTRATE
-FILTER	RECRYSTALLISATION with methanol
-CONCENTRATE	YIELD: (s)-tert-butyl 4-((r)-3-amino-3-(4-chlorobenzyl)piperidin-1-yl)-3-((s)-2,3-dihydro-1h-inden-1-yl)-4-oxobutanoate
-YIELD: (s)-tert-butyl 4-((r)-3-amino-3-(4-chlorobenzyl)piperidin-1-yl)-3-((s)-2,3-dihydro-1h-inden-1-yl)-4-oxobutanoate	[END]
-[END]	
+ADD Boc-Chg-OH	ADD Boc-Chg-OH
+ADD NMP	ADD DCM
+ADD HATU	ADD NMP
+ADD N-methylmorpholine	COOL
+ADD DCM for 20 min	ADD HATU
+STIR at 25°C for 48 h	STIR at 25°C for 2 h
+ADD ethyl acetate	ADD N-methylmorpholine
+WASH with water	HEAT to 25°C for 5 h
+DRY SOLUTION	ADD ethyl acetate
+REMOVE solvent	ADD water
+PURIFY by chromatography	EXTRACT with dichloromethane
+YIELD: {1-cyclohexyl-2-[2-(6-fluoro-1-{2-[2-(2-methoxy-ethoxy)-ethoxy]-ethyl}-1h-indol-3-ylmethyl)-pyrrolidin-1-yl]-2-oxo-ethyl}-carbamic acid tert-butyl ester	REPEAT >4 time(s)
+[END]	WASH organic phase
+	REPEAT 1 time(s)
+	DRY SOLUTION with MgSO4
+	CONCENTRATE filtrate
+	PURIFY by chromatography
+	YIELD: {1-cyclohexyl-2-[2-(6-fluoro-1-{2-[2-(2-methoxy-ethoxy)-ethoxy]-ethyl}-1h-indol-3-ylmethyl)-pyrrolidin-1-yl]-2-oxo-ethyl}-carbamic acid tert-butyl ester
+	[END]

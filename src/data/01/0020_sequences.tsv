@@ -1,23 +1,15 @@
 A	B
 [START]	[START]
-ADD quinoline-3-carboxaldehyde	ADD benzotriazole
-ADD benzotriazole	ADD methylmagnesium bromide
-ADD 1-(4-bromo-3-methoxyphenyl)piperazine	STIR at 25°C for 48 h
-ADD ethanol	ADD ethyl acetate
-ADD toluene	EXTRACT with HCl
-HEAT to 65°C for 20 min	SEPARATE
-CONCENTRATE	WASH with NaOH
-EVAPORATE residue	DRY SOLUTION with Na2SO4
-MAKE SOLUTION with THF	CONCENTRATE
-ADD methylmagnesium bromide	ADD diethyl ether
-ADD diethyl ether	ADD quinoline-3-carboxaldehyde
-STIR at 25°C for 16 h	STIR for 2 h
-ADD ethyl acetate	QUENCH with NaHCO3
-WASH with NaOH	EXTRACT with ethyl acetate
-REPEAT 2 time(s)	EVAPORATE
-DRY SOLUTION with MgSO4	PURIFY by chromatography
-FILTER	MAKE SOLUTION
-CONCENTRATE	FILTER
-PURIFY by chromatography	YIELD: 3-{1-[4-(4-bromo-3-methoxy-phenyl)-piperazin-1-yl]-ethyl}-quinoline
-YIELD: 3-{1-[4-(4-bromo-3-methoxy-phenyl)-piperazin-1-yl]-ethyl}-quinoline	[END]
-[END]	
+HEAT for 5 h	ADD
+ADD	BUBBLE Ar
+HEAT to 65°C for 2 h	STIR at > 80°C for 2 h
+PURIFY by chromatography	COOL to 25°C
+YIELD: 4-methyl-8-methylamino-2-(2-trifluoromethyl-pyridin-4-yl)-4h-pyrazolo[1,5-a]quinazolin-5-one	QUENCH with water
+[END]	EXTRACT with ethyl acetate
+	REPEAT 3 time(s)
+	DRY SOLUTION with Na2SO4
+	FILTER
+	CONCENTRATE
+	PURIFY by chromatography
+	YIELD: 4-methyl-8-methylamino-2-(2-trifluoromethyl-pyridin-4-yl)-4h-pyrazolo[1,5-a]quinazolin-5-one
+	[END]

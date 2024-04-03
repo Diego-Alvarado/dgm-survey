@@ -1,17 +1,18 @@
 A	B
 [START]	[START]
-ADD DCM	ADD triethylamine
-ADD triethylamine	ADD DCM
-ADD cyclopropanecarbonyl chloride at 25°C	ADD cyclopropanecarbonyl chloride
-STIR at 25°C for 2 h	STIR at < -10°C for 2 h
-WASH with NaHCO3	ADD NaHCO3
-COLLECT organic phase	COOL
-DRY SOLUTION	ADD
-CONCENTRATE	STIR at 25°C for 20 min
-PURIFY by chromatography	EXTRACT with dichloromethane
-YIELD: ((1r,5s)-3-(2-chloropyrimidin-4-yl)-3,8-diazabicyclo[3.2.1]octan-8-yl)(cyclopropyl)methanone	DRY SOLUTION organic phase with Na2SO4
-[END]	FILTER
-	CONCENTRATE
-	PURIFY by chromatography
-	YIELD: ((1r,5s)-3-(2-chloropyrimidin-4-yl)-3,8-diazabicyclo[3.2.1]octan-8-yl)(cyclopropyl)methanone
-	[END]
+ADD {3-(4-chlorophenyl)-5-oxo-4-[(2s)-3,3,3-trifluoro-2-hydroxypropyl]-4,5-dihydro-1h-1,2,4-triazol-1-yl}acetonitrile	ADD {3-(4-chlorophenyl)-5-oxo-4-[(2s)-3,3,3-trifluoro-2-hydroxypropyl]-4,5-dihydro-1h-1,2,4-triazol-1-yl}acetonitrile
+ADD methanol	ADD methanol
+ADD sodium methoxide	ADD sodium methoxide
+ADD methanol	ADD methanol
+STIR at 65°C for 2 h	STIR at 25°C for 2 h
+CONCENTRATE residue	COOL
+ADD MTBE	ADD MTBE
+CONCENTRATE	SONICATE at 25°C for 20 min
+STIR	CONCENTRATE
+COOL to 25°C	MAKE SOLUTION
+STIR at 25°C for 2 h	FILTER
+FILTER	WASH with hexane
+WASH with hexane	DRY [VACUUM] solid
+DRY [VACUUM]	YIELD: methyl 2-{3-(4-chlorophenyl)-5-oxo-4-[(2s)-3,3,3-trifluoro-2-hydroxypropyl]-4,5-dihydro-1h-1,2,4-triazol-1-yl}ethanimidate
+YIELD: methyl 2-{3-(4-chlorophenyl)-5-oxo-4-[(2s)-3,3,3-trifluoro-2-hydroxypropyl]-4,5-dihydro-1h-1,2,4-triazol-1-yl}ethanimidate	[END]
+[END]	

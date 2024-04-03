@@ -1,5 +1,10 @@
 index	role	name	inchi
-0	REACTANT	allyl bromide	InChI=1S/C3H5Br/c1-2-3-4/h2H,1,3H2
-1	REACTANT	NaHMDS	InChI=1S/C6H18NSi2.Na/c1-8(2,3)7-9(4,5)6;/h1-6H3;/q-1;+1
-3	SOLVENT	THF	InChI=1S/C4H8O/c1-2-4-5-3-1/h1-4H2
-2	TARGET	(4r,5s)-3-((s)-2-allylhexanoyl)-4-methyl-5-phenyloxazolidin-2-one	InChI=1S/C19H25NO3/c1-4-6-11-16(10-5-2)18(21)20-14(3)17(23-19(20)22)15-12-8-7-9-13-15/h5,7-9,12-14,16-17H,2,4,6,10-11H2,1,3H3/t14-,16?,17-/m1/s1
+0	REACTANT	methyl 2-(4-aminobutoxy)-6-hydroxybenzoate	InChI=1S/C12H17NO4/c1-16-12(15)11-9(14)5-4-6-10(11)17-8-3-2-7-13/h4-6,14H,2-3,7-8,13H2,1H3
+2	REACTANT	N-[(allyloxy)carbonyl]-4-{{2-[(benzhydryloxy)carbonyl]phenyl}[tert-butoxy(oxo)acetyl]amino}-L-phenylalanine	InChI=1S/C39H38N2O9/c1-5-24-48-38(47)40-31(35(43)44)25-26-20-22-29(23-21-26)41(34(42)37(46)50-39(2,3)4)32-19-13-12-18-30(32)36(45)49-33(27-14-8-6-9-15-27)28-16-10-7-11-17-28/h5-23,31,33H,1,24-25H2,2-4H3,(H,40,47)(H,43,44)/t31-/m0/s1
+3	REACTANT	TBTU	InChI=1S/C11H16N5O/c1-14(2)11(15(3)4)17-16-10-8-6-5-7-9(10)12-13-16/h5-8H,1-4H3/q+1
+4	REACTANT	HOBt	InChI=1S/C6H5N3O/c10-9-6-4-2-1-3-5(6)7-8-9/h1-4,10H
+5	REACTANT	NaHCO3	InChI=1S/CH2O3.Na/c2-1(3)4;/h(H2,2,3,4);/q;+1/p-1
+8	REACTANT	triethylamine	InChI=1S/C6H15N/c1-4-7(5-2)6-3/h4-6H2,1-3H3
+1	SOLVENT	DMF	InChI=1S/C3H7NO/c1-4(2)3-5/h3H,1-2H3
+6	SOLVENT	water	InChI=1S/H2O/h1H2
+7	TARGET	methyl 2-{4-[(n-[(allyloxy)carbonyl]-4-{{2-[(benzhydryloxy)carbonyl]phenyl}[tert-butoxy(oxo)acetyl]amino}-1-phenylalanyl)amino]butoxy}-6-hydroxybenzoate	InChI=1S/C51H53N3O12/c1-6-31-64-50(61)53-39(45(56)52-30-15-16-32-63-42-25-17-24-41(55)43(42)48(59)62-5)33-34-26-28-37(29-27-34)54(46(57)49(60)66-51(2,3)4)40-23-14-13-22-38(40)47(58)65-44(35-18-9-7-10-19-35)36-20-11-8-12-21-36/h6-14,17-29,39,44,55H,1,15-16,30-33H2,2-5H3,(H,52,56)(H,53,61)

@@ -1,21 +1,13 @@
 A	B
 [START]	[START]
-ADD morpholine	ADD 3-bromo-8-chloro-imidazo[1,2-a]pyrazine
-ADD 3,8-dibromo-imidazo[1,2-a]pyrazine	ADD 3,8-dibromo-imidazo[1,2-a]pyrazine
-ADD DIPEA	ADD acetonitrile
-ADD acetonitrile	ADD sodium carbonate
-ADD 3-bromo-8-chloro-imidazo[1,2-a]pyrazine	ADD morpholine
-STIR at 65°C for 5 h	ADD DIPEA at 25°C
-EVAPORATE solvent	STIR at 25°C for 16 h
-MAKE SOLUTION with DCM	CONCENTRATE
-WASH with Na2CO3	ADD DCM
-SEPARATE organic phase	ADD
-DRY SOLUTION with Na2SO4	SEPARATE organic phase
-FILTER	DRY SOLUTION with Na2SO4
-EVAPORATE solvent	FILTER
-PURIFY by chromatography	CONCENTRATE
-COLLECT fractions	YIELD: 3-bromo-8-morpholin-4-yl-imidazo[1,2-a]pyrazine
-EVAPORATE	[END]
-CRYSTALLISE with ethyl ether	
-YIELD: 3-bromo-8-morpholin-4-yl-imidazo[1,2-a]pyrazine	
-[END]	
+ADD methyl 3-[(3-benzyl-8-fluoroisoquinolin-2(1h)-yl)sulfonyl]propanoate	ADD methyl 3-[(3-benzyl-8-fluoroisoquinolin-2(1h)-yl)sulfonyl]propanoate
+ADD Pd / C	ADD ethanol
+ADD ethanol	ADD Pd / C
+STIR at 25°C for 2 h	STIR at 25°C for 2 h
+ADD diethyl ether	FILTER
+FILTER	WASH
+CONCENTRATE filtrate	CONCENTRATE
+YIELD: methyl 3-[(3-benzyl-8-fluoro-3,4-dihydroisoquinolin-2(1h)-yl)sulfonyl]propanoate	PURIFY by chromatography
+[END]	CONCENTRATE
+	YIELD: methyl 3-[(3-benzyl-8-fluoro-3,4-dihydroisoquinolin-2(1h)-yl)sulfonyl]propanoate
+	[END]

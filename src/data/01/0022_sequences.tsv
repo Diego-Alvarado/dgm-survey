@@ -1,18 +1,23 @@
 A	B
 [START]	[START]
-ADD sodium hydride	ADD sodium hydride
-ADD 1,2,4-triazole	ADD 1,2,4-triazole
-ADD DMF	ADD DMF at 0°C for 20 min
-STIR at 25°C for 20 min	STIR for 16 h
-ADD	PARTITION with HCl
-STIR at 65°C for 2 h	WASH organic phase
-ADD water	DRY SOLUTION with MgSO4
-EXTRACT with ethyl acetate	CONCENTRATE
-WASH with water	PURIFY by chromatography
-DRY SOLUTION with MgSO4	MAKE SOLUTION
-EVAPORATE solvent	PURIFY by chromatography
-PURIFY by chromatography	YIELD: ethyl 6,7-dimethoxy-4-(3,4-dimethoxyphenyl)-2-(1,2,4-triazol-1-ylmethyl)quinoline-3-carboxylate
-ELUTE	[END]
-RECRYSTALLISATION with hexane	
-YIELD: ethyl 6,7-dimethoxy-4-(3,4-dimethoxyphenyl)-2-(1,2,4-triazol-1-ylmethyl)quinoline-3-carboxylate	
-[END]	
+ADD methyl 6-chloro-4-cyano-2-(4-fluoro-3-methylphenylamino)nicotinate	ADD cis-tert-butyl 2-aminocyclohexylcarbamate
+ADD triethylamine	ADD THF
+ADD cis-tert-butyl 2-aminocyclohexylcarbamate	ADD triethylamine
+ADD THF	ADD methyl 6-chloro-4-cyano-2-(4-fluoro-3-methylphenylamino)nicotinate
+STIR at 65°C for 48 h	STIR
+ADD water	COOL
+ADD ethyl acetate	HEAT to 25°C for 2 h
+EXTRACT with ethyl acetate	ADD water
+COMBINE organic phase	ADD ethyl acetate
+WASH	STIR for 20 min
+DRY SOLUTION with MgSO4	SEPARATE organic phase
+EVAPORATE	EXTRACT with ethyl acetate
+ADD ethyl acetate	REPEAT 3 time(s)
+FILTER	WASH organic phase with water
+YIELD: methyl 6-((1r,2s)-2-(tert-butoxycarbonylamino)cyclohexylamino)-4-cyano-2-(4-fluoro-3-methylphenylamino)nicotinate	REPEAT 2 time(s)
+[END]	DRY SOLUTION
+	FILTER
+	CONCENTRATE
+	PURIFY by chromatography
+	YIELD: methyl 6-((1r,2s)-2-(tert-butoxycarbonylamino)cyclohexylamino)-4-cyano-2-(4-fluoro-3-methylphenylamino)nicotinate
+	[END]

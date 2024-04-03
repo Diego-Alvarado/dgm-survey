@@ -1,17 +1,10 @@
 A	B
 [START]	[START]
-ADD methyl 2-methyl-5-(4-morpholinyl)-1h-benzimidazole-7-carboxylate	ADD methyl 2-methyl-5-(4-morpholinyl)-1h-benzimidazole-7-carboxylate
-ADD 1-(bromomethyl)-2-fluoro-3-methylbenzene	ADD 1-(bromomethyl)-2-fluoro-3-methylbenzene
-ADD DMF	ADD DMF
-STIR at 65°C for 16 h	STIR at 65°C for 2 h
-COOL	COOL to 25°C
-ADD water	QUENCH
-EXTRACT with ethyl acetate	ADD water
-REPEAT 3 time(s)	EXTRACT with ethyl acetate
-DRY SOLUTION organic phase with Na2SO4	WASH organic phase
-CONCENTRATE	REPEAT 2 time(s)
-PURIFY by chromatography	FILTER
-YIELD: methyl 1-[(2-fluoro-3-methylphenyl)methyl]-2-methyl-6-(4-morpholinyl)-1h-benzimidazole-4-carboxylate	CONCENTRATE
-[END]	PURIFY by chromatography
-	YIELD: methyl 1-[(2-fluoro-3-methylphenyl)methyl]-2-methyl-6-(4-morpholinyl)-1h-benzimidazole-4-carboxylate
-	[END]
+ADD N-((1R,5S,6R)-3-Azabicyclo[3.1.0]hexan-6-ylmethyl)-N-methyl-7H-pyrrolo[2,3-d]pyrimidin-4-amine hydrochloride	COMBINE
+ADD ethanol	STIR
+ADD triethylamine	EVAPORATE solvent
+STAND for 16 h	PURIFY by chromatography
+CONCENTRATE	YIELD: n-(((1r,5s,6s)-3-(2-chloropyrimidin-4-yl)-3-azabicyclo[3.1.0]hexan-6-yl)methyl)-n-methyl-7h-pyrrolo[2,3-d]pyrimidin-4-amine
+PURIFY by chromatography	[END]
+YIELD: n-(((1r,5s,6s)-3-(2-chloropyrimidin-4-yl)-3-azabicyclo[3.1.0]hexan-6-yl)methyl)-n-methyl-7h-pyrrolo[2,3-d]pyrimidin-4-amine	
+[END]	

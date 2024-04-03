@@ -1,17 +1,15 @@
 A	B
 [START]	[START]
-ADD THF at 0°C	ADD THF
-REMOVE	STIR at 25°C for 2 h
-STIR for 20 min	CONCENTRATE
-ADD THF	EXTRACT with ethyl acetate
-STIR at 25°C for 2 h	REPEAT 3 time(s)
-PARTITION with NaHCO3	WASH organic phase with brine
-SEPARATE	DRY SOLUTION with Na2SO4
-EXTRACT with ethyl acetate	FILTER
-REPEAT 3 time(s)	CONCENTRATE
-DRY SOLUTION extracts with Na2SO4	YIELD: n-[(3e)-2-butyl-5-tert-butyl-1-methyl-1,2-dihydro-3h-pyrazol-3-ylidene]-2-(2-hydroxy-2-methylpropoxy)-5-(trifluoromethyl)benzamide
+ADD DCM	ADD sodium iodide
+ADD (R)-2-(methoxymethyl)pyrrolidine	ADD DCM
+ADD sodium iodide	ADD (R)-2-(methoxymethyl)pyrrolidine
+ADD acetone	ADD acetone
+REFLUX for 48 h	REFLUX
+CONCENTRATE	STIR for 2 h
+ADD ethyl acetate	FILTER
+WASH	PURIFY by chromatography
+DRY SOLUTION with MgSO4	YIELD: (s)-tert-butyl 2-(4-((2-(methoxymethyl)pyrrolidin-1-yl)methyl)benzamido)-4-(thiophen-2-yl)phenylcarbamate
 FILTER	[END]
 CONCENTRATE	
-PURIFY by chromatography	
-YIELD: n-[(3e)-2-butyl-5-tert-butyl-1-methyl-1,2-dihydro-3h-pyrazol-3-ylidene]-2-(2-hydroxy-2-methylpropoxy)-5-(trifluoromethyl)benzamide	
+YIELD: (s)-tert-butyl 2-(4-((2-(methoxymethyl)pyrrolidin-1-yl)methyl)benzamido)-4-(thiophen-2-yl)phenylcarbamate	
 [END]	
