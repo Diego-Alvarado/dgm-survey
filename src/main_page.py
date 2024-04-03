@@ -25,16 +25,15 @@ def layout_home(app: Dash) -> html.Div:
         html.P("""
                Deep generative models (DGMs) are neural networks capable of generating realistic
                 samples and learning hidden information. Most popular developments in this area 
-                include GPT, Dall-E and midjourney applied to generate text and images. DGMs have 
+                include GPT, Dall-E and Midjourney applied to generate text and images. DGMs have 
                 been employed in fields such as drug discovery to generate new drug candidates with 
-                desirable biological and chemical properties. Nonetheless, applications in 
+                desirable biological and chemical properties. Nonetheless, their applications in 
                 pharmaceutical manufacturing have not been fully explored. 
                """),
         html.P("""
-               In primary manufacturing domain, we have developed deep generative models to create sequences 
-               of unit operations tailored for the production of specific products. These models 
-               leverage information about process materials and target product properties to 
-               generate operation chains. 
+               In primary manufacturing domain, we have developed deep generative models to create sequences of unit operations tailored 
+               for the production of specific products. These models leverage information about process materials and target product 
+               to generate a suitable chain of operations.
                """),
         html.Div(
             [html.Img(src=img,
@@ -44,12 +43,10 @@ def layout_home(app: Dash) -> html.Div:
             style={'textAlign': 'center'}
             ),
         html.P("""
-               This survey aims to explore the feasibility of executing the generated sequences in a 
-               laboratory environment and their comparability to actual manufacturing procedures through
-               the review of experts. In the next pages, you will find 50 procedures of manufacturing 
-               generated using DGMs and the actual procedure for different substance with the process 
-               materials. Please compare the sequences and select which is more feasible to be
-               executed in a lab.
+               This survey aims to explore the plausibility of the generated sequences to be executed in a laboratory environment and their comparability to actual manufacturing 
+               procedures through the review of experts. In the following pages, you will find 25 manufacturing procedures generated using DGMs, alongside the 
+               corresponding actual procedures for various substances, including the processing materials. Please compare the sequences and indicate which is more 
+               likely to be executed in a lab.
                """),
         html.P('\nPlease select survey number: '),
         dcc.Dropdown(options={f'data/0{v}/': v for v in range(1, 5)}, id=ids.SURVEY_NUMBER, value='src/data/01/', persistence=True),

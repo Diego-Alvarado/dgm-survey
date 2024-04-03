@@ -64,7 +64,8 @@ def render(app: Dash,
             html.H4(f'Procedure No. {current_question + 1}'), 
             html.Br(),
             html.Div("""
-                     Consider the following list of reactants and two sequences, "A" and "B," to manufacture a product ('TARGET'). Choose the appropriate sequence of operations that can be executed between "A" and "B" based on the given materials. If it's unclear, you can also choose "Both" or "None".
+                     Consider the following list of reactants and two sequences, labeled 'A' and 'B,' for manufacturing a product ('TARGET'). Choose the sequence of operations that 
+                     is consired more suitable for manufacturing the product based on the provided materials. If neither sequence is superior or if clarity is lacking, you may also select 'Both' or 'None'.
                      """) ,
             html.Br(),
             html.H6('1. Materials:'),
